@@ -14,6 +14,7 @@
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors>
+        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
         <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
     </used-behaviors>
@@ -195,8 +196,8 @@
         <object-type name="Sprite7" sid="833445719149218">
             <plugin id="Sprite" />
             <behaviors>
-                <behavior-type name="Sine" sid="841894155381809">
-                    <behavior id="Sin" />
+                <behavior-type name="8Direction" sid="736257131747973">
+                    <behavior id="EightDir" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -299,6 +300,52 @@
         <object-type name="loadingbar" sid="664870264103896">
             <plugin id="TiledBg" />
             <texture original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\loadingbar.png" />
+        </object-type>
+        <object-type name="bgmenu2" sid="122157217036701">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="530261171129904" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500148" original-source="C:\Users\ZAHRO\Downloads\asset\bgmenu.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tittle2" sid="831349248350677">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="404092993219633" speed="5">
+                    <frame duration="1" hotspotX="0.500148" hotspotY="0.500618" original-source="C:\Users\ZAHRO\Downloads\asset\tittle.png">
+                        <collision-poly>
+                            <point x="0.129481" y="0.540173" />
+                            <point x="0.499852" y="0.0321384" />
+                            <point x="0.870519" y="0.540173" />
+                            <point x="0.746074" y="0.499382" />
+                            <point x="0.981333" y="0.922126" />
+                            <point x="0.499852" y="0.935723" />
+                            <point x="0.0186667" y="0.922126" />
+                            <point x="0.253926" y="0.499382" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite11" sid="790501410660680">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="499987551696109" speed="5">
+                    <frame duration="1" hotspotX="0.497361" hotspotY="0.477396" original-source="C:\Users\ZAHRO\Downloads\asset\9.png">
+                        <collision-poly>
+                            <point x="0.555409" y="0.346293" />
+                            <point x="0.496042" y="0.0352622" />
+                            <point x="0.804749" y="0.0949367" />
+                            <point x="0.974934" y="0.477396" />
+                            <point x="0.827177" y="0.875226" />
+                            <point x="0.496042" y="0.91953" />
+                            <point x="0.311346" y="0.775769" />
+                            <point x="0.0620053" y="0.477396" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />
