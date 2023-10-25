@@ -26,5 +26,33 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="131455180388964">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="375945973923426" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="715731664807295">
+                    <conditions>
+                        <condition id="5" name="Is tag playing" sid="728397907056824" type="Audio">
+                            <param id="0" name="Tag">&quot;musik&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="33" name="Stop all" sid="206460455497257" type="Audio" />
+                        <action id="0" name="Play" sid="702002462657099" type="Audio">
+                            <param id="0" name="Audio file">angklung</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;musik&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="234350809782458">
+                    <conditions />
+                    <actions />
+                </event-block>
+            </sub-events>
+        </event-block>
     </events>
 </c2eventsheet>

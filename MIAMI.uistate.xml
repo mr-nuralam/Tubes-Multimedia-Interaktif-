@@ -10,10 +10,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="1">splash</layout>
-        <layout active="1" order="3">menu</layout>
-        <event-sheet order="2">event-splash</event-sheet>
-        <event-sheet order="4">Event sheet 1</event-sheet>
+        <layout order="0">splash</layout>
+        <layout order="2">menu</layout>
+        <event-sheet active="1" order="1">event-splash</event-sheet>
+        <event-sheet order="3">Event sheet 1</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -24,6 +24,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <families-expanded root="1" />
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
+        <folder expanded="1" path="object-folder/fungsi/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="file-folder/" />

@@ -10,8 +10,11 @@
     <unique-id>2m2oqhlgof90t</unique-id>
     <saved-with-version>27900</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
@@ -42,6 +45,17 @@
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
     <object-folder>
+        <object-folder name="fungsi">
+            <object-type name="Function" sid="995938002160528">
+                <plugin id="Function" />
+            </object-type>
+            <object-type name="Audio" sid="384786345587314">
+                <plugin id="Audio" />
+            </object-type>
+            <object-type name="Touch" sid="172607257748416">
+                <plugin id="Touch" />
+            </object-type>
+        </object-folder>
         <object-type name="bgsplash" sid="752702922777860">
             <plugin id="Sprite" />
             <animation-folder>
@@ -482,8 +496,35 @@
         <event-sheet>event-splash.xml</event-sheet>
         <event-sheet>Event sheet 1.xml</event-sheet>
     </event-folder>
-    <global-instances />
-    <sounds-folder />
+    <global-instances>
+        <global-instance type="Function" uid="21" />
+        <global-instance type="Audio" uid="22">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+        <global-instance type="Touch" uid="23">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder>
+        <file name="angklung.ogg" />
+        <file name="game-start-sound-effect.ogg" />
+        <file name="loading-effect-hud.ogg" />
+        <file name="menu-game-button-click-sound-effect.ogg" />
+        <file name="organic-button.ogg" />
+    </sounds-folder>
     <music-folder />
     <files-folder>
         <file-folder name="Icons">
