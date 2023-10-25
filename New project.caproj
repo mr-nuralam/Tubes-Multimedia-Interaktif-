@@ -194,6 +194,11 @@
         </object-type>
         <object-type name="Sprite7" sid="833445719149218">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="841894155381809">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="884849391128051" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.521622" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\3.png">
