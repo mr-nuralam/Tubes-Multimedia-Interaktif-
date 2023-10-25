@@ -9,7 +9,7 @@
             </conditions>
             <actions>
                 <action id="-5" name="Set width" sid="960309530278472" type="loadingbar">
-                    <param id="0" name="Width">loadingbar.Width +5</param>
+                    <param id="0" name="Width">loadingbar.Width +2</param>
                 </action>
             </actions>
         </event-block>
@@ -17,7 +17,7 @@
             <conditions>
                 <condition id="-5" name="Compare width" sid="197359922969163" type="loadingbar">
                     <param id="0" name="Comparison">0</param>
-                    <param id="1" name="Width">530</param>
+                    <param id="1" name="Width">531</param>
                 </condition>
             </conditions>
             <actions>
