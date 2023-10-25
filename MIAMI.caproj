@@ -14,9 +14,8 @@
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors>
-        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
-        <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="lunarray" id="lunarray_LiteTween" version="1.700000048">LiteTween</behavior>
     </used-behaviors>
     <used-effects />
     <configurations>
@@ -53,6 +52,11 @@
         </object-type>
         <object-type name="tittle" sid="346243574842348">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="960535373094057">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="796267154809924" speed="5">
                     <frame duration="1" hotspotX="0.500148" hotspotY="0.500618" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\tittle.png">
@@ -133,6 +137,11 @@
         </object-type>
         <object-type name="Sprite4" sid="142503897903600">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="570375584040798">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="145795982128638" speed="5">
                     <frame duration="1" hotspotX="0.486486" hotspotY="0.510811" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\8.png">
@@ -153,8 +162,8 @@
         <object-type name="Sprite5" sid="462487685916920">
             <plugin id="Sprite" />
             <behaviors>
-                <behavior-type name="Rotate" sid="957961929041954">
-                    <behavior id="Rotate" />
+                <behavior-type name="Sine" sid="316923031946115">
+                    <behavior id="Sin" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -176,6 +185,11 @@
         </object-type>
         <object-type name="Sprite6" sid="591981197099220">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="146547066221159">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="473280906089306" speed="5">
                     <frame duration="1" hotspotX="0.493261" hotspotY="0.483784" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\7.png">
@@ -196,8 +210,8 @@
         <object-type name="Sprite7" sid="833445719149218">
             <plugin id="Sprite" />
             <behaviors>
-                <behavior-type name="8Direction" sid="736257131747973">
-                    <behavior id="EightDir" />
+                <behavior-type name="Sine" sid="394594295147290">
+                    <behavior id="Sin" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -219,6 +233,11 @@
         </object-type>
         <object-type name="Sprite8" sid="534835617050944">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="210476573360879">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="490877196702426" speed="5">
                     <frame duration="1" hotspotX="0.475676" hotspotY="0.481081" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\6.png">
@@ -238,6 +257,11 @@
         </object-type>
         <object-type name="Sprite9" sid="156969884749894">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="542086151837517">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="879068305690727" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.511111" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\4.png">
@@ -257,6 +281,11 @@
         </object-type>
         <object-type name="Sprite10" sid="248983908140157">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="188705874245088">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="882771075424927" speed="5">
                     <frame duration="1" hotspotX="0.522222" hotspotY="0.5" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\5.png">
@@ -311,6 +340,11 @@
         </object-type>
         <object-type name="tittle2" sid="831349248350677">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="850757342134068">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="404092993219633" speed="5">
                     <frame duration="1" hotspotX="0.500148" hotspotY="0.500618" original-source="C:\Users\ZAHRO\Downloads\asset\tittle.png">
@@ -342,6 +376,78 @@
                             <point x="0.496042" y="0.91953" />
                             <point x="0.311346" y="0.775769" />
                             <point x="0.0620053" y="0.477396" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="buton" sid="420207354212623">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="553995118136383">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="187548410095071" speed="5">
+                    <frame duration="1" hotspotX="0.494008" hotspotY="0.457143" original-source="C:\Users\ZAHRO\Documents\GitHub\Tubes-Multimedia-Interaktif-\Asset\buton1.png">
+                        <collision-poly>
+                            <point x="0.0213049" y="0.222857" />
+                            <point x="0.494008" y="0.0114286" />
+                            <point x="0.973369" y="0.194286" />
+                            <point x="0.998668" y="0.457143" />
+                            <point x="0.981358" y="0.754286" />
+                            <point x="0.494008" y="0.988571" />
+                            <point x="0.0133156" y="0.725714" />
+                            <point x="0.00133156" y="0.457143" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="buton2" sid="569457153834733">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="398580703616688">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="386168865429324" speed="5">
+                    <frame duration="1" hotspotX="0.500624" hotspotY="0.5" original-source="C:\Users\ZAHRO\Documents\GitHub\Tubes-Multimedia-Interaktif-\Asset\buton2.png">
+                        <collision-poly>
+                            <point x="0.0599251" y="0.25" />
+                            <point x="0.499376" y="0.0520833" />
+                            <point x="0.950062" y="0.208333" />
+                            <point x="0.97628" y="0.5" />
+                            <point x="0.950062" y="0.791667" />
+                            <point x="0.499376" y="0.947917" />
+                            <point x="0.0599251" y="0.75" />
+                            <point x="0.0411985" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="buton3" sid="281122915087764">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="522124884804911">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="224472242672117" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502242" original-source="C:\Users\ZAHRO\Documents\GitHub\Tubes-Multimedia-Interaktif-\Asset\buton3.png">
+                        <collision-poly>
+                            <point x="0.0821429" y="0.309417" />
+                            <point x="0.5" y="0.0852018" />
+                            <point x="0.940476" y="0.224215" />
+                            <point x="0.964286" y="0.497758" />
+                            <point x="0.933333" y="0.748879" />
+                            <point x="0.5" y="0.852018" />
+                            <point x="0.0880952" y="0.668161" />
+                            <point x="0.0726191" y="0.497758" />
                         </collision-poly>
                     </frame>
                 </animation>
