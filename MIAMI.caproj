@@ -358,6 +358,9 @@
                 <behavior-type name="LiteTween" sid="850757342134068">
                     <behavior id="lunarray_LiteTween" />
                 </behavior-type>
+                <behavior-type name="Sine" sid="770501953749885">
+                    <behavior id="Sin" />
+                </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="404092993219633" speed="5">

@@ -17,7 +17,7 @@
             <conditions>
                 <condition id="-5" name="Compare width" sid="197359922969163" type="loadingbar">
                     <param id="0" name="Comparison">0</param>
-                    <param id="1" name="Width">531</param>
+                    <param id="1" name="Width">530</param>
                 </condition>
             </conditions>
             <actions>
