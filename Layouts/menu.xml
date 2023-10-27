@@ -2,7 +2,7 @@
 <c2layout>
     <name>menu</name>
     <sid>891449294939337</sid>
-    <event-sheet>Event sheet 1</event-sheet>
+    <event-sheet>event-menu</event-sheet>
     <size>
         <width>1280</width>
         <height>720</height>
@@ -147,18 +147,20 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <SaveX>0</SaveX>
+                        <SaveY>0</SaveY>
+                    </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="Sine">
+                        <behavior-instance type="LiteTween">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
-                                <movement>Size</movement>
-                                <wave>Sine</wave>
-                                <period>4</period>
-                                <period-random>0</period-random>
-                                <period-offset>0</period-offset>
-                                <period-offset-random>0</period-offset-random>
-                                <magnitude>30</magnitude>
-                                <magnitude-random>0</magnitude-random>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Size</tweened-property>
+                                <function>EaseOutBack</function>
+                                <target>0,0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0.2</duration>
+                                <enforce-mode>Enforce</enforce-mode>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -184,18 +186,20 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <SaveX>0</SaveX>
+                        <SaveY>0</SaveY>
+                    </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="Sine">
+                        <behavior-instance type="LiteTween">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
-                                <movement>Size</movement>
-                                <wave>Sine</wave>
-                                <period>4</period>
-                                <period-random>0</period-random>
-                                <period-offset>0</period-offset>
-                                <period-offset-random>0</period-offset-random>
-                                <magnitude>30</magnitude>
-                                <magnitude-random>0</magnitude-random>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Size</tweened-property>
+                                <function>EaseOutBack</function>
+                                <target>0,0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0.2</duration>
+                                <enforce-mode>Enforce</enforce-mode>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -221,18 +225,20 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <SaveX>0</SaveX>
+                        <SaveY>0</SaveY>
+                    </instance-variables>
                     <behavior-instances>
-                        <behavior-instance type="Sine">
+                        <behavior-instance type="LiteTween">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
-                                <movement>Size</movement>
-                                <wave>Sine</wave>
-                                <period>4</period>
-                                <period-random>0</period-random>
-                                <period-offset>0</period-offset>
-                                <period-offset-random>0</period-offset-random>
-                                <magnitude>30</magnitude>
-                                <magnitude-random>0</magnitude-random>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Size</tweened-property>
+                                <function>EaseOutBack</function>
+                                <target>0,0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0.2</duration>
+                                <enforce-mode>Enforce</enforce-mode>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
