@@ -12,8 +12,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <open-tabs>
         <layout order="0">splash</layout>
         <layout order="2">menu</layout>
+        <layout order="4">pengantar</layout>
+        <layout active="1" order="5">peta</layout>
+        <layout order="6">daerah_jawa</layout>
         <event-sheet order="1">event-splash</event-sheet>
-        <event-sheet active="1" order="3">event-menu</event-sheet>
+        <event-sheet order="3">event-menu</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -52,5 +55,25 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/buton2/" />
         <folder expanded="1" path="animation-folder/buton3/" />
         <folder expanded="1" path="animation-folder/Sprite12/" />
+        <folder expanded="1" path="animation-folder/bgpengantar/" />
+        <folder expanded="1" path="animation-folder/pengantar/" />
+        <folder expanded="1" path="animation-folder/buton4/" />
+        <folder expanded="1" path="animation-folder/buton5/" />
+        <folder expanded="1" path="animation-folder/buton6/" />
+        <folder expanded="1" path="animation-folder/buton7/" />
+        <folder expanded="1" path="animation-folder/buton8/" />
+        <folder expanded="1" path="animation-folder/buton9/" />
+        <folder expanded="1" path="animation-folder/buton10/" />
+        <folder expanded="1" path="animation-folder/pengantar2/" />
+        <folder expanded="1" path="animation-folder/pengantartext/" />
+        <folder expanded="1" path="animation-folder/Sprite13/" />
+        <folder expanded="1" path="animation-folder/asaldaerah/" />
+        <folder expanded="1" path="animation-folder/sumatera/" />
+        <folder expanded="1" path="animation-folder/kalimantan/" />
+        <folder expanded="1" path="animation-folder/jawa/" />
+        <folder expanded="1" path="animation-folder/nusaTenggara/" />
+        <folder expanded="1" path="animation-folder/sulawesi/" />
+        <folder expanded="1" path="animation-folder/maluku/" />
+        <folder expanded="1" path="animation-folder/papua/" />
     </folders-expanded>
 </c2uistate>
