@@ -851,6 +851,254 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="bgsumatera" sid="679693675542060">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="189427464335848" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\ZAHRO\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\bg-sumatera.png">
+                        <collision-poly>
+                            <point x="0.000347222" y="0.000617284" />
+                            <point x="0.999653" y="0.000617284" />
+                            <point x="0.999653" y="0.999383" />
+                            <point x="0.000347222" y="0.999383" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titlesumatera" sid="556680427498584">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="977134725022152" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501916" original-source="C:\Users\ZAHRO\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\title-sumatera.png">
+                        <collision-poly>
+                            <point x="0.0288235" y="0.187739" />
+                            <point x="0.5" y="0.141762" />
+                            <point x="0.961176" y="0.252874" />
+                            <point x="0.973529" y="0.498084" />
+                            <point x="0.961176" y="0.747126" />
+                            <point x="0.5" y="0.862069" />
+                            <point x="0.0288235" y="0.812261" />
+                            <point x="0.0182353" y="0.498084" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titlesumatera2" sid="560727398874058">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="579829924476569" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501916" original-source="C:\Users\ZAHRO\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\title-sumatera.png">
+                        <collision-poly>
+                            <point x="0.0288235" y="0.187739" />
+                            <point x="0.5" y="0.141762" />
+                            <point x="0.961176" y="0.252874" />
+                            <point x="0.973529" y="0.498084" />
+                            <point x="0.961176" y="0.747126" />
+                            <point x="0.5" y="0.862069" />
+                            <point x="0.0288235" y="0.812261" />
+                            <point x="0.0182353" y="0.498084" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="saluang" sid="143917800316072">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="131367529655405" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\ZAHRO\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\saluang.png">
+                        <collision-poly>
+                            <point x="0.211221" y="0.180282" />
+                            <point x="0.5" y="0.0985916" />
+                            <point x="0.767327" y="0.198592" />
+                            <point x="0.889439" y="0.5" />
+                            <point x="0.877888" y="0.895775" />
+                            <point x="0.5" y="0.921127" />
+                            <point x="0.0924092" y="0.921127" />
+                            <point x="0.0627063" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="serunai" sid="629899932236832">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="421817505225170" speed="5">
+                    <frame duration="1" hotspotX="0.500867" hotspotY="0.500736" original-source="C:\Users\ZAHRO\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\serunai.png">
+                        <collision-poly>
+                            <point x="0.183709" y="0.156112" />
+                            <point x="0.499133" y="0.0353461" />
+                            <point x="0.823224" y="0.150221" />
+                            <point x="0.930676" y="0.499264" />
+                            <point x="0.87695" y="0.895434" />
+                            <point x="0.12305" y="0.895434" />
+                            <point x="0.0831889" y="0.499264" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="garantung" sid="496159028614468">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="523969698527565" speed="5">
+                    <frame duration="1" hotspotX="0.500867" hotspotY="0.500761" original-source="C:\Users\ZAHRO\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\garantung.png">
+                        <collision-poly>
+                            <point x="0.190641" y="0.167428" />
+                            <point x="0.499133" y="0.0502283" />
+                            <point x="0.816291" y="0.161339" />
+                            <point x="0.937608" y="0.499239" />
+                            <point x="0.92201" y="0.931507" />
+                            <point x="0.499133" y="0.939117" />
+                            <point x="0.0866551" y="0.923896" />
+                            <point x="0.0762565" y="0.499239" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bgsumatera2" sid="914799663124921">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="708184447739569" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\ZAHRO\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\bg-sumatera.png">
+                        <collision-poly>
+                            <point x="0.000347222" y="0.000617284" />
+                            <point x="0.999653" y="0.000617284" />
+                            <point x="0.999653" y="0.999383" />
+                            <point x="0.000347222" y="0.999383" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titlesumatera3" sid="217052964527311">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="633930659560124" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501916" original-source="C:\Users\ZAHRO\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\title-sumatera.png">
+                        <collision-poly>
+                            <point x="0.0288235" y="0.187739" />
+                            <point x="0.5" y="0.141762" />
+                            <point x="0.961176" y="0.252874" />
+                            <point x="0.973529" y="0.498084" />
+                            <point x="0.961176" y="0.747126" />
+                            <point x="0.5" y="0.862069" />
+                            <point x="0.0288235" y="0.812261" />
+                            <point x="0.0182353" y="0.498084" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="saluang2" sid="972923514297809">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="498048354058504" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\ZAHRO\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\saluang.png">
+                        <collision-poly>
+                            <point x="0.211221" y="0.180282" />
+                            <point x="0.5" y="0.0985916" />
+                            <point x="0.767327" y="0.198592" />
+                            <point x="0.889439" y="0.5" />
+                            <point x="0.877888" y="0.895775" />
+                            <point x="0.5" y="0.921127" />
+                            <point x="0.0924092" y="0.921127" />
+                            <point x="0.0627063" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tekssaluang" sid="663373228991359">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="320312290440232" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.181513" original-source="C:\Users\ZAHRO\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\teks-saluang.png">
+                        <collision-poly>
+                            <point x="0.215611" y="0.00336134" />
+                            <point x="0.784389" y="0.00336134" />
+                            <point x="0.999614" y="0.181513" />
+                            <point x="0.931221" y="0.998319" />
+                            <point x="0.068779" y="0.998319" />
+                            <point x="0.000386399" y="0.181513" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bgsumatera3" sid="956331888738841">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="281476563496592" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\ZAHRO\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\bg-sumatera.png">
+                        <collision-poly>
+                            <point x="0.000347222" y="0.000617284" />
+                            <point x="0.999653" y="0.000617284" />
+                            <point x="0.999653" y="0.999383" />
+                            <point x="0.000347222" y="0.999383" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titlesumatera4" sid="239224790916308">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="793489006525464" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501916" original-source="C:\Users\ZAHRO\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\title-sumatera.png">
+                        <collision-poly>
+                            <point x="0.0288235" y="0.187739" />
+                            <point x="0.5" y="0.141762" />
+                            <point x="0.961176" y="0.252874" />
+                            <point x="0.973529" y="0.498084" />
+                            <point x="0.961176" y="0.747126" />
+                            <point x="0.5" y="0.862069" />
+                            <point x="0.0288235" y="0.812261" />
+                            <point x="0.0182353" y="0.498084" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="serunai2" sid="402485572071563">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="260319722725300" speed="5">
+                    <frame duration="1" hotspotX="0.500867" hotspotY="0.500736" original-source="C:\Users\ZAHRO\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\serunai.png">
+                        <collision-poly>
+                            <point x="0.183709" y="0.156112" />
+                            <point x="0.499133" y="0.0353461" />
+                            <point x="0.823224" y="0.150221" />
+                            <point x="0.930676" y="0.499264" />
+                            <point x="0.87695" y="0.895434" />
+                            <point x="0.12305" y="0.895434" />
+                            <point x="0.0831889" y="0.499264" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="teksserunai" sid="305722767395867">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="963415759698387" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.181513" original-source="C:\Users\ZAHRO\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\teks-serunai.png">
+                        <collision-poly>
+                            <point x="0.215611" y="0.00336134" />
+                            <point x="0.784389" y="0.00336134" />
+                            <point x="0.999614" y="0.181513" />
+                            <point x="0.931221" y="0.998319" />
+                            <point x="0.068779" y="0.998319" />
+                            <point x="0.000386399" y="0.181513" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -859,6 +1107,10 @@
         <layout>pengantar.xml</layout>
         <layout>peta.xml</layout>
         <layout>daerah_jawa.xml</layout>
+        <layout>daerah_sumatera.xml</layout>
+        <layout>saluang_sumatera.xml</layout>
+        <layout>serunai_sumatera.xml</layout>
+        <layout>garantung_sumatera.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>event-splash.xml</event-sheet>
@@ -866,6 +1118,10 @@
         <event-sheet>pengantar.xml</event-sheet>
         <event-sheet>event-peta.xml</event-sheet>
         <event-sheet>event-jawa.xml</event-sheet>
+        <event-sheet>event-sumatera.xml</event-sheet>
+        <event-sheet>event-saluang.xml</event-sheet>
+        <event-sheet>event-serunai.xml</event-sheet>
+        <event-sheet>event-garantung.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Function" uid="21" />
