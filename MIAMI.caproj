@@ -1056,6 +1056,57 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="bgjawa5" sid="200374863566455">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="911331512463217" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\bg-jawa.png">
+                        <collision-poly>
+                            <point x="0.000347222" y="0.000617284" />
+                            <point x="0.999653" y="0.000617284" />
+                            <point x="0.999653" y="0.999383" />
+                            <point x="0.000347222" y="0.999383" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tanjidor2" sid="398537049814273">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="580931635869177" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\tanjidor.png">
+                        <collision-poly>
+                            <point x="0.20339" y="0.178042" />
+                            <point x="0.5" y="0.0682493" />
+                            <point x="0.80339" y="0.172107" />
+                            <point x="0.928814" y="0.5" />
+                            <point x="0.913559" y="0.924332" />
+                            <point x="0.5" y="0.934718" />
+                            <point x="0.0949153" y="0.916914" />
+                            <point x="0.0830508" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tekstanjidor" sid="380315732475720">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="286568665621062" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.181513" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\teks-tanjidor.png">
+                        <collision-poly>
+                            <point x="0.215611" y="0.00336134" />
+                            <point x="0.784389" y="0.00336134" />
+                            <point x="0.999614" y="0.181513" />
+                            <point x="0.931221" y="0.998319" />
+                            <point x="0.068779" y="0.998319" />
+                            <point x="0.000386399" y="0.181513" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -1066,6 +1117,7 @@
         <layout>daerah_jawa.xml</layout>
         <layout>angklung_jawa.xml</layout>
         <layout>kendang_jawa.xml</layout>
+        <layout>tanjidor_jawa.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>event-splash.xml</event-sheet>
@@ -1075,6 +1127,7 @@
         <event-sheet>event-jawa.xml</event-sheet>
         <event-sheet>event-angklung.xml</event-sheet>
         <event-sheet>event-kendang.xml</event-sheet>
+        <event-sheet>event-tanjidor.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Function" uid="21" />

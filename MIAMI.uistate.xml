@@ -16,7 +16,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="5">peta</layout>
         <layout order="6">daerah_jawa</layout>
         <layout order="7">angklung_jawa</layout>
-        <layout active="1" order="8">kendang_jawa</layout>
+        <layout order="8">kendang_jawa</layout>
+        <layout active="1" order="9">tanjidor_jawa</layout>
         <event-sheet order="1">event-splash</event-sheet>
         <event-sheet order="3">event-menu</event-sheet>
     </open-tabs>
@@ -89,5 +90,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/teksangklung/" />
         <folder expanded="1" path="animation-folder/kendang2/" />
         <folder expanded="1" path="animation-folder/tekskendang/" />
+        <folder expanded="1" path="animation-folder/bgjawa5/" />
+        <folder expanded="1" path="animation-folder/tanjidor2/" />
+        <folder expanded="1" path="animation-folder/tekstanjidor/" />
     </folders-expanded>
 </c2uistate>
