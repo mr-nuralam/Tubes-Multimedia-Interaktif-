@@ -22,7 +22,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="11">angklung_jawa</layout>
         <layout order="12">kendang_jawa</layout>
         <layout order="13">tanjidor_jawa</layout>
-        <layout active="1" order="17">daerah_sulawesi</layout>
+        <layout order="17">daerah_sulawesi</layout>
+        <layout order="18">kolintang_sulawesi</layout>
+        <layout active="1" order="19">santu_sulawesi</layout>
         <event-sheet order="1">event-splash</event-sheet>
         <event-sheet order="3">event-menu</event-sheet>
         <event-sheet order="14">event-garantung</event-sheet>
@@ -114,5 +116,21 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/bgjawa5/" />
         <folder expanded="1" path="animation-folder/tanjidor2/" />
         <folder expanded="1" path="animation-folder/tekstanjidor/" />
+        <folder expanded="1" path="animation-folder/bgsulawesi/" />
+        <folder expanded="1" path="animation-folder/titlesulawesi/" />
+        <folder expanded="1" path="animation-folder/kolintang/" />
+        <folder expanded="1" path="animation-folder/santu/" />
+        <folder expanded="1" path="animation-folder/bgsulawesi2/" />
+        <folder expanded="1" path="animation-folder/titlesulawesi2/" />
+        <folder expanded="1" path="animation-folder/titlesulawesi3/" />
+        <folder expanded="1" path="animation-folder/kolintang2/" />
+        <folder expanded="1" path="animation-folder/tekskolintang/" />
+        <folder expanded="1" path="animation-folder/bgsulawesi3/" />
+        <folder expanded="1" path="animation-folder/titlesulawesi4/" />
+        <folder expanded="1" path="animation-folder/santu2/" />
+        <folder expanded="1" path="animation-folder/tekssantu/" />
+        <folder expanded="1" path="animation-folder/buton11/" />
+        <folder expanded="1" path="animation-folder/buton12/" />
+        <folder expanded="1" path="animation-folder/buton13/" />
     </folders-expanded>
 </c2uistate>

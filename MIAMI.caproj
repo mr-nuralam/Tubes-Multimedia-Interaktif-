@@ -1340,6 +1340,294 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="bgsulawesi" sid="739170018436897">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="868013785450934" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\bg-sulawesi.png">
+                        <collision-poly>
+                            <point x="0.000347222" y="0.000617284" />
+                            <point x="0.999653" y="0.000617284" />
+                            <point x="0.999653" y="0.999383" />
+                            <point x="0.000347222" y="0.999383" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titlesulawesi" sid="355896183456146">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="496415265101857" speed="5">
+                    <frame duration="1" hotspotX="0.500279" hotspotY="0.5" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\title-sulawesi.png">
+                        <collision-poly>
+                            <point x="0.0623955" y="0.358974" />
+                            <point x="0.499721" y="0.192308" />
+                            <point x="0.945404" y="0.314103" />
+                            <point x="0.957103" y="0.5" />
+                            <point x="0.945404" y="0.685897" />
+                            <point x="0.499721" y="0.794872" />
+                            <point x="0.0623955" y="0.641026" />
+                            <point x="0.0523677" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="kolintang" sid="635265796695114">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="733096075636957" speed="5">
+                    <frame duration="1" hotspotX="0.500699" hotspotY="0.500648" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\kolintang.png">
+                        <collision-poly>
+                            <point x="0.163636" y="0.151751" />
+                            <point x="0.499301" y="0.0207523" />
+                            <point x="0.802797" y="0.182879" />
+                            <point x="0.855944" y="0.499352" />
+                            <point x="0.811189" y="0.824903" />
+                            <point x="0.499301" y="0.869001" />
+                            <point x="0.142657" y="0.867704" />
+                            <point x="0.0853147" y="0.499352" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="santu" sid="608005035228896">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="394636320941428" speed="5">
+                    <frame duration="1" hotspotX="0.500699" hotspotY="0.5" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\santu.png">
+                        <collision-poly>
+                            <point x="0.220979" y="0.193627" />
+                            <point x="0.499301" y="0.0968137" />
+                            <point x="0.776224" y="0.196078" />
+                            <point x="0.895105" y="0.5" />
+                            <point x="0.837762" y="0.857843" />
+                            <point x="0.499301" y="0.89951" />
+                            <point x="0.158042" y="0.86152" />
+                            <point x="0.0993007" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bgsulawesi2" sid="701102290517908">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="586779414971439" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\bg-sulawesi.png">
+                        <collision-poly>
+                            <point x="0.000347222" y="0.000617284" />
+                            <point x="0.999653" y="0.000617284" />
+                            <point x="0.999653" y="0.999383" />
+                            <point x="0.000347222" y="0.999383" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titlesulawesi2" sid="622516067600038">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="937423202708211" speed="5">
+                    <frame duration="1" hotspotX="0.500279" hotspotY="0.5" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\title-sulawesi.png">
+                        <collision-poly>
+                            <point x="0.0623955" y="0.358974" />
+                            <point x="0.499721" y="0.192308" />
+                            <point x="0.945404" y="0.314103" />
+                            <point x="0.957103" y="0.5" />
+                            <point x="0.945404" y="0.685897" />
+                            <point x="0.499721" y="0.794872" />
+                            <point x="0.0623955" y="0.641026" />
+                            <point x="0.0523677" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titlesulawesi3" sid="608299656319181">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="203543154343527" speed="5">
+                    <frame duration="1" hotspotX="0.500279" hotspotY="0.5" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\title-sulawesi.png">
+                        <collision-poly>
+                            <point x="0.0623955" y="0.358974" />
+                            <point x="0.499721" y="0.192308" />
+                            <point x="0.945404" y="0.314103" />
+                            <point x="0.957103" y="0.5" />
+                            <point x="0.945404" y="0.685897" />
+                            <point x="0.499721" y="0.794872" />
+                            <point x="0.0623955" y="0.641026" />
+                            <point x="0.0523677" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="kolintang2" sid="368598502853658">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="606031204405913" speed="5">
+                    <frame duration="1" hotspotX="0.500699" hotspotY="0.500648" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\kolintang.png">
+                        <collision-poly>
+                            <point x="0.163636" y="0.151751" />
+                            <point x="0.499301" y="0.0207523" />
+                            <point x="0.802797" y="0.182879" />
+                            <point x="0.855944" y="0.499352" />
+                            <point x="0.811189" y="0.824903" />
+                            <point x="0.499301" y="0.869001" />
+                            <point x="0.142657" y="0.867704" />
+                            <point x="0.0853147" y="0.499352" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tekskolintang" sid="753831474672722">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="509788733796291" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.181513" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\teks-kolintang.png">
+                        <collision-poly>
+                            <point x="0.215611" y="0.00336134" />
+                            <point x="0.784389" y="0.00336134" />
+                            <point x="0.999614" y="0.181513" />
+                            <point x="0.931221" y="0.998319" />
+                            <point x="0.068779" y="0.998319" />
+                            <point x="0.000386399" y="0.181513" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bgsulawesi3" sid="470098840146783">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="722716069054284" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\bg-sulawesi.png">
+                        <collision-poly>
+                            <point x="0.000347222" y="0.000617284" />
+                            <point x="0.999653" y="0.000617284" />
+                            <point x="0.999653" y="0.999383" />
+                            <point x="0.000347222" y="0.999383" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titlesulawesi4" sid="257141985230123">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="503719074140237" speed="5">
+                    <frame duration="1" hotspotX="0.500279" hotspotY="0.5" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\title-sulawesi.png">
+                        <collision-poly>
+                            <point x="0.0623955" y="0.358974" />
+                            <point x="0.499721" y="0.192308" />
+                            <point x="0.945404" y="0.314103" />
+                            <point x="0.957103" y="0.5" />
+                            <point x="0.945404" y="0.685897" />
+                            <point x="0.499721" y="0.794872" />
+                            <point x="0.0623955" y="0.641026" />
+                            <point x="0.0523677" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="santu2" sid="482092960147699">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="389105417181062" speed="5">
+                    <frame duration="1" hotspotX="0.500699" hotspotY="0.5" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\santu.png">
+                        <collision-poly>
+                            <point x="0.220979" y="0.193627" />
+                            <point x="0.499301" y="0.0968137" />
+                            <point x="0.776224" y="0.196078" />
+                            <point x="0.895105" y="0.5" />
+                            <point x="0.837762" y="0.857843" />
+                            <point x="0.499301" y="0.89951" />
+                            <point x="0.158042" y="0.86152" />
+                            <point x="0.0993007" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tekssantu" sid="124784498183171">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="962676114608774" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.181513" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\teks-santu.png">
+                        <collision-poly>
+                            <point x="0.215611" y="0.00336134" />
+                            <point x="0.784389" y="0.00336134" />
+                            <point x="0.999614" y="0.181513" />
+                            <point x="0.931221" y="0.998319" />
+                            <point x="0.068779" y="0.998319" />
+                            <point x="0.000386399" y="0.181513" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="buton11" sid="964400335610522">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="949295788457840" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501466" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\buton10.png">
+                        <collision-poly>
+                            <point x="0.206452" y="0.187683" />
+                            <point x="0.5" y="0.0879765" />
+                            <point x="0.790323" y="0.190616" />
+                            <point x="0.929032" y="0.498534" />
+                            <point x="0.770968" y="0.791789" />
+                            <point x="0.5" y="0.882698" />
+                            <point x="0.222581" y="0.797654" />
+                            <point x="0.0580645" y="0.498534" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="buton12" sid="822825009046039">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="838881237850469" speed="5">
+                    <frame duration="1" hotspotX="0.501285" hotspotY="0.501484" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\buton4.png">
+                        <collision-poly>
+                            <point x="0.231362" y="0.267062" />
+                            <point x="0.498715" y="0.0771513" />
+                            <point x="0.802057" y="0.228487" />
+                            <point x="0.874036" y="0.498516" />
+                            <point x="0.784062" y="0.750742" />
+                            <point x="0.498715" y="0.881306" />
+                            <point x="0.246787" y="0.715134" />
+                            <point x="0.179949" y="0.498516" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="buton13" sid="706542394330100">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="101208766073684" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\buton5.png">
+                        <collision-poly>
+                            <point x="0.210526" y="0.206897" />
+                            <point x="0.5" y="0.106322" />
+                            <point x="0.769006" y="0.227011" />
+                            <point x="0.874269" y="0.5" />
+                            <point x="0.763158" y="0.767241" />
+                            <point x="0.5" y="0.885057" />
+                            <point x="0.216374" y="0.787356" />
+                            <point x="0.0847953" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -1356,6 +1644,8 @@
         <layout>kendang_jawa.xml</layout>
         <layout>tanjidor_jawa.xml</layout>
         <layout>daerah_sulawesi.xml</layout>
+        <layout>kolintang_sulawesi.xml</layout>
+        <layout>santu_sulawesi.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>event-splash.xml</event-sheet>
@@ -1371,6 +1661,8 @@
         <event-sheet>event-kendang.xml</event-sheet>
         <event-sheet>event-tanjidor.xml</event-sheet>
         <event-sheet>event-sulawesi.xml</event-sheet>
+        <event-sheet>event-kolintang.xml</event-sheet>
+        <event-sheet>event-santu.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Function" uid="21" />
