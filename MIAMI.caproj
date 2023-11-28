@@ -1645,7 +1645,6 @@
         <layout>tanjidor_jawa.xml</layout>
         <layout>daerah_sulawesi.xml</layout>
         <layout>kolintang_sulawesi.xml</layout>
-        <layout>santu_sulawesi.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>event-splash.xml</event-sheet>
@@ -1662,7 +1661,6 @@
         <event-sheet>event-tanjidor.xml</event-sheet>
         <event-sheet>event-sulawesi.xml</event-sheet>
         <event-sheet>event-kolintang.xml</event-sheet>
-        <event-sheet>event-santu.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Function" uid="21" />
