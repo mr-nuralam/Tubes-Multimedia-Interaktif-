@@ -17,9 +17,14 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="6">daerah_sumatera</layout>
         <layout order="7">saluang_sumatera</layout>
         <layout order="8">serunai_sumatera</layout>
-        <layout active="1" order="9">garantung_sumatera</layout>
+        <layout order="9">garantung_sumatera</layout>
+        <layout order="10">daerah_jawa</layout>
+        <layout order="11">angklung_jawa</layout>
+        <layout order="12">kendang_jawa</layout>
+        <layout active="1" order="13">tanjidor_jawa</layout>
         <event-sheet order="1">event-splash</event-sheet>
         <event-sheet order="3">event-menu</event-sheet>
+        <event-sheet order="14">event-garantung</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -92,5 +97,19 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/titlesumatera4/" />
         <folder expanded="1" path="animation-folder/serunai2/" />
         <folder expanded="1" path="animation-folder/teksserunai/" />
+        <folder expanded="1" path="animation-folder/titlejawa/" />
+        <folder expanded="1" path="animation-folder/tanjidor/" />
+        <folder expanded="1" path="animation-folder/bgjawa2/" />
+        <folder expanded="1" path="animation-folder/kendang/" />
+        <folder expanded="1" path="animation-folder/angklung/" />
+        <folder expanded="1" path="animation-folder/teksangklung/" />
+        <folder expanded="1" path="animation-folder/bgjawa3/" />
+        <folder expanded="1" path="animation-folder/angklung2/" />
+        <folder expanded="1" path="animation-folder/kendang2/" />
+        <folder expanded="1" path="animation-folder/tekskendang/" />
+        <folder expanded="1" path="animation-folder/bgjawa4/" />
+        <folder expanded="1" path="animation-folder/bgjawa5/" />
+        <folder expanded="1" path="animation-folder/tanjidor2/" />
+        <folder expanded="1" path="animation-folder/tekstanjidor/" />
     </folders-expanded>
 </c2uistate>
