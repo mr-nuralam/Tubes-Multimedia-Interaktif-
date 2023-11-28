@@ -15,7 +15,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="4">pengantar</layout>
         <layout order="5">peta</layout>
         <layout order="6">daerah_sumatera</layout>
-        <layout order="7">saluang_sumatera</layout>
+        <layout active="1" order="7">saluang_sumatera</layout>
         <layout order="8">serunai_sumatera</layout>
         <layout order="9">garantung_sumatera</layout>
         <layout order="10">daerah_jawa</layout>
@@ -28,7 +28,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="22">sape_kalimantan</layout>
         <layout order="24">kecapi_kalimantan</layout>
         <layout order="25">daerah_nusa tenggara</layout>
-        <layout active="1" order="26">sasando_nusa tenggara</layout>
+        <layout order="26">sasando_nusa tenggara</layout>
+        <layout order="28">daerah_maluku</layout>
+        <layout order="29">ukulele_maluku</layout>
+        <layout order="30">daerah_papua</layout>
+        <layout order="31">tifa_papua</layout>
         <event-sheet order="1">event-splash</event-sheet>
         <event-sheet order="3">event-menu</event-sheet>
         <event-sheet order="14">event-garantung</event-sheet>
@@ -159,5 +163,23 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/titlenusatenggara2/" />
         <folder expanded="1" path="animation-folder/tekssasando/" />
         <folder expanded="1" path="animation-folder/sasando2/" />
+        <folder expanded="1" path="animation-folder/bgmaluku/" />
+        <folder expanded="1" path="animation-folder/titlemaluku/" />
+        <folder expanded="1" path="animation-folder/ukulele/" />
+        <folder expanded="1" path="animation-folder/bgmaluku2/" />
+        <folder expanded="1" path="animation-folder/titlemaluku2/" />
+        <folder expanded="1" path="animation-folder/ukulele2/" />
+        <folder expanded="1" path="animation-folder/teksukulele/" />
+        <folder expanded="1" path="animation-folder/bgpapua/" />
+        <folder expanded="1" path="animation-folder/titlepapua/" />
+        <folder expanded="1" path="animation-folder/tifa/" />
+        <folder expanded="1" path="animation-folder/bgpapua2/" />
+        <folder expanded="1" path="animation-folder/titlepapua2/" />
+        <folder expanded="1" path="animation-folder/tifa2/" />
+        <folder expanded="1" path="animation-folder/tekstifa/" />
+        <folder expanded="1" path="animation-folder/bgsumatera4/" />
+        <folder expanded="1" path="animation-folder/titlesumatera5/" />
+        <folder expanded="1" path="animation-folder/garantung2/" />
+        <folder expanded="1" path="animation-folder/teksgarantung/" />
     </folders-expanded>
 </c2uistate>

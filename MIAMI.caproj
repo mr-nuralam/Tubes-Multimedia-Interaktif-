@@ -1953,6 +1953,322 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="bgmaluku" sid="351739529783124">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="869451689894494" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\bg-maluku.png">
+                        <collision-poly>
+                            <point x="0.000347222" y="0.000617284" />
+                            <point x="0.999653" y="0.000617284" />
+                            <point x="0.999653" y="0.999383" />
+                            <point x="0.000347222" y="0.999383" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titlemaluku" sid="195213940577599">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="620984170483045" speed="5">
+                    <frame duration="1" hotspotX="0.500284" hotspotY="0.5" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\title-maluku.png">
+                        <collision-poly>
+                            <point x="0.059693" y="0.388889" />
+                            <point x="0.499716" y="0.12963" />
+                            <point x="0.961342" y="0.251852" />
+                            <point x="0.97328" y="0.5" />
+                            <point x="0.961342" y="0.748148" />
+                            <point x="0.499716" y="0.825926" />
+                            <point x="0.0602615" y="0.607407" />
+                            <point x="0.0500284" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ukulele" sid="432218236937355">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="773113347243242" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500618" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\ukulele.png">
+                        <collision-poly>
+                            <point x="0.200276" y="0.179234" />
+                            <point x="0.5" y="0.0568603" />
+                            <point x="0.799724" y="0.179234" />
+                            <point x="0.883978" y="0.499382" />
+                            <point x="0.835635" y="0.852905" />
+                            <point x="0.5" y="0.866502" />
+                            <point x="0.164365" y="0.852905" />
+                            <point x="0.114641" y="0.499382" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bgmaluku2" sid="876977601266446">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="501183338518521" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\bg-maluku.png">
+                        <collision-poly>
+                            <point x="0.000347222" y="0.000617284" />
+                            <point x="0.999653" y="0.000617284" />
+                            <point x="0.999653" y="0.999383" />
+                            <point x="0.000347222" y="0.999383" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titlemaluku2" sid="709880665918312">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="871916857858819" speed="5">
+                    <frame duration="1" hotspotX="0.500284" hotspotY="0.5" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\title-maluku.png">
+                        <collision-poly>
+                            <point x="0.059693" y="0.388889" />
+                            <point x="0.499716" y="0.12963" />
+                            <point x="0.961342" y="0.251852" />
+                            <point x="0.97328" y="0.5" />
+                            <point x="0.961342" y="0.748148" />
+                            <point x="0.499716" y="0.825926" />
+                            <point x="0.0602615" y="0.607407" />
+                            <point x="0.0500284" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ukulele2" sid="501915430237136">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="548270509028987" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500618" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\ukulele.png">
+                        <collision-poly>
+                            <point x="0.200276" y="0.179234" />
+                            <point x="0.5" y="0.0568603" />
+                            <point x="0.799724" y="0.179234" />
+                            <point x="0.883978" y="0.499382" />
+                            <point x="0.835635" y="0.852905" />
+                            <point x="0.5" y="0.866502" />
+                            <point x="0.164365" y="0.852905" />
+                            <point x="0.114641" y="0.499382" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="teksukulele" sid="475316293416612">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="272157302183236" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.181513" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\teks-ukulele.png">
+                        <collision-poly>
+                            <point x="0.215611" y="0.00336134" />
+                            <point x="0.784389" y="0.00336134" />
+                            <point x="0.999614" y="0.181513" />
+                            <point x="0.931221" y="0.998319" />
+                            <point x="0.068779" y="0.998319" />
+                            <point x="0.000386399" y="0.181513" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bgpapua" sid="667282776698276">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="982062005399556" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\bg-papua.png">
+                        <collision-poly>
+                            <point x="0.000347222" y="0.000617284" />
+                            <point x="0.999653" y="0.000617284" />
+                            <point x="0.999653" y="0.999383" />
+                            <point x="0.000347222" y="0.999383" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titlepapua" sid="366919740899789">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="301202177142930" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501466" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\title-papua.png">
+                        <collision-poly>
+                            <point x="0.0660377" y="0.348974" />
+                            <point x="0.5" y="0.278592" />
+                            <point x="0.944506" y="0.293255" />
+                            <point x="0.953385" y="0.498534" />
+                            <point x="0.945616" y="0.71261" />
+                            <point x="0.5" y="0.829912" />
+                            <point x="0.0660377" y="0.651026" />
+                            <point x="0.0599334" y="0.498534" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tifa" sid="298704486406472">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="425983192322755" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\tifa.png">
+                        <collision-poly>
+                            <point x="0.233247" y="0.240053" />
+                            <point x="0.5" y="0.0543767" />
+                            <point x="0.829897" y="0.175066" />
+                            <point x="0.920103" y="0.5" />
+                            <point x="0.868557" y="0.864721" />
+                            <point x="0.5" y="0.919098" />
+                            <point x="0.291237" y="0.700265" />
+                            <point x="0.190722" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bgpapua2" sid="521292469055795">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="343260662547623" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\bg-papua.png">
+                        <collision-poly>
+                            <point x="0.000347222" y="0.000617284" />
+                            <point x="0.999653" y="0.000617284" />
+                            <point x="0.999653" y="0.999383" />
+                            <point x="0.000347222" y="0.999383" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titlepapua2" sid="252011655916244">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="495739116744390" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501466" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\title-papua.png">
+                        <collision-poly>
+                            <point x="0.0660377" y="0.348974" />
+                            <point x="0.5" y="0.278592" />
+                            <point x="0.944506" y="0.293255" />
+                            <point x="0.953385" y="0.498534" />
+                            <point x="0.945616" y="0.71261" />
+                            <point x="0.5" y="0.829912" />
+                            <point x="0.0660377" y="0.651026" />
+                            <point x="0.0599334" y="0.498534" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tifa2" sid="236718917326741">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="346933812740709" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\tifa.png">
+                        <collision-poly>
+                            <point x="0.233247" y="0.240053" />
+                            <point x="0.5" y="0.0543767" />
+                            <point x="0.829897" y="0.175066" />
+                            <point x="0.920103" y="0.5" />
+                            <point x="0.868557" y="0.864721" />
+                            <point x="0.5" y="0.919098" />
+                            <point x="0.291237" y="0.700265" />
+                            <point x="0.190722" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tekstifa" sid="244559782539071">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="169196635908598" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.181513" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\teks-tifa.png">
+                        <collision-poly>
+                            <point x="0.215611" y="0.00336134" />
+                            <point x="0.784389" y="0.00336134" />
+                            <point x="0.999614" y="0.181513" />
+                            <point x="0.931221" y="0.998319" />
+                            <point x="0.068779" y="0.998319" />
+                            <point x="0.000386399" y="0.181513" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bgsumatera4" sid="306328151566724">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="568909097128960" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\bg-sumatera.png">
+                        <collision-poly>
+                            <point x="0.000347222" y="0.000617284" />
+                            <point x="0.999653" y="0.000617284" />
+                            <point x="0.999653" y="0.999383" />
+                            <point x="0.000347222" y="0.999383" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titlesumatera5" sid="590003708561152">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="581417826561714" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501916" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\title-sumatera.png">
+                        <collision-poly>
+                            <point x="0.0288235" y="0.187739" />
+                            <point x="0.5" y="0.141762" />
+                            <point x="0.961176" y="0.252874" />
+                            <point x="0.973529" y="0.498084" />
+                            <point x="0.961176" y="0.747126" />
+                            <point x="0.5" y="0.862069" />
+                            <point x="0.0288235" y="0.812261" />
+                            <point x="0.0182353" y="0.498084" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="garantung2" sid="189775317796254">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="798632225570288" speed="5">
+                    <frame duration="1" hotspotX="0.500867" hotspotY="0.500761" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\garantung.png">
+                        <collision-poly>
+                            <point x="0.190641" y="0.167428" />
+                            <point x="0.499133" y="0.0502283" />
+                            <point x="0.816291" y="0.161339" />
+                            <point x="0.937608" y="0.499239" />
+                            <point x="0.92201" y="0.931507" />
+                            <point x="0.499133" y="0.939117" />
+                            <point x="0.0866551" y="0.923896" />
+                            <point x="0.0762565" y="0.499239" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="teksgarantung" sid="690444925590658">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="183692999495439" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.181513" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\teks-garantung.png">
+                        <collision-poly>
+                            <point x="0.215611" y="0.00336134" />
+                            <point x="0.784389" y="0.00336134" />
+                            <point x="0.999614" y="0.181513" />
+                            <point x="0.931221" y="0.998319" />
+                            <point x="0.068779" y="0.998319" />
+                            <point x="0.000386399" y="0.181513" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -1975,6 +2291,10 @@
         <layout>kecapi_kalimantan.xml</layout>
         <layout>daerah_nusa tenggara.xml</layout>
         <layout>sasando_nusa tenggara.xml</layout>
+        <layout>daerah_maluku.xml</layout>
+        <layout>ukulele_maluku.xml</layout>
+        <layout>daerah_papua.xml</layout>
+        <layout>tifa_papua.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>event-splash.xml</event-sheet>
@@ -1996,6 +2316,10 @@
         <event-sheet>event-kecapi.xml</event-sheet>
         <event-sheet>event-nusa tenggara.xml</event-sheet>
         <event-sheet>event-sasando.xml</event-sheet>
+        <event-sheet>event-maluku.xml</event-sheet>
+        <event-sheet>event-ukulele.xml</event-sheet>
+        <event-sheet>event-papua.xml</event-sheet>
+        <event-sheet>event-tifa.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Function" uid="21" />
