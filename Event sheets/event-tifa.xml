@@ -2,5 +2,30 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>event-tifa</name>
-    <events />
+    <events>
+        <event-block sid="994804223513099">
+            <conditions>
+                <condition id="3" name="On touched object" sid="925205730959837" type="Touch">
+                    <param id="0" name="Object">buton11</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="618211341359539" type="System">
+                    <param id="0" name="Layout">daerah_papua</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="673097170409798">
+            <conditions>
+                <condition id="3" name="On touched object" sid="325036076759722" type="Touch">
+                    <param id="0" name="Object">buton12</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="580691715246225" type="System">
+                    <param id="0" name="Layout">menu</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>

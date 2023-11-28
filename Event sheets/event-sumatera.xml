@@ -2,5 +2,78 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>event-sumatera</name>
-    <events />
+    <events>
+        <event-block sid="879464094613118">
+            <conditions>
+                <condition id="3" name="On touched object" sid="261239986585652" type="Touch">
+                    <param id="0" name="Object">saluang</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="613204697416065" type="System">
+                    <param id="0" name="Layout">saluang_sumatera</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="295999544930316">
+            <conditions>
+                <condition id="3" name="On touched object" sid="812442317977053" type="Touch">
+                    <param id="0" name="Object">serunai</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="508170194980970" type="System">
+                    <param id="0" name="Layout">serunai_sumatera</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="601601265106191">
+            <conditions>
+                <condition id="3" name="On touched object" sid="482642001587717" type="Touch">
+                    <param id="0" name="Object">garantung</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="998943053191755" type="System">
+                    <param id="0" name="Layout">garantung_sumatera</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="598764363373304">
+            <conditions>
+                <condition id="3" name="On touched object" sid="403074554559814" type="Touch">
+                    <param id="0" name="Object">buton11</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="242250767684243" type="System">
+                    <param id="0" name="Layout">tanjidor_jawa</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="332506638883146">
+            <conditions>
+                <condition id="3" name="On touched object" sid="563395193851463" type="Touch">
+                    <param id="0" name="Object">buton12</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="456590271435657" type="System">
+                    <param id="0" name="Layout">menu</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="550645150369082">
+            <conditions>
+                <condition id="3" name="On touched object" sid="143679306972756" type="Touch">
+                    <param id="0" name="Object">buton13</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="601972986581210" type="System">
+                    <param id="0" name="Layout">saluang_sumatera</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>

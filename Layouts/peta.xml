@@ -40,13 +40,13 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>640</x>
-                        <y>361</y>
+                        <y>359</y>
                         <z>0</z>
                         <width>1280</width>
                         <height>720</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.500148177</hotspotY>
+                        <hotspotY>0.500148058</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -99,6 +99,23 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <SaveX>0</SaveX>
+                        <SaveY>0</SaveY>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Size</tweened-property>
+                                <function>EaseOutBack</function>
+                                <target>0,0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0.2</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -121,6 +138,23 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <SaveX>0</SaveX>
+                        <SaveY>0</SaveY>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Size</tweened-property>
+                                <function>EaseOutBack</function>
+                                <target>0,0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0.2</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -143,14 +177,31 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <SaveX>0</SaveX>
+                        <SaveY>0</SaveY>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Size</tweened-property>
+                                <function>EaseOutBack</function>
+                                <target>0,0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0.2</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>404.392578125</x>
-                        <y>510.721557617</y>
+                        <x>405.423034668</x>
+                        <y>506.883087158</y>
                         <z>0</z>
-                        <width>273.681884766</width>
-                        <height>116.807144165</height>
+                        <width>271.395050049</width>
+                        <height>115.831138611</height>
                         <depth>0</depth>
                         <hotspotX>0.501240671</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -165,14 +216,31 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <SaveX>0</SaveX>
+                        <SaveY>0</SaveY>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Size</tweened-property>
+                                <function>EaseOutBack</function>
+                                <target>0,0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0.2</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>790.062011719</x>
-                        <y>536.361938477</y>
+                        <x>788</x>
+                        <y>531</y>
                         <z>0</z>
-                        <width>499.968017578</width>
-                        <height>130.484329224</height>
+                        <width>517.768310547</width>
+                        <height>135.129943848</height>
                         <depth>0</depth>
                         <hotspotX>0.500665784</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -187,11 +255,28 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <SaveX>0</SaveX>
+                        <SaveY>0</SaveY>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Size</tweened-property>
+                                <function>EaseOutBack</function>
+                                <target>0,0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0.2</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>756</x>
-                        <y>305</y>
+                        <x>758</x>
+                        <y>300</y>
                         <z>0</z>
                         <width>216.374221802</width>
                         <height>329.207397461</height>
@@ -209,6 +294,23 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <SaveX>0</SaveX>
+                        <SaveY>0</SaveY>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Size</tweened-property>
+                                <function>EaseOutBack</function>
+                                <target>0,0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0.2</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -231,11 +333,28 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <SaveX>0</SaveX>
+                        <SaveY>0</SaveY>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Size</tweened-property>
+                                <function>EaseOutBack</function>
+                                <target>0,0</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0.2</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1136.505615234</x>
-                        <y>402.5</y>
+                        <x>1139</x>
+                        <y>396</y>
                         <z>0</z>
                         <width>305</width>
                         <height>297</height>

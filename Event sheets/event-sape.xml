@@ -2,5 +2,42 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>event-sape</name>
-    <events />
+    <events>
+        <event-block sid="255992397235279">
+            <conditions>
+                <condition id="3" name="On touched object" sid="115935959042896" type="Touch">
+                    <param id="0" name="Object">buton11</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="654670033911523" type="System">
+                    <param id="0" name="Layout">daerah_kalimantan</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="799889847835123">
+            <conditions>
+                <condition id="3" name="On touched object" sid="431374059099030" type="Touch">
+                    <param id="0" name="Object">buton12</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="521099249618942" type="System">
+                    <param id="0" name="Layout">menu</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="489055907263184">
+            <conditions>
+                <condition id="3" name="On touched object" sid="674007714720152" type="Touch">
+                    <param id="0" name="Object">buton13</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="437935808135860" type="System">
+                    <param id="0" name="Layout">kecapi_kalimantan</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>

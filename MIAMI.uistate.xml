@@ -10,41 +10,50 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="4">splash</layout>
-        <layout order="2">menu</layout>
-        <layout order="33">pengantar</layout>
-        <layout order="5">peta</layout>
-        <layout order="6">daerah_sumatera</layout>
-        <layout order="7">saluang_sumatera</layout>
-        <layout order="8">serunai_sumatera</layout>
-        <layout order="9">garantung_sumatera</layout>
-        <layout order="10">daerah_jawa</layout>
-        <layout order="11">angklung_jawa</layout>
-        <layout order="12">kendang_jawa</layout>
-        <layout order="13">tanjidor_jawa</layout>
-        <layout order="17">daerah_sulawesi</layout>
-        <layout order="18">kolintang_sulawesi</layout>
-        <layout order="20">daerah_kalimantan</layout>
-        <layout order="22">sape_kalimantan</layout>
-        <layout order="24">kecapi_kalimantan</layout>
-        <layout order="25">daerah_nusa tenggara</layout>
-        <layout order="26">sasando_nusa tenggara</layout>
-        <layout order="28">daerah_maluku</layout>
-        <layout order="29">ukulele_maluku</layout>
-        <layout order="30">daerah_papua</layout>
-        <layout order="31">tifa_papua</layout>
-        <layout order="32">video_menu</layout>
-        <event-sheet order="1">event-splash</event-sheet>
-        <event-sheet order="3">event-menu</event-sheet>
-        <event-sheet order="14">event-garantung</event-sheet>
-        <event-sheet order="15">event-angklung</event-sheet>
-        <event-sheet order="16">event-tanjidor</event-sheet>
-        <event-sheet order="19">event-sulawesi</event-sheet>
-        <event-sheet order="21">event-kalimantan</event-sheet>
-        <event-sheet order="23">event-sape</event-sheet>
-        <event-sheet order="27">event-sasando</event-sheet>
-        <event-sheet order="0">event_pengantar</event-sheet>
-        <event-sheet active="1" order="34">event-peta</event-sheet>
+        <layout order="3">daerah_sumatera</layout>
+        <layout order="2">saluang_sumatera</layout>
+        <layout order="1">serunai_sumatera</layout>
+        <layout order="8">garantung_sumatera</layout>
+        <layout order="5">daerah_jawa</layout>
+        <layout order="6">angklung_jawa</layout>
+        <layout order="29">kendang_jawa</layout>
+        <layout order="7">tanjidor_jawa</layout>
+        <layout order="11">daerah_sulawesi</layout>
+        <layout order="12">kolintang_sulawesi</layout>
+        <layout order="14">daerah_kalimantan</layout>
+        <layout order="16">sape_kalimantan</layout>
+        <layout order="18">kecapi_kalimantan</layout>
+        <layout order="19">daerah_nusa tenggara</layout>
+        <layout order="20">sasando_nusa tenggara</layout>
+        <layout order="22">daerah_maluku</layout>
+        <layout order="23">ukulele_maluku</layout>
+        <layout order="24">daerah_papua</layout>
+        <layout order="25">tifa_papua</layout>
+        <layout active="1" order="26">video_menu</layout>
+        <layout order="43">splash</layout>
+        <event-sheet order="27">event_pengantar</event-sheet>
+        <event-sheet order="32">event-garantung</event-sheet>
+        <event-sheet order="9">event-angklung</event-sheet>
+        <event-sheet order="10">event-tanjidor</event-sheet>
+        <event-sheet order="13">event-sulawesi</event-sheet>
+        <event-sheet order="15">event-kalimantan</event-sheet>
+        <event-sheet order="17">event-sape</event-sheet>
+        <event-sheet order="21">event-sasando</event-sheet>
+        <event-sheet order="28">event-jawa</event-sheet>
+        <event-sheet order="4">event-kendang</event-sheet>
+        <event-sheet order="30">event-sumatera</event-sheet>
+        <event-sheet order="31">event-saluang</event-sheet>
+        <event-sheet order="0">event-serunai</event-sheet>
+        <event-sheet order="33">event-kecapi</event-sheet>
+        <event-sheet order="34">event-kolintang</event-sheet>
+        <event-sheet order="35">event-nusa tenggara</event-sheet>
+        <event-sheet order="36">event-maluku</event-sheet>
+        <event-sheet order="37">event-ukulele</event-sheet>
+        <event-sheet order="38">event-papua</event-sheet>
+        <event-sheet order="39">event-tifa</event-sheet>
+        <event-sheet order="40">event-menu</event-sheet>
+        <event-sheet order="41">event-peta</event-sheet>
+        <event-sheet order="42">event-splash</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />

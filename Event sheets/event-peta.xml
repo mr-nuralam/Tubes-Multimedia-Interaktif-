@@ -3,23 +3,431 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>event-peta</name>
     <events>
-        <event-block sid="939161476571640">
+        <event-block sid="241706766329086">
             <conditions>
-                <condition id="3" name="On touched object" sid="949676299196785" type="Touch">
+                <condition id="-2" name="On start of layout" sid="732511209576644" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="976552932725093">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="790644322756136" type="System">
+                            <param id="0" name="Object">jawa</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="690291030006229" type="jawa">
+                            <param id="0" name="Instance variable">SaveX</param>
+                            <param id="1" name="Value">Self.Height</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="213400919811084" type="jawa">
+                            <param id="0" name="Instance variable">SaveY</param>
+                            <param id="1" name="Value">Self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="693695592004820">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="239954768215826" type="System">
+                            <param id="0" name="Object">sumatera</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="873988968512691" type="sumatera">
+                            <param id="0" name="Instance variable">SaveX</param>
+                            <param id="1" name="Value">Self.Height</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="787933464227066" type="sumatera">
+                            <param id="0" name="Instance variable">SaveY</param>
+                            <param id="1" name="Value">Self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="449339353671975">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="928326232087735" type="System">
+                            <param id="0" name="Object">kalimantan</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="449521311833095" type="kalimantan">
+                            <param id="0" name="Instance variable">SaveX</param>
+                            <param id="1" name="Value">Self.Height</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="364460938348840" type="kalimantan">
+                            <param id="0" name="Instance variable">SaveY</param>
+                            <param id="1" name="Value">Self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="491300472375305">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="365145013599095" type="System">
+                            <param id="0" name="Object">sulawesi</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="619245239495997" type="sulawesi">
+                            <param id="0" name="Instance variable">SaveX</param>
+                            <param id="1" name="Value">Self.Height</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="875741164374877" type="sulawesi">
+                            <param id="0" name="Instance variable">SaveY</param>
+                            <param id="1" name="Value">Self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="265550362266269">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="407413513151935" type="System">
+                            <param id="0" name="Object">nusaTenggara</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="461039319210116" type="nusaTenggara">
+                            <param id="0" name="Instance variable">SaveX</param>
+                            <param id="1" name="Value">Self.Height</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="126339625638726" type="nusaTenggara">
+                            <param id="0" name="Instance variable">SaveY</param>
+                            <param id="1" name="Value">Self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="381716705905736">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="419740470338608" type="System">
+                            <param id="0" name="Object">maluku</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="340947907205744" type="maluku">
+                            <param id="0" name="Instance variable">SaveX</param>
+                            <param id="1" name="Value">Self.Height</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="467175499217270" type="maluku">
+                            <param id="0" name="Instance variable">SaveY</param>
+                            <param id="1" name="Value">Self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="615030856973670">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="442074642887944" type="System">
+                            <param id="0" name="Object">papua</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="814920611010874" type="papua">
+                            <param id="0" name="Instance variable">SaveX</param>
+                            <param id="1" name="Value">Self.Height</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="579849575200832" type="papua">
+                            <param id="0" name="Instance variable">SaveY</param>
+                            <param id="1" name="Value">Self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="572021645508856">
+            <conditions>
+                <condition id="3" name="On touched object" sid="189453639815772" type="Touch">
                     <param id="0" name="Object">jawa</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-7" name="Set size" sid="361819693604709" type="jawa">
-                    <param id="0" name="Width">150</param>
-                    <param id="1" name="Height">150</param>
+                <action behavior="LiteTween" id="10" name="Start" sid="584031480501974" type="jawa">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
                 </action>
-                <action id="-16" name="Wait" sid="894936775864028" type="System">
-                    <param id="0" name="Seconds">0.3</param>
+                <action behavior="LiteTween" id="3" name="Set target" sid="541532848491414" type="jawa">
+                    <param id="0" name="Target is">0</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveX+20</param>
                 </action>
-                <action id="-7" name="Set size" sid="523106484179032" type="jawa">
-                    <param id="0" name="Width">160</param>
-                    <param id="1" name="Height">160</param>
+                <action behavior="LiteTween" id="3" name="Set target" sid="505369854904929" type="jawa">
+                    <param id="0" name="Target is">1</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveY+20</param>
+                </action>
+                <action id="-16" name="Wait" sid="431076338638522" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action behavior="LiteTween" id="10" name="Start" sid="495716362812148" type="jawa">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="489327573050704" type="jawa">
+                    <param id="0" name="Target is">0</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveX</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="581093673702189" type="jawa">
+                    <param id="0" name="Target is">1</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveY</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="675485075797333" type="System">
+                    <param id="0" name="Layout">daerah_jawa</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="353359485195510">
+            <conditions>
+                <condition id="3" name="On touched object" sid="483573528363540" type="Touch">
+                    <param id="0" name="Object">kalimantan</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="LiteTween" id="10" name="Start" sid="766534380580155" type="kalimantan">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="840983165529064" type="kalimantan">
+                    <param id="0" name="Target is">0</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveX+20</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="416080489601815" type="kalimantan">
+                    <param id="0" name="Target is">1</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveY+20</param>
+                </action>
+                <action id="-16" name="Wait" sid="278469374878135" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action behavior="LiteTween" id="10" name="Start" sid="536956004509143" type="kalimantan">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="118159097444527" type="kalimantan">
+                    <param id="0" name="Target is">0</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveX</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="507949899301862" type="kalimantan">
+                    <param id="0" name="Target is">1</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveY</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="452952933058598" type="System">
+                    <param id="0" name="Layout">daerah_kalimantan</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="184205546751516">
+            <conditions>
+                <condition id="3" name="On touched object" sid="646037530883680" type="Touch">
+                    <param id="0" name="Object">sumatera</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="LiteTween" id="10" name="Start" sid="170158875677523" type="sumatera">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="925083264148575" type="sumatera">
+                    <param id="0" name="Target is">0</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveX+20</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="399363496169041" type="sumatera">
+                    <param id="0" name="Target is">1</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveY+20</param>
+                </action>
+                <action id="-16" name="Wait" sid="478852252510581" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action behavior="LiteTween" id="10" name="Start" sid="700696487772565" type="sumatera">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="508256582165450" type="sumatera">
+                    <param id="0" name="Target is">0</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveX</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="983860353764377" type="sumatera">
+                    <param id="0" name="Target is">0</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveY</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="129074798990541" type="System">
+                    <param id="0" name="Layout">daerah_sumatera</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="216275826909725">
+            <conditions>
+                <condition id="3" name="On touched object" sid="456327057064861" type="Touch">
+                    <param id="0" name="Object">sulawesi</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="LiteTween" id="10" name="Start" sid="231786441933840" type="sulawesi">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="382670940395735" type="sulawesi">
+                    <param id="0" name="Target is">0</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveX+20</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="176147810848675" type="sulawesi">
+                    <param id="0" name="Target is">1</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveY+20</param>
+                </action>
+                <action id="-16" name="Wait" sid="525317052116880" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action behavior="LiteTween" id="10" name="Start" sid="479900933718430" type="sulawesi">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="481710944777225" type="sulawesi">
+                    <param id="0" name="Target is">0</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveX</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="336317953070768" type="sulawesi">
+                    <param id="0" name="Target is">1</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveY</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="746596942059859" type="System">
+                    <param id="0" name="Layout">daerah_sulawesi</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="800686256157227">
+            <conditions>
+                <condition id="3" name="On touched object" sid="872218118214200" type="Touch">
+                    <param id="0" name="Object">nusaTenggara</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="LiteTween" id="10" name="Start" sid="202411431601034" type="nusaTenggara">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="403446673757283" type="nusaTenggara">
+                    <param id="0" name="Target is">0</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveX+20</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="818993190068685" type="nusaTenggara">
+                    <param id="0" name="Target is">1</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveY+20</param>
+                </action>
+                <action id="-16" name="Wait" sid="572573932682060" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action behavior="LiteTween" id="10" name="Start" sid="835529007209864" type="nusaTenggara">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="904379803679952" type="nusaTenggara">
+                    <param id="0" name="Target is">0</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveX</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="329255528353356" type="nusaTenggara">
+                    <param id="0" name="Target is">1</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveY</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="853813230651485" type="System">
+                    <param id="0" name="Layout">daerah_nusa tenggara</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="485763257063756">
+            <conditions>
+                <condition id="3" name="On touched object" sid="671217418929727" type="Touch">
+                    <param id="0" name="Object">maluku</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="LiteTween" id="10" name="Start" sid="603198510450123" type="maluku">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="700998252286703" type="maluku">
+                    <param id="0" name="Target is">0</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveX+20</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="225257831715166" type="maluku">
+                    <param id="0" name="Target is">1</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveY+20</param>
+                </action>
+                <action id="-16" name="Wait" sid="589247086348052" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action behavior="LiteTween" id="10" name="Start" sid="210401291671855" type="maluku">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="860309709314112" type="maluku">
+                    <param id="0" name="Target is">0</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveX</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="878612627437383" type="maluku">
+                    <param id="0" name="Target is">1</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveY</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="629973246054069" type="System">
+                    <param id="0" name="Layout">daerah_maluku</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="752894261473800">
+            <conditions>
+                <condition id="3" name="On touched object" sid="808082872234372" type="Touch">
+                    <param id="0" name="Object">papua</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="LiteTween" id="10" name="Start" sid="562341409196694" type="papua">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="590187763754300" type="papua">
+                    <param id="0" name="Target is">0</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveX+20</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="417704561045095" type="papua">
+                    <param id="0" name="Target is">1</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveY+20</param>
+                </action>
+                <action id="-16" name="Wait" sid="665411937232507" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action behavior="LiteTween" id="10" name="Start" sid="689206210064401" type="papua">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="975766588237072" type="papua">
+                    <param id="0" name="Target is">0</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveX</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="808793905643578" type="papua">
+                    <param id="0" name="Target is">1</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveY</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="190222780895141" type="System">
+                    <param id="0" name="Layout">daerah_papua</param>
                 </action>
             </actions>
         </event-block>

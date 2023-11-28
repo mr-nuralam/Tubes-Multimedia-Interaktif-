@@ -2,5 +2,54 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>event-papua</name>
-    <events />
+    <events>
+        <event-block sid="255609629463608">
+            <conditions>
+                <condition id="3" name="On touched object" sid="782747252148176" type="Touch">
+                    <param id="0" name="Object">tifa</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="314073622228446" type="System">
+                    <param id="0" name="Layout">tifa_papua</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="388314783113906">
+            <conditions>
+                <condition id="3" name="On touched object" sid="416981611242686" type="Touch">
+                    <param id="0" name="Object">buton11</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="892660317269541" type="System">
+                    <param id="0" name="Layout">ukulele_maluku</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="129337509466208">
+            <conditions>
+                <condition id="3" name="On touched object" sid="883545518650936" type="Touch">
+                    <param id="0" name="Object">buton12</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="720609088641133" type="System">
+                    <param id="0" name="Layout">menu</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="534587980762273">
+            <conditions>
+                <condition id="3" name="On touched object" sid="346687227640782" type="Touch">
+                    <param id="0" name="Object">buton13</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="449716231756663" type="System">
+                    <param id="0" name="Layout">tifa_papua</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>

@@ -29,25 +29,26 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Sprite14" uid="170">
+                <instance type="video_pertunjukan" uid="170">
                     <properties>
+                        <webm-source></webm-source>
+                        <ogg-theora-source></ogg-theora-source>
+                        <h264-source></h264-source>
+                        <autoplay>Yes</autoplay>
+                        <play-in-background>No</play-in-background>
                         <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>641</x>
-                        <y>357</y>
+                        <x>351</x>
+                        <y>102</y>
                         <z>0</z>
-                        <width>1280</width>
-                        <height>720</height>
+                        <width>601</width>
+                        <height>388</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.500148177</hotspotY>
-                        <angle>0</angle>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
                         <opacity>1</opacity>
                     </world>
                 </instance>

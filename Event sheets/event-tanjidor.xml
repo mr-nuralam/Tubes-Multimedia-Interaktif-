@@ -2,5 +2,42 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>event-tanjidor</name>
-    <events />
+    <events>
+        <event-block sid="648732637898281">
+            <conditions>
+                <condition id="3" name="On touched object" sid="368594291180469" type="Touch">
+                    <param id="0" name="Object">buton11</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="886324631346036" type="System">
+                    <param id="0" name="Layout">kendang_jawa</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="562966538437615">
+            <conditions>
+                <condition id="3" name="On touched object" sid="597807065922021" type="Touch">
+                    <param id="0" name="Object">buton12</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="822309717053152" type="System">
+                    <param id="0" name="Layout">menu</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="314985834258366">
+            <conditions>
+                <condition id="3" name="On touched object" sid="627707320585029" type="Touch">
+                    <param id="0" name="Object">buton13</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="560953337260038" type="System">
+                    <param id="0" name="Layout">daerah_sumatera</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>

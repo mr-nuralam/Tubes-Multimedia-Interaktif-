@@ -2,5 +2,78 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>event-jawa</name>
-    <events />
+    <events>
+        <event-block sid="132560379316214">
+            <conditions>
+                <condition id="3" name="On touched object" sid="286381315028360" type="Touch">
+                    <param id="0" name="Object">buton11</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="370348677886984" type="System">
+                    <param id="0" name="Layout">peta</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="432738478041037">
+            <conditions>
+                <condition id="3" name="On touched object" sid="613111356682264" type="Touch">
+                    <param id="0" name="Object">buton12</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="142767013770872" type="System">
+                    <param id="0" name="Layout">menu</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="535609994077004">
+            <conditions>
+                <condition id="3" name="On touched object" sid="924710288318128" type="Touch">
+                    <param id="0" name="Object">buton13</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="717639607137766" type="System">
+                    <param id="0" name="Layout">angklung_jawa</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="772290606869423">
+            <conditions>
+                <condition id="3" name="On touched object" sid="712333727478944" type="Touch">
+                    <param id="0" name="Object">angklung</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="449880708565054" type="System">
+                    <param id="0" name="Layout">angklung_jawa</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="780767758673902">
+            <conditions>
+                <condition id="3" name="On touched object" sid="311324470537793" type="Touch">
+                    <param id="0" name="Object">kendang</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="641342013160537" type="System">
+                    <param id="0" name="Layout">kendang_jawa</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="304342427059782">
+            <conditions>
+                <condition id="3" name="On touched object" sid="629307408902260" type="Touch">
+                    <param id="0" name="Object">tanjidor</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="221889984399982" type="System">
+                    <param id="0" name="Layout">tanjidor_jawa</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>

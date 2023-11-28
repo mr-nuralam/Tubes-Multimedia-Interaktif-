@@ -2,5 +2,54 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>event-maluku</name>
-    <events />
+    <events>
+        <event-block sid="981400821595579">
+            <conditions>
+                <condition id="3" name="On touched object" sid="662549602855408" type="Touch">
+                    <param id="0" name="Object">ukulele</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="573824284077531" type="System">
+                    <param id="0" name="Layout">ukulele_maluku</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="943579519862944">
+            <conditions>
+                <condition id="3" name="On touched object" sid="626384796891293" type="Touch">
+                    <param id="0" name="Object">buton11</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="574626197144281" type="System">
+                    <param id="0" name="Layout">sasando_nusa tenggara</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="518500885697336">
+            <conditions>
+                <condition id="3" name="On touched object" sid="835906385634547" type="Touch">
+                    <param id="0" name="Object">buton12</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="737037316754720" type="System">
+                    <param id="0" name="Layout">menu</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="915692613703120">
+            <conditions>
+                <condition id="3" name="On touched object" sid="456285740413315" type="Touch">
+                    <param id="0" name="Object">buton13</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="756298535475444" type="System">
+                    <param id="0" name="Layout">ukulele_maluku</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>
