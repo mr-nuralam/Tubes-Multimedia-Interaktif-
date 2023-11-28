@@ -2,7 +2,7 @@
 <c2layout>
     <name>pengantar</name>
     <sid>727596683610588</sid>
-    <event-sheet>pengantar</event-sheet>
+    <event-sheet>event_pengantar</event-sheet>
     <size>
         <width>1280</width>
         <height>720</height>
@@ -114,6 +114,50 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="buton14" uid="25">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>50</x>
+                        <y>47</y>
+                        <z>0</z>
+                        <width>66.473152161</width>
+                        <height>70.584892273</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501718223</hotspotX>
+                        <hotspotY>0.501618147</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="buton12" uid="171">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>644</x>
+                        <y>679</y>
+                        <z>0</z>
+                        <width>105.092193604</width>
+                        <height>91.043876648</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501285374</hotspotX>
+                        <hotspotY>0.501483679</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -133,28 +177,6 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="buton7" uid="25">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>43</x>
-                        <y>45</y>
-                        <z>0</z>
-                        <width>62.107955933</width>
-                        <height>65.949684143</height>
-                        <depth>0</depth>
-                        <hotspotX>0.501718223</hotspotX>
-                        <hotspotY>0.501618147</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="buton8" uid="26">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>

@@ -2269,6 +2269,45 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Sprite14" sid="680065905471639">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="878335418927900" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500148" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Animations\bgmenu\Default\000.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="buton14" sid="873643771790462">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="347922052965301" speed="5">
+                    <frame duration="1" hotspotX="0.501718" hotspotY="0.501618" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\buton7.png">
+                        <collision-poly>
+                            <point x="0.189003" y="0.177994" />
+                            <point x="0.498282" y="0.0550162" />
+                            <point x="0.824742" y="0.165049" />
+                            <point x="0.986254" y="0.498382" />
+                            <point x="0.828179" y="0.838188" />
+                            <point x="0.498282" y="0.944984" />
+                            <point x="0.185567" y="0.825243" />
+                            <point x="0.0412371" y="0.498382" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\buton8.png">
+                        <collision-poly>
+                            <point x="0.181818" y="0.17284" />
+                            <point x="0.5" y="0.0339506" />
+                            <point x="0.834416" y="0.157407" />
+                            <point x="0.961039" y="0.5" />
+                            <point x="0.785714" y="0.796296" />
+                            <point x="0.5" y="0.882716" />
+                            <point x="0.227273" y="0.783951" />
+                            <point x="0.0714286" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -2295,11 +2334,12 @@
         <layout>ukulele_maluku.xml</layout>
         <layout>daerah_papua.xml</layout>
         <layout>tifa_papua.xml</layout>
+        <layout>video_menu.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>event-splash.xml</event-sheet>
         <event-sheet>event-menu.xml</event-sheet>
-        <event-sheet>pengantar.xml</event-sheet>
+        <event-sheet>event_pengantar.xml</event-sheet>
         <event-sheet>event-peta.xml</event-sheet>
         <event-sheet>event-jawa.xml</event-sheet>
         <event-sheet>event-sumatera.xml</event-sheet>
@@ -2320,6 +2360,7 @@
         <event-sheet>event-ukulele.xml</event-sheet>
         <event-sheet>event-papua.xml</event-sheet>
         <event-sheet>event-tifa.xml</event-sheet>
+        <event-sheet>event_video.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Function" uid="21" />

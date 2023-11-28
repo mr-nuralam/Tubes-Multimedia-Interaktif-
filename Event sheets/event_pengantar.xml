@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>event_pengantar</name>
+    <events>
+        <event-block sid="800121548194878">
+            <conditions>
+                <condition id="3" name="On touched object" sid="195036754386208" type="Touch">
+                    <param id="0" name="Object">buton9</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="471237295316562" type="System">
+                    <param id="0" name="Layout">menu</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="114825016892688">
+            <conditions>
+                <condition id="3" name="On touched object" sid="194547418249948" type="Touch">
+                    <param id="0" name="Object">buton10</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="629957802305321" type="System">
+                    <param id="0" name="Layout">peta</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="609704060810087">
+            <conditions>
+                <condition id="3" name="On touched object" sid="341757487239012" type="Touch">
+                    <param id="0" name="Object">buton12</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="899420580095600" type="System">
+                    <param id="0" name="Layout">menu</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
