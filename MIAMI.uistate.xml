@@ -23,13 +23,21 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="12">kendang_jawa</layout>
         <layout order="13">tanjidor_jawa</layout>
         <layout order="17">daerah_sulawesi</layout>
-        <layout active="1" order="18">kolintang_sulawesi</layout>
+        <layout order="18">kolintang_sulawesi</layout>
+        <layout order="20">daerah_kalimantan</layout>
+        <layout order="22">sape_kalimantan</layout>
+        <layout order="24">kecapi_kalimantan</layout>
+        <layout order="25">daerah_nusa tenggara</layout>
+        <layout active="1" order="26">sasando_nusa tenggara</layout>
         <event-sheet order="1">event-splash</event-sheet>
         <event-sheet order="3">event-menu</event-sheet>
         <event-sheet order="14">event-garantung</event-sheet>
         <event-sheet order="15">event-angklung</event-sheet>
         <event-sheet order="16">event-tanjidor</event-sheet>
         <event-sheet order="19">event-sulawesi</event-sheet>
+        <event-sheet order="21">event-kalimantan</event-sheet>
+        <event-sheet order="23">event-sape</event-sheet>
+        <event-sheet order="27">event-sasando</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -132,5 +140,24 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/buton11/" />
         <folder expanded="1" path="animation-folder/buton12/" />
         <folder expanded="1" path="animation-folder/buton13/" />
+        <folder expanded="1" path="animation-folder/bgkalimantan/" />
+        <folder expanded="1" path="animation-folder/titlekalimantan/" />
+        <folder expanded="1" path="animation-folder/sape/" />
+        <folder expanded="1" path="animation-folder/kecapi/" />
+        <folder expanded="1" path="animation-folder/bgkalimantan2/" />
+        <folder expanded="1" path="animation-folder/titlekalimantan2/" />
+        <folder expanded="1" path="animation-folder/tekssape/" />
+        <folder expanded="1" path="animation-folder/sape2/" />
+        <folder expanded="1" path="animation-folder/bgkalimantan3/" />
+        <folder expanded="1" path="animation-folder/titlekalimantan3/" />
+        <folder expanded="1" path="animation-folder/kecapi2/" />
+        <folder expanded="1" path="animation-folder/tekskecapi/" />
+        <folder expanded="1" path="animation-folder/bgnusatenggara/" />
+        <folder expanded="1" path="animation-folder/titlenusatenggara/" />
+        <folder expanded="1" path="animation-folder/sasando/" />
+        <folder expanded="1" path="animation-folder/bgnusatenggara2/" />
+        <folder expanded="1" path="animation-folder/titlenusatenggara2/" />
+        <folder expanded="1" path="animation-folder/tekssasando/" />
+        <folder expanded="1" path="animation-folder/sasando2/" />
     </folders-expanded>
 </c2uistate>

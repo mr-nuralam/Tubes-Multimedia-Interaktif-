@@ -1628,6 +1628,331 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="bgkalimantan" sid="877786406522057">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="593557644162560" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\bg-kalimantan.png">
+                        <collision-poly>
+                            <point x="0.000347222" y="0.000617284" />
+                            <point x="0.999653" y="0.000617284" />
+                            <point x="0.999653" y="0.999383" />
+                            <point x="0.000347222" y="0.999383" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titlekalimantan" sid="564267077923436">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="303435537449405" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\title-kalimantan.png">
+                        <collision-poly>
+                            <point x="0.0551684" y="0.259563" />
+                            <point x="0.944832" y="0.259563" />
+                            <point x="0.969222" y="0.5" />
+                            <point x="0.9518" y="0.773224" />
+                            <point x="0.0481998" y="0.773224" />
+                            <point x="0.0261324" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sape" sid="401776750224665">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="315156623792453" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50062" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\sape.png">
+                        <collision-poly>
+                            <point x="0.194215" y="0.174721" />
+                            <point x="0.5" y="0.063197" />
+                            <point x="0.786501" y="0.192069" />
+                            <point x="0.869146" y="0.49938" />
+                            <point x="0.818182" y="0.836431" />
+                            <point x="0.5" y="0.874845" />
+                            <point x="0.150138" y="0.864932" />
+                            <point x="0.0964187" y="0.49938" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="kecapi" sid="163509676129844">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="587267314552096" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\kecapi.png">
+                        <collision-poly>
+                            <point x="0.201449" y="0.179587" />
+                            <point x="0.5" y="0.0839793" />
+                            <point x="0.77971" y="0.196382" />
+                            <point x="0.895652" y="0.5" />
+                            <point x="0.833333" y="0.851421" />
+                            <point x="0.5" y="0.930233" />
+                            <point x="0.128986" y="0.885013" />
+                            <point x="0.0666667" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bgkalimantan2" sid="281466600773364">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="787617293415072" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\bg-kalimantan.png">
+                        <collision-poly>
+                            <point x="0.000347222" y="0.000617284" />
+                            <point x="0.999653" y="0.000617284" />
+                            <point x="0.999653" y="0.999383" />
+                            <point x="0.000347222" y="0.999383" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titlekalimantan2" sid="200513483855987">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="802597549889475" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\title-kalimantan.png">
+                        <collision-poly>
+                            <point x="0.0551684" y="0.259563" />
+                            <point x="0.944832" y="0.259563" />
+                            <point x="0.969222" y="0.5" />
+                            <point x="0.9518" y="0.773224" />
+                            <point x="0.0481998" y="0.773224" />
+                            <point x="0.0261324" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tekssape" sid="246012480784738">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="370179511477987" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.181513" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\teks-sape.png">
+                        <collision-poly>
+                            <point x="0.215611" y="0.00336134" />
+                            <point x="0.784389" y="0.00336134" />
+                            <point x="0.999614" y="0.181513" />
+                            <point x="0.931221" y="0.998319" />
+                            <point x="0.068779" y="0.998319" />
+                            <point x="0.000386399" y="0.181513" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sape2" sid="875603929917773">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="266066193713338" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50062" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\sape.png">
+                        <collision-poly>
+                            <point x="0.194215" y="0.174721" />
+                            <point x="0.5" y="0.063197" />
+                            <point x="0.786501" y="0.192069" />
+                            <point x="0.869146" y="0.49938" />
+                            <point x="0.818182" y="0.836431" />
+                            <point x="0.5" y="0.874845" />
+                            <point x="0.150138" y="0.864932" />
+                            <point x="0.0964187" y="0.49938" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bgkalimantan3" sid="163133133095409">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="572651949063360" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\bg-kalimantan.png">
+                        <collision-poly>
+                            <point x="0.000347222" y="0.000617284" />
+                            <point x="0.999653" y="0.000617284" />
+                            <point x="0.999653" y="0.999383" />
+                            <point x="0.000347222" y="0.999383" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titlekalimantan3" sid="367542221846106">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="558587582746760" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\title-kalimantan.png">
+                        <collision-poly>
+                            <point x="0.0551684" y="0.259563" />
+                            <point x="0.944832" y="0.259563" />
+                            <point x="0.969222" y="0.5" />
+                            <point x="0.9518" y="0.773224" />
+                            <point x="0.0481998" y="0.773224" />
+                            <point x="0.0261324" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="kecapi2" sid="641197540323884">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="884469068582367" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\kecapi.png">
+                        <collision-poly>
+                            <point x="0.201449" y="0.179587" />
+                            <point x="0.5" y="0.0839793" />
+                            <point x="0.77971" y="0.196382" />
+                            <point x="0.895652" y="0.5" />
+                            <point x="0.833333" y="0.851421" />
+                            <point x="0.5" y="0.930233" />
+                            <point x="0.128986" y="0.885013" />
+                            <point x="0.0666667" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tekskecapi" sid="158078940129459">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="193085284759256" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.181513" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\teks-kecapi.png">
+                        <collision-poly>
+                            <point x="0.215611" y="0.00336134" />
+                            <point x="0.784389" y="0.00336134" />
+                            <point x="0.999614" y="0.181513" />
+                            <point x="0.931221" y="0.998319" />
+                            <point x="0.068779" y="0.998319" />
+                            <point x="0.000386399" y="0.181513" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bgnusatenggara" sid="638025121167109">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="384427418039164" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\bg-nusatenggara.png">
+                        <collision-poly>
+                            <point x="0.000347222" y="0.000617284" />
+                            <point x="0.999653" y="0.000617284" />
+                            <point x="0.999653" y="0.999383" />
+                            <point x="0.000347222" y="0.999383" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titlenusatenggara" sid="846205146636671">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="746368739575462" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501182" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\title-nusatenggara.png">
+                        <collision-poly>
+                            <point x="0.0568862" y="0.224586" />
+                            <point x="0.943114" y="0.224586" />
+                            <point x="0.983832" y="0.498818" />
+                            <point x="0.916168" y="0.669031" />
+                            <point x="0.0838323" y="0.669031" />
+                            <point x="0.0257485" y="0.498818" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sasando" sid="568007623259383">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="171320527715610" speed="5">
+                    <frame duration="1" hotspotX="0.500701" hotspotY="0.500635" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\sasando.png">
+                        <collision-poly>
+                            <point x="0.206171" y="0.186785" />
+                            <point x="0.499299" y="0.0635324" />
+                            <point x="0.802244" y="0.179161" />
+                            <point x="0.904628" y="0.499365" />
+                            <point x="0.84993" y="0.864041" />
+                            <point x="0.499299" y="0.895807" />
+                            <point x="0.168303" y="0.847522" />
+                            <point x="0.112202" y="0.499365" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bgnusatenggara2" sid="600950405527161">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="356393870496921" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\bg-nusatenggara.png">
+                        <collision-poly>
+                            <point x="0.000347222" y="0.000617284" />
+                            <point x="0.999653" y="0.000617284" />
+                            <point x="0.999653" y="0.999383" />
+                            <point x="0.000347222" y="0.999383" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titlenusatenggara2" sid="116938991810852">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="686913950898842" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501182" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\title-nusatenggara.png">
+                        <collision-poly>
+                            <point x="0.0568862" y="0.224586" />
+                            <point x="0.943114" y="0.224586" />
+                            <point x="0.983832" y="0.498818" />
+                            <point x="0.916168" y="0.669031" />
+                            <point x="0.0838323" y="0.669031" />
+                            <point x="0.0257485" y="0.498818" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tekssasando" sid="142326354241417">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="932335045946621" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.181513" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\teks-sasando.png">
+                        <collision-poly>
+                            <point x="0.215611" y="0.00336134" />
+                            <point x="0.784389" y="0.00336134" />
+                            <point x="0.999614" y="0.181513" />
+                            <point x="0.931221" y="0.998319" />
+                            <point x="0.068779" y="0.998319" />
+                            <point x="0.000386399" y="0.181513" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sasando2" sid="694977649511673">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="867201916710591" speed="5">
+                    <frame duration="1" hotspotX="0.500701" hotspotY="0.500635" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\sasando.png">
+                        <collision-poly>
+                            <point x="0.206171" y="0.186785" />
+                            <point x="0.499299" y="0.0635324" />
+                            <point x="0.802244" y="0.179161" />
+                            <point x="0.904628" y="0.499365" />
+                            <point x="0.84993" y="0.864041" />
+                            <point x="0.499299" y="0.895807" />
+                            <point x="0.168303" y="0.847522" />
+                            <point x="0.112202" y="0.499365" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -1645,6 +1970,11 @@
         <layout>tanjidor_jawa.xml</layout>
         <layout>daerah_sulawesi.xml</layout>
         <layout>kolintang_sulawesi.xml</layout>
+        <layout>daerah_kalimantan.xml</layout>
+        <layout>sape_kalimantan.xml</layout>
+        <layout>kecapi_kalimantan.xml</layout>
+        <layout>daerah_nusa tenggara.xml</layout>
+        <layout>sasando_nusa tenggara.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>event-splash.xml</event-sheet>
@@ -1661,6 +1991,11 @@
         <event-sheet>event-tanjidor.xml</event-sheet>
         <event-sheet>event-sulawesi.xml</event-sheet>
         <event-sheet>event-kolintang.xml</event-sheet>
+        <event-sheet>event-kalimantan.xml</event-sheet>
+        <event-sheet>event-sape.xml</event-sheet>
+        <event-sheet>event-kecapi.xml</event-sheet>
+        <event-sheet>event-nusa tenggara.xml</event-sheet>
+        <event-sheet>event-sasando.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Function" uid="21" />
