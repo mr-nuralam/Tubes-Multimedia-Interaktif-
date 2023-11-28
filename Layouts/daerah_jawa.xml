@@ -13,7 +13,7 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="Layer 0" sid="509857121548336">
+        <layer name="bg" sid="509857121548336">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>0</transparent>
@@ -67,7 +67,7 @@
                         <width>764.84173584</width>
                         <height>123.744544983</height>
                         <depth>0</depth>
-                        <hotspotX>0.500298977</hotspotX>
+                        <hotspotX>0.5002985</hotspotX>
                         <hotspotY>0.501845002</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -161,7 +161,7 @@
             </instances>
             <effects />
         </layer>
-        <layer name="Layer 1" sid="965501072811834">
+        <layer name="gbr" sid="965501072811834">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>

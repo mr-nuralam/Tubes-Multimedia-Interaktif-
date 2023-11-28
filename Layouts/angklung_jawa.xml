@@ -2,7 +2,7 @@
 <c2layout>
     <name>angklung_jawa</name>
     <sid>954964229011950</sid>
-    <event-sheet>Event sheet 1</event-sheet>
+    <event-sheet>event-angklung</event-sheet>
     <size>
         <width>1280</width>
         <height>720</height>
@@ -67,7 +67,7 @@
                         <width>764.84173584</width>
                         <height>123.744544983</height>
                         <depth>0</depth>
-                        <hotspotX>0.500298977</hotspotX>
+                        <hotspotX>0.5002985</hotspotX>
                         <hotspotY>0.501845002</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -90,7 +90,7 @@
                         <height>256.8230896</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.181512997</hotspotY>
+                        <hotspotY>0.181512609</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

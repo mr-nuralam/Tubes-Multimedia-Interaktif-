@@ -21,10 +21,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="10">daerah_jawa</layout>
         <layout order="11">angklung_jawa</layout>
         <layout order="12">kendang_jawa</layout>
-        <layout active="1" order="13">tanjidor_jawa</layout>
+        <layout order="13">tanjidor_jawa</layout>
+        <layout active="1" order="17">daerah_sulawesi</layout>
         <event-sheet order="1">event-splash</event-sheet>
         <event-sheet order="3">event-menu</event-sheet>
         <event-sheet order="14">event-garantung</event-sheet>
+        <event-sheet order="15">event-angklung</event-sheet>
+        <event-sheet order="16">event-tanjidor</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />

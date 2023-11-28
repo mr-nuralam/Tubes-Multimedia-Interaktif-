@@ -1355,6 +1355,7 @@
         <layout>angklung_jawa.xml</layout>
         <layout>kendang_jawa.xml</layout>
         <layout>tanjidor_jawa.xml</layout>
+        <layout>daerah_sulawesi.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>event-splash.xml</event-sheet>
@@ -1366,9 +1367,10 @@
         <event-sheet>event-saluang.xml</event-sheet>
         <event-sheet>event-serunai.xml</event-sheet>
         <event-sheet>event-garantung.xml</event-sheet>
-        <event-sheet>Event sheet 1.xml</event-sheet>
-        <event-sheet>Event sheet 2.xml</event-sheet>
-        <event-sheet>Event sheet 3.xml</event-sheet>
+        <event-sheet>event-angklung.xml</event-sheet>
+        <event-sheet>event-kendang.xml</event-sheet>
+        <event-sheet>event-tanjidor.xml</event-sheet>
+        <event-sheet>event-sulawesi.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Function" uid="21" />
