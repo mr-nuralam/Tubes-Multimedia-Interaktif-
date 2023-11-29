@@ -2490,13 +2490,13 @@
         <layout>pengantar.xml</layout>
         <layout>peta.xml</layout>
         <layout>daerah_jawa.xml</layout>
-        <layout>angklung_jawa.xml</layout>
-        <layout>kendang_jawa.xml</layout>
-        <layout>tanjidor_jawa.xml</layout>
         <layout>daerah_sumatera.xml</layout>
         <layout>saluang_sumatera.xml</layout>
         <layout>serunai_sumatera.xml</layout>
         <layout>garantung_sumatera.xml</layout>
+        <layout>angklung_jawa.xml</layout>
+        <layout>kendang_jawa.xml</layout>
+        <layout>tanjidor_jawa.xml</layout>
         <layout>daerah_sulawesi.xml</layout>
         <layout>kolintang_sulawesi.xml</layout>
         <layout>daerah_kalimantan.xml</layout>

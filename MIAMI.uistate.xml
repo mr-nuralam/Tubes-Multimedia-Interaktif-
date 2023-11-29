@@ -12,7 +12,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <open-tabs>
         <layout order="1">serunai_sumatera</layout>
         <layout order="2">saluang_sumatera</layout>
-        <layout active="1" order="3">daerah_sumatera</layout>
+        <layout order="3">daerah_sumatera</layout>
         <layout order="5">daerah_jawa</layout>
         <layout order="6">angklung_jawa</layout>
         <layout order="7">tanjidor_jawa</layout>
@@ -43,7 +43,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <event-sheet order="17">event-sape</event-sheet>
         <event-sheet order="21">event-sasando</event-sheet>
         <event-sheet order="27">event_pengantar</event-sheet>
-        <event-sheet order="28">event-jawa</event-sheet>
+        <event-sheet active="1" order="28">event-jawa</event-sheet>
         <event-sheet order="30">event-sumatera</event-sheet>
         <event-sheet order="31">event-saluang</event-sheet>
         <event-sheet order="32">event-garantung</event-sheet>
