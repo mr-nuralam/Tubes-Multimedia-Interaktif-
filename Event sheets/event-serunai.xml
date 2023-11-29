@@ -11,7 +11,13 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="577960424896992" type="System">
-                    <param id="0" name="Layout">saluang_sumatera</param>
+                    <param id="0" name="Layout">daerah_sumatera</param>
+                </action>
+                <action id="0" name="Play" sid="293313558314047" type="Audio">
+                    <param id="0" name="Audio file">organic-button</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -25,6 +31,12 @@
                 <action id="-2" name="Go to layout" sid="459472345035997" type="System">
                     <param id="0" name="Layout">menu</param>
                 </action>
+                <action id="0" name="Play" sid="343375947660666" type="Audio">
+                    <param id="0" name="Audio file">organic-button</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="966971624219279">
@@ -36,6 +48,12 @@
             <actions>
                 <action id="-2" name="Go to layout" sid="226789161705105" type="System">
                     <param id="0" name="Layout">garantung_sumatera</param>
+                </action>
+                <action id="0" name="Play" sid="559138496527237" type="Audio">
+                    <param id="0" name="Audio file">organic-button</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>

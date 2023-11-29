@@ -11,7 +11,13 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="348719800665058" type="System">
-                    <param id="0" name="Layout">serunai_sumatera</param>
+                    <param id="0" name="Layout">daerah_sumatera</param>
+                </action>
+                <action id="0" name="Play" sid="431809546610508" type="Audio">
+                    <param id="0" name="Audio file">organic-button</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -25,17 +31,11 @@
                 <action id="-2" name="Go to layout" sid="503424884819890" type="System">
                     <param id="0" name="Layout">menu</param>
                 </action>
-            </actions>
-        </event-block>
-        <event-block sid="796271856456447">
-            <conditions>
-                <condition id="3" name="On touched object" sid="438458532909634" type="Touch">
-                    <param id="0" name="Object">buton13</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="927430855579550" type="System">
-                    <param id="0" name="Layout">daerah_kalimantan</param>
+                <action id="0" name="Play" sid="587812042641035" type="Audio">
+                    <param id="0" name="Audio file">organic-button</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>

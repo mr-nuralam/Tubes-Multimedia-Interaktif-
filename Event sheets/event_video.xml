@@ -2,5 +2,34 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>event_video</name>
-    <events />
+    <events>
+        <event-block sid="935746083719278">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="366372902809228" type="System" />
+            </conditions>
+            <actions>
+                <action id="6" name="Play" sid="222022337417860" type="video_pertunjukan" />
+            </actions>
+        </event-block>
+        <event-block sid="891365481865391">
+            <conditions>
+                <condition id="3" name="On touched object" sid="488163219532640" type="Touch">
+                    <param id="0" name="Object">pause</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Pause" sid="188951411985419" type="video_pertunjukan" />
+            </actions>
+        </event-block>
+        <event-block sid="492026024527908">
+            <conditions>
+                <condition id="3" name="On touched object" sid="293947950815914" type="Touch">
+                    <param id="0" name="Object">play</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="6" name="Play" sid="933636702216123" type="video_pertunjukan" />
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>

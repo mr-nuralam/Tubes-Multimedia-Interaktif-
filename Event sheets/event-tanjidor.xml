@@ -3,6 +3,96 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>event-tanjidor</name>
     <events>
+        <variable constant="0" name="buttonmusik4" sid="453197077544488" static="0" type="number">0</variable>
+        <event-block sid="780475823803621">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="819077433012214" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="162534490451384">
+                    <conditions>
+                        <condition id="3" name="Is silent" sid="942834107114896" type="Audio" />
+                    </conditions>
+                    <actions>
+                        <action id="33" name="Stop all" sid="101232409229934" type="Audio" />
+                        <action id="0" name="Play" sid="933567647855831" type="Audio">
+                            <param id="0" name="Audio file">tanjidor-betawi-_jawa_</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;musik&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="762220716275025">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="495803191713760" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="903963358861830" type="Audio">
+                            <param id="0" name="Audio file">tanjidor-betawi-_jawa_</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;musik&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="692132748431551">
+            <conditions>
+                <condition id="3" name="On touched object" sid="648604785013671" type="Touch">
+                    <param id="0" name="Object">putarAlatMusik</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Move to layer" sid="913889811099526" type="putarAlatMusik">
+                    <param id="0" name="Layer">0</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="966859510320072">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="217561275472724" type="System">
+                            <param id="0" name="Variable">buttonmusik</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="193403100090265" type="System">
+                            <param id="0" name="Variable">buttonmusik</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="2" name="Set muted" sid="722687239909344" type="Audio">
+                            <param id="0" name="Tag">&quot;musik&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="330615905094130" type="putarAlatMusik">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="468191683606400">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="374058051987378" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="938957674593696" type="System">
+                            <param id="0" name="Variable">buttonmusik</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="2" name="Set muted" sid="129240999598935" type="Audio">
+                            <param id="0" name="Tag">&quot;musik&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="605735093703331" type="putarAlatMusik">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
         <event-block sid="648732637898281">
             <conditions>
                 <condition id="3" name="On touched object" sid="368594291180469" type="Touch">
@@ -11,7 +101,13 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="886324631346036" type="System">
-                    <param id="0" name="Layout">kendang_jawa</param>
+                    <param id="0" name="Layout">daerah_jawa</param>
+                </action>
+                <action id="0" name="Play" sid="486031768157558" type="Audio">
+                    <param id="0" name="Audio file">organic-button</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -25,17 +121,11 @@
                 <action id="-2" name="Go to layout" sid="822309717053152" type="System">
                     <param id="0" name="Layout">menu</param>
                 </action>
-            </actions>
-        </event-block>
-        <event-block sid="314985834258366">
-            <conditions>
-                <condition id="3" name="On touched object" sid="627707320585029" type="Touch">
-                    <param id="0" name="Object">buton13</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="560953337260038" type="System">
-                    <param id="0" name="Layout">daerah_sumatera</param>
+                <action id="0" name="Play" sid="547502469742043" type="Audio">
+                    <param id="0" name="Audio file">organic-button</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>

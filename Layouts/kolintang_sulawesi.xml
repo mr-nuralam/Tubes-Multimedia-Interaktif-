@@ -70,28 +70,6 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="titlesulawesi3" uid="75">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>627</x>
-                        <y>89</y>
-                        <z>0</z>
-                        <width>541.892028809</width>
-                        <height>85.135002136</height>
-                        <depth>0</depth>
-                        <hotspotX>0.500278533</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="tekskolintang" uid="77">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -132,6 +110,28 @@
                         <depth>0</depth>
                         <hotspotX>0.500699282</hotspotX>
                         <hotspotY>0.500648499</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="titlesulawesi5" uid="75">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>624</x>
+                        <y>90</y>
+                        <z>0</z>
+                        <width>535.193969727</width>
+                        <height>63.080001831</height>
+                        <depth>0</depth>
+                        <hotspotX>0.495085984</hotspotX>
+                        <hotspotY>0.510416687</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -190,11 +190,11 @@
                         <x>662</x>
                         <y>677</y>
                         <z>0</z>
-                        <width>105.092193604</width>
-                        <height>91.043876648</height>
+                        <width>74.293968201</width>
+                        <height>74.023803711</height>
                         <depth>0</depth>
-                        <hotspotX>0.501285374</hotspotX>
-                        <hotspotY>0.501483679</hotspotY>
+                        <hotspotX>0.461818188</hotspotX>
+                        <hotspotY>0.525547445</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -212,11 +212,11 @@
                         <x>1189</x>
                         <y>675</y>
                         <z>0</z>
-                        <width>86.961639404</width>
-                        <height>88.487289429</height>
+                        <width>69.925292969</width>
+                        <height>69.925300598</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.523636341</hotspotX>
+                        <hotspotY>0.50545454</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

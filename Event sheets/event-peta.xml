@@ -171,6 +171,12 @@
                 <action id="-2" name="Go to layout" sid="675485075797333" type="System">
                     <param id="0" name="Layout">daerah_jawa</param>
                 </action>
+                <action id="0" name="Play" sid="904528751845117" type="Audio">
+                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="353359485195510">
@@ -213,6 +219,12 @@
                 </action>
                 <action id="-2" name="Go to layout" sid="452952933058598" type="System">
                     <param id="0" name="Layout">daerah_kalimantan</param>
+                </action>
+                <action id="0" name="Play" sid="663865865318785" type="Audio">
+                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -257,6 +269,12 @@
                 <action id="-2" name="Go to layout" sid="129074798990541" type="System">
                     <param id="0" name="Layout">daerah_sumatera</param>
                 </action>
+                <action id="0" name="Play" sid="827541654339608" type="Audio">
+                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="216275826909725">
@@ -299,6 +317,12 @@
                 </action>
                 <action id="-2" name="Go to layout" sid="746596942059859" type="System">
                     <param id="0" name="Layout">daerah_sulawesi</param>
+                </action>
+                <action id="0" name="Play" sid="139444369318334" type="Audio">
+                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -343,6 +367,12 @@
                 <action id="-2" name="Go to layout" sid="853813230651485" type="System">
                     <param id="0" name="Layout">daerah_nusa tenggara</param>
                 </action>
+                <action id="0" name="Play" sid="344327833032544" type="Audio">
+                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="485763257063756">
@@ -386,6 +416,12 @@
                 <action id="-2" name="Go to layout" sid="629973246054069" type="System">
                     <param id="0" name="Layout">daerah_maluku</param>
                 </action>
+                <action id="0" name="Play" sid="545938644172957" type="Audio">
+                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="752894261473800">
@@ -428,6 +464,30 @@
                 </action>
                 <action id="-2" name="Go to layout" sid="190222780895141" type="System">
                     <param id="0" name="Layout">daerah_papua</param>
+                </action>
+                <action id="0" name="Play" sid="315943631524698" type="Audio">
+                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="393938570113150">
+            <conditions>
+                <condition id="3" name="On touched object" sid="338296896871431" type="Touch">
+                    <param id="0" name="Object">buton12</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="784153781055480" type="System">
+                    <param id="0" name="Layout">menu</param>
+                </action>
+                <action id="0" name="Play" sid="589587953552690" type="Audio">
+                    <param id="0" name="Audio file">organic-button</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>

@@ -12,51 +12,52 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <open-tabs>
         <layout order="1">serunai_sumatera</layout>
         <layout order="2">saluang_sumatera</layout>
-        <layout order="3">daerah_sumatera</layout>
-        <layout order="5">daerah_jawa</layout>
-        <layout order="6">angklung_jawa</layout>
+        <layout order="5">daerah_sumatera</layout>
+        <layout order="6">daerah_jawa</layout>
+        <layout order="43">angklung_jawa</layout>
         <layout order="7">tanjidor_jawa</layout>
         <layout order="8">garantung_sumatera</layout>
         <layout order="11">daerah_sulawesi</layout>
         <layout order="12">kolintang_sulawesi</layout>
-        <layout order="14">daerah_kalimantan</layout>
-        <layout order="16">sape_kalimantan</layout>
-        <layout order="18">kecapi_kalimantan</layout>
-        <layout order="19">daerah_nusa tenggara</layout>
-        <layout order="20">sasando_nusa tenggara</layout>
-        <layout order="22">daerah_maluku</layout>
-        <layout order="23">ukulele_maluku</layout>
-        <layout order="24">daerah_papua</layout>
-        <layout order="25">tifa_papua</layout>
-        <layout order="26">video_menu</layout>
-        <layout order="29">kendang_jawa</layout>
-        <layout order="43">splash</layout>
-        <layout order="44">pengantar</layout>
-        <layout order="45">peta</layout>
-        <layout order="46">menu</layout>
+        <layout order="15">sape_kalimantan</layout>
+        <layout order="17">kecapi_kalimantan</layout>
+        <layout order="18">daerah_nusa tenggara</layout>
+        <layout order="19">sasando_nusa tenggara</layout>
+        <layout order="21">daerah_maluku</layout>
+        <layout order="22">ukulele_maluku</layout>
+        <layout order="23">daerah_papua</layout>
+        <layout order="24">tifa_papua</layout>
+        <layout order="25">video_menu</layout>
+        <layout order="28">kendang_jawa</layout>
+        <layout order="42">splash</layout>
+        <layout order="45">pengantar</layout>
+        <layout order="3">peta</layout>
+        <layout order="40">menu</layout>
+        <layout order="46">daerah_kalimantan</layout>
         <event-sheet order="0">event-serunai</event-sheet>
         <event-sheet order="4">event-kendang</event-sheet>
         <event-sheet order="9">event-angklung</event-sheet>
         <event-sheet order="10">event-tanjidor</event-sheet>
         <event-sheet order="13">event-sulawesi</event-sheet>
-        <event-sheet order="15">event-kalimantan</event-sheet>
-        <event-sheet order="17">event-sape</event-sheet>
-        <event-sheet order="21">event-sasando</event-sheet>
-        <event-sheet order="27">event_pengantar</event-sheet>
-        <event-sheet active="1" order="28">event-jawa</event-sheet>
-        <event-sheet order="30">event-sumatera</event-sheet>
-        <event-sheet order="31">event-saluang</event-sheet>
-        <event-sheet order="32">event-garantung</event-sheet>
-        <event-sheet order="33">event-kecapi</event-sheet>
-        <event-sheet order="34">event-kolintang</event-sheet>
-        <event-sheet order="35">event-nusa tenggara</event-sheet>
-        <event-sheet order="36">event-maluku</event-sheet>
-        <event-sheet order="37">event-ukulele</event-sheet>
-        <event-sheet order="38">event-papua</event-sheet>
-        <event-sheet order="39">event-tifa</event-sheet>
-        <event-sheet order="40">event-menu</event-sheet>
-        <event-sheet order="41">event-peta</event-sheet>
-        <event-sheet order="42">event-splash</event-sheet>
+        <event-sheet order="14">event-kalimantan</event-sheet>
+        <event-sheet order="16">event-sape</event-sheet>
+        <event-sheet order="20">event-sasando</event-sheet>
+        <event-sheet order="26">event_pengantar</event-sheet>
+        <event-sheet order="27">event-jawa</event-sheet>
+        <event-sheet order="29">event-sumatera</event-sheet>
+        <event-sheet order="30">event-saluang</event-sheet>
+        <event-sheet order="31">event-garantung</event-sheet>
+        <event-sheet order="32">event-kecapi</event-sheet>
+        <event-sheet order="33">event-kolintang</event-sheet>
+        <event-sheet order="34">event-nusa tenggara</event-sheet>
+        <event-sheet order="35">event-maluku</event-sheet>
+        <event-sheet order="36">event-ukulele</event-sheet>
+        <event-sheet order="37">event-papua</event-sheet>
+        <event-sheet order="38">event-tifa</event-sheet>
+        <event-sheet active="1" order="39">event-menu</event-sheet>
+        <event-sheet order="44">event-peta</event-sheet>
+        <event-sheet order="41">event-splash</event-sheet>
+        <event-sheet order="47">event_video</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -204,5 +205,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite16/" />
         <folder expanded="1" path="animation-folder/Sprite17/" />
         <folder expanded="1" path="animation-folder/Sprite18/" />
+        <folder expanded="1" path="animation-folder/Sprite19/" />
+        <folder expanded="1" path="animation-folder/Sprite20/" />
+        <folder expanded="1" path="animation-folder/kalimantan2/" />
+        <folder expanded="1" path="animation-folder/titlesulawesi5/" />
+        <folder expanded="1" path="animation-folder/putarAlatMusik/" />
+        <folder expanded="1" path="animation-folder/Sprite21/" />
+        <folder expanded="1" path="animation-folder/play/" />
+        <folder expanded="1" path="animation-folder/pause/" />
     </folders-expanded>
 </c2uistate>

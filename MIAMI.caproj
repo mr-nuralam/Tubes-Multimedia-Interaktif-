@@ -11,6 +11,7 @@
     <saved-with-version>27900</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
         <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
@@ -55,6 +56,9 @@
             </object-type>
             <object-type name="Touch" sid="172607257748416">
                 <plugin id="Touch" />
+            </object-type>
+            <object-type name="Browser" sid="517557483359939">
+                <plugin id="Browser" />
             </object-type>
         </object-folder>
         <object-type name="bgsplash" sid="752702922777860">
@@ -972,16 +976,16 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="131367529655405" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\ZAHRO\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\saluang.png">
+                    <frame duration="1" hotspotX="0.527559" hotspotY="0.488927" original-source="C:\Users\ZAHRO\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\saluang.png">
                         <collision-poly>
-                            <point x="0.211221" y="0.180282" />
-                            <point x="0.5" y="0.0985916" />
-                            <point x="0.767327" y="0.198592" />
-                            <point x="0.889439" y="0.5" />
-                            <point x="0.877888" y="0.895775" />
-                            <point x="0.5" y="0.921127" />
-                            <point x="0.0924092" y="0.921127" />
-                            <point x="0.0627063" y="0.5" />
+                            <point x="0.183071" y="0.102215" />
+                            <point x="0.527559" y="0.00340722" />
+                            <point x="0.846457" y="0.124362" />
+                            <point x="0.992126" y="0.488927" />
+                            <point x="0.978347" y="0.967632" />
+                            <point x="0.527559" y="0.998297" />
+                            <point x="0.0413385" y="0.998297" />
+                            <point x="0.00590555" y="0.488927" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -991,15 +995,15 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="421817505225170" speed="5">
-                    <frame duration="1" hotspotX="0.500867" hotspotY="0.500736" original-source="C:\Users\ZAHRO\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\serunai.png">
+                    <frame duration="1" hotspotX="0.492126" hotspotY="0.541738" original-source="C:\Users\ZAHRO\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\serunai.png">
                         <collision-poly>
-                            <point x="0.183709" y="0.156112" />
-                            <point x="0.499133" y="0.0353461" />
-                            <point x="0.823224" y="0.150221" />
-                            <point x="0.930676" y="0.499264" />
-                            <point x="0.87695" y="0.895434" />
-                            <point x="0.12305" y="0.895434" />
-                            <point x="0.0831889" y="0.499264" />
+                            <point x="0.13189" y="0.143101" />
+                            <point x="0.490157" y="0.00340715" />
+                            <point x="0.858268" y="0.136286" />
+                            <point x="0.980315" y="0.540034" />
+                            <point x="0.919292" y="0.998296" />
+                            <point x="0.0629918" y="0.998296" />
+                            <point x="0.0177165" y="0.540034" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1009,16 +1013,16 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="523969698527565" speed="5">
-                    <frame duration="1" hotspotX="0.500867" hotspotY="0.500761" original-source="C:\Users\ZAHRO\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\garantung.png">
+                    <frame duration="1" hotspotX="0.493124" hotspotY="0.507666" original-source="C:\Users\ZAHRO\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\garantung.png">
                         <collision-poly>
-                            <point x="0.190641" y="0.167428" />
-                            <point x="0.499133" y="0.0502283" />
-                            <point x="0.816291" y="0.161339" />
-                            <point x="0.937608" y="0.499239" />
-                            <point x="0.92201" y="0.931507" />
-                            <point x="0.499133" y="0.939117" />
-                            <point x="0.0866551" y="0.923896" />
-                            <point x="0.0762565" y="0.499239" />
+                            <point x="0.141454" y="0.134583" />
+                            <point x="0.491159" y="0.00340714" />
+                            <point x="0.850687" y="0.127768" />
+                            <point x="0.988212" y="0.505963" />
+                            <point x="0.97053" y="0.989779" />
+                            <point x="0.491159" y="0.998296" />
+                            <point x="0.0235756" y="0.98126" />
+                            <point x="0.0117878" y="0.505963" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1062,16 +1066,16 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="498048354058504" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\ZAHRO\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\saluang.png">
+                    <frame duration="1" hotspotX="0.527559" hotspotY="0.488927" original-source="C:\Users\ZAHRO\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\saluang.png">
                         <collision-poly>
-                            <point x="0.211221" y="0.180282" />
-                            <point x="0.5" y="0.0985916" />
-                            <point x="0.767327" y="0.198592" />
-                            <point x="0.889439" y="0.5" />
-                            <point x="0.877888" y="0.895775" />
-                            <point x="0.5" y="0.921127" />
-                            <point x="0.0924092" y="0.921127" />
-                            <point x="0.0627063" y="0.5" />
+                            <point x="0.183071" y="0.102215" />
+                            <point x="0.527559" y="0.00340722" />
+                            <point x="0.846457" y="0.124362" />
+                            <point x="0.992126" y="0.488927" />
+                            <point x="0.978347" y="0.967632" />
+                            <point x="0.527559" y="0.998297" />
+                            <point x="0.0413385" y="0.998297" />
+                            <point x="0.00590555" y="0.488927" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1132,15 +1136,15 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="260319722725300" speed="5">
-                    <frame duration="1" hotspotX="0.500867" hotspotY="0.500736" original-source="C:\Users\ZAHRO\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\serunai.png">
+                    <frame duration="1" hotspotX="0.492126" hotspotY="0.541738" original-source="C:\Users\ZAHRO\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\serunai.png">
                         <collision-poly>
-                            <point x="0.183709" y="0.156112" />
-                            <point x="0.499133" y="0.0353461" />
-                            <point x="0.823224" y="0.150221" />
-                            <point x="0.930676" y="0.499264" />
-                            <point x="0.87695" y="0.895434" />
-                            <point x="0.12305" y="0.895434" />
-                            <point x="0.0831889" y="0.499264" />
+                            <point x="0.13189" y="0.143101" />
+                            <point x="0.490157" y="0.00340715" />
+                            <point x="0.858268" y="0.136286" />
+                            <point x="0.980315" y="0.540034" />
+                            <point x="0.919292" y="0.998296" />
+                            <point x="0.0629918" y="0.998296" />
+                            <point x="0.0177165" y="0.540034" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1442,16 +1446,16 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="733096075636957" speed="5">
-                    <frame duration="1" hotspotX="0.500699" hotspotY="0.500648" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\kolintang.png">
+                    <frame duration="1" hotspotX="0.537133" hotspotY="0.56621" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\kolintang.png">
                         <collision-poly>
-                            <point x="0.163636" y="0.151751" />
-                            <point x="0.499301" y="0.0207523" />
-                            <point x="0.802797" y="0.182879" />
-                            <point x="0.855944" y="0.499352" />
-                            <point x="0.811189" y="0.824903" />
-                            <point x="0.499301" y="0.869001" />
-                            <point x="0.142657" y="0.867704" />
-                            <point x="0.0853147" y="0.499352" />
+                            <point x="0.120898" y="0.156773" />
+                            <point x="0.535406" y="0.00304417" />
+                            <point x="0.91019" y="0.193302" />
+                            <point x="0.97582" y="0.564689" />
+                            <point x="0.920553" y="0.946728" />
+                            <point x="0.535406" y="0.998478" />
+                            <point x="0.0949909" y="0.996956" />
+                            <point x="0.0241796" y="0.564689" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1658,16 +1662,16 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="838881237850469" speed="5">
-                    <frame duration="1" hotspotX="0.501285" hotspotY="0.501484" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\buton4.png">
+                    <frame duration="1" hotspotX="0.461818" hotspotY="0.525547" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\buton4.png">
                         <collision-poly>
-                            <point x="0.231362" y="0.267062" />
-                            <point x="0.498715" y="0.0771513" />
-                            <point x="0.802057" y="0.228487" />
-                            <point x="0.874036" y="0.498516" />
-                            <point x="0.784062" y="0.750742" />
-                            <point x="0.498715" y="0.881306" />
-                            <point x="0.246787" y="0.715134" />
-                            <point x="0.179949" y="0.498516" />
+                            <point x="0.0799993" y="0.237226" />
+                            <point x="0.458182" y="0.00364959" />
+                            <point x="0.887273" y="0.189781" />
+                            <point x="0.989091" y="0.521897" />
+                            <point x="0.861819" y="0.832117" />
+                            <point x="0.458182" y="0.992701" />
+                            <point x="0.101819" y="0.788322" />
+                            <point x="0.00727331" y="0.521897" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1677,16 +1681,16 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="101208766073684" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\buton5.png">
+                    <frame duration="1" hotspotX="0.523636" hotspotY="0.505455" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\buton5.png">
                         <collision-poly>
-                            <point x="0.210526" y="0.206897" />
-                            <point x="0.5" y="0.106322" />
-                            <point x="0.769006" y="0.227011" />
-                            <point x="0.874269" y="0.5" />
-                            <point x="0.763158" y="0.767241" />
-                            <point x="0.5" y="0.885057" />
-                            <point x="0.216374" y="0.787356" />
-                            <point x="0.0847953" y="0.5" />
+                            <point x="0.163636" y="0.134546" />
+                            <point x="0.523636" y="0.00727292" />
+                            <point x="0.858182" y="0.159999" />
+                            <point x="0.989091" y="0.505455" />
+                            <point x="0.850909" y="0.843636" />
+                            <point x="0.523636" y="0.992727" />
+                            <point x="0.170909" y="0.869091" />
+                            <point x="0.00727271" y="0.505455" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1728,16 +1732,16 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="315156623792453" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50062" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\sape.png">
+                    <frame duration="1" hotspotX="0.521589" hotspotY="0.538813" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\sape.png">
                         <collision-poly>
-                            <point x="0.194215" y="0.174721" />
-                            <point x="0.5" y="0.063197" />
-                            <point x="0.786501" y="0.192069" />
-                            <point x="0.869146" y="0.49938" />
-                            <point x="0.818182" y="0.836431" />
-                            <point x="0.5" y="0.874845" />
-                            <point x="0.150138" y="0.864932" />
-                            <point x="0.0964187" y="0.49938" />
+                            <point x="0.138169" y="0.138508" />
+                            <point x="0.521589" y="0.00152204" />
+                            <point x="0.880828" y="0.159817" />
+                            <point x="0.984456" y="0.53729" />
+                            <point x="0.920553" y="0.951293" />
+                            <point x="0.521589" y="0.998478" />
+                            <point x="0.0829019" y="0.986302" />
+                            <point x="0.015544" y="0.53729" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1747,16 +1751,16 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="587267314552096" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\kecapi.png">
+                    <frame duration="1" hotspotX="0.522491" hotspotY="0.491629" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\kecapi.png">
                         <collision-poly>
-                            <point x="0.201449" y="0.179587" />
-                            <point x="0.5" y="0.0839793" />
-                            <point x="0.77971" y="0.196382" />
-                            <point x="0.895652" y="0.5" />
-                            <point x="0.833333" y="0.851421" />
-                            <point x="0.5" y="0.930233" />
-                            <point x="0.128986" y="0.885013" />
-                            <point x="0.0666667" y="0.5" />
+                            <point x="0.16609" y="0.114156" />
+                            <point x="0.522491" y="0.00152204" />
+                            <point x="0.856401" y="0.133942" />
+                            <point x="0.994809" y="0.491629" />
+                            <point x="0.920415" y="0.905631" />
+                            <point x="0.522491" y="0.998478" />
+                            <point x="0.0795854" y="0.945206" />
+                            <point x="0.00519035" y="0.491629" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1781,14 +1785,14 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="802597549889475" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\title-kalimantan.png">
+                    <frame duration="1" hotspotX="0.502457" hotspotY="0.46875" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\title-kalimantan.png">
                         <collision-poly>
-                            <point x="0.0551684" y="0.259563" />
-                            <point x="0.944832" y="0.259563" />
-                            <point x="0.969222" y="0.5" />
-                            <point x="0.9518" y="0.773224" />
-                            <point x="0.0481998" y="0.773224" />
-                            <point x="0.0261324" y="0.5" />
+                            <point x="0.031941" y="0.010417" />
+                            <point x="0.972973" y="0.010417" />
+                            <point x="0.998772" y="0.46875" />
+                            <point x="0.980344" y="0.989583" />
+                            <point x="0.0245701" y="0.989583" />
+                            <point x="0.0012285" y="0.46875" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1815,16 +1819,16 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="266066193713338" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.50062" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\sape.png">
+                    <frame duration="1" hotspotX="0.521589" hotspotY="0.538813" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\sape.png">
                         <collision-poly>
-                            <point x="0.194215" y="0.174721" />
-                            <point x="0.5" y="0.063197" />
-                            <point x="0.786501" y="0.192069" />
-                            <point x="0.869146" y="0.49938" />
-                            <point x="0.818182" y="0.836431" />
-                            <point x="0.5" y="0.874845" />
-                            <point x="0.150138" y="0.864932" />
-                            <point x="0.0964187" y="0.49938" />
+                            <point x="0.138169" y="0.138508" />
+                            <point x="0.521589" y="0.00152204" />
+                            <point x="0.880828" y="0.159817" />
+                            <point x="0.984456" y="0.53729" />
+                            <point x="0.920553" y="0.951293" />
+                            <point x="0.521589" y="0.998478" />
+                            <point x="0.0829019" y="0.986302" />
+                            <point x="0.015544" y="0.53729" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1866,16 +1870,16 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="884469068582367" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\kecapi.png">
+                    <frame duration="1" hotspotX="0.522491" hotspotY="0.491629" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\kecapi.png">
                         <collision-poly>
-                            <point x="0.201449" y="0.179587" />
-                            <point x="0.5" y="0.0839793" />
-                            <point x="0.77971" y="0.196382" />
-                            <point x="0.895652" y="0.5" />
-                            <point x="0.833333" y="0.851421" />
-                            <point x="0.5" y="0.930233" />
-                            <point x="0.128986" y="0.885013" />
-                            <point x="0.0666667" y="0.5" />
+                            <point x="0.16609" y="0.114156" />
+                            <point x="0.522491" y="0.00152204" />
+                            <point x="0.856401" y="0.133942" />
+                            <point x="0.994809" y="0.491629" />
+                            <point x="0.920415" y="0.905631" />
+                            <point x="0.522491" y="0.998478" />
+                            <point x="0.0795854" y="0.945206" />
+                            <point x="0.00519035" y="0.491629" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -2345,18 +2349,6 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="347922052965301" speed="5">
-                    <frame duration="1" hotspotX="0.501718" hotspotY="0.501618" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\buton7.png">
-                        <collision-poly>
-                            <point x="0.189003" y="0.177994" />
-                            <point x="0.498282" y="0.0550162" />
-                            <point x="0.824742" y="0.165049" />
-                            <point x="0.986254" y="0.498382" />
-                            <point x="0.828179" y="0.838188" />
-                            <point x="0.498282" y="0.944984" />
-                            <point x="0.185567" y="0.825243" />
-                            <point x="0.0412371" y="0.498382" />
-                        </collision-poly>
-                    </frame>
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\buton8.png">
                         <collision-poly>
                             <point x="0.181818" y="0.17284" />
@@ -2367,6 +2359,18 @@
                             <point x="0.5" y="0.882716" />
                             <point x="0.227273" y="0.783951" />
                             <point x="0.0714286" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.501718" hotspotY="0.501618" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\buton7.png">
+                        <collision-poly>
+                            <point x="0.189003" y="0.177994" />
+                            <point x="0.498282" y="0.0550162" />
+                            <point x="0.824742" y="0.165049" />
+                            <point x="0.986254" y="0.498382" />
+                            <point x="0.828179" y="0.838188" />
+                            <point x="0.498282" y="0.944984" />
+                            <point x="0.185567" y="0.825243" />
+                            <point x="0.0412371" y="0.498382" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -2482,6 +2486,133 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Sprite19" sid="976627006556754">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="186726069466113" speed="5">
+                    <frame duration="1" hotspotX="2.51622" hotspotY="1.20102" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\66.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite20" sid="790063823364599">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="215269081486707" speed="5">
+                    <frame duration="1" hotspotX="-1.49558" hotspotY="-0.0663265" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\71.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="kalimantan2" sid="126539562811419">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="701701260956212" speed="5">
+                    <frame duration="1" hotspotX="0.504604" hotspotY="0.581395" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\kalimantan.png">
+                        <collision-poly>
+                            <point x="0.504604" y="0.0155039" />
+                            <point x="0.994475" y="0.581395" />
+                            <point x="0.504604" y="0.984496" />
+                            <point x="0.00460405" y="0.581395" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titlesulawesi5" sid="385286442765235">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="833077799491884" speed="5">
+                    <frame duration="1" hotspotX="0.495086" hotspotY="0.510417" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\title-sulawesi.png">
+                        <collision-poly>
+                            <point x="0.012285" y="0.28125" />
+                            <point x="0.494472" y="0.0104167" />
+                            <point x="0.985872" y="0.208333" />
+                            <point x="0.998771" y="0.510417" />
+                            <point x="0.985872" y="0.8125" />
+                            <point x="0.494472" y="0.989583" />
+                            <point x="0.012285" y="0.739583" />
+                            <point x="0.0012285" y="0.510417" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="putarAlatMusik" sid="142078007498643">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="784786430413916" speed="5">
+                    <frame duration="1" hotspotX="0.505618" hotspotY="0.455399" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\stop-musik.png">
+                        <collision-poly>
+                            <point x="0.0524345" y="0.0657277" />
+                            <point x="0.505618" y="0.00938967" />
+                            <point x="0.955056" y="0.0751174" />
+                            <point x="0.998127" y="0.455399" />
+                            <point x="0.97191" y="0.877934" />
+                            <point x="0.505618" y="0.99061" />
+                            <point x="0.0337079" y="0.892019" />
+                            <point x="0.00561798" y="0.455399" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.49959" hotspotY="0.485849" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\putar alat musik.png">
+                        <collision-poly>
+                            <point x="0.0147662" y="0.0990566" />
+                            <point x="0.498769" y="0.00471698" />
+                            <point x="0.984413" y="0.0943396" />
+                            <point x="0.998359" y="0.485849" />
+                            <point x="0.986054" y="0.886792" />
+                            <point x="0.498769" y="0.990566" />
+                            <point x="0.0131255" y="0.882075" />
+                            <point x="0.00164069" y="0.485849" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite21" sid="126355188009348">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="794392843878250" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="play" sid="235019173801967">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="913082283672431" speed="5">
+                    <frame duration="1" hotspotX="0.488636" hotspotY="0.517018" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\play.png">
+                        <collision-poly>
+                            <point x="0.126623" y="0.171799" />
+                            <point x="0.487013" y="0.00324149" />
+                            <point x="0.862013" y="0.158833" />
+                            <point x="0.996753" y="0.517018" />
+                            <point x="0.845779" y="0.858995" />
+                            <point x="0.487013" y="0.996759" />
+                            <point x="0.142857" y="0.846029" />
+                            <point x="0.00324675" y="0.517018" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pause" sid="853038769986848">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="505090287792965" speed="5">
+                    <frame duration="1" hotspotX="0.465909" hotspotY="0.492707" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\pause.png">
+                        <collision-poly>
+                            <point x="0.162338" y="0.134522" />
+                            <point x="0.465909" y="0.00324148" />
+                            <point x="0.800325" y="0.103728" />
+                            <point x="0.996753" y="0.491086" />
+                            <point x="0.810065" y="0.889789" />
+                            <point x="0.465909" y="0.996759" />
+                            <point x="0.154221" y="0.857374" />
+                            <point x="0.00162338" y="0.491086" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -2557,6 +2688,7 @@
                 <use-mouse-input>Yes</use-mouse-input>
             </properties>
         </global-instance>
+        <global-instance type="Browser" uid="78" />
     </global-instances>
     <sounds-folder>
         <file name="angklung.ogg" />
@@ -2564,6 +2696,12 @@
         <file name="loading-effect-hud.ogg" />
         <file name="menu-game-button-click-sound-effect.ogg" />
         <file name="organic-button.ogg" />
+        <file name="sound_pengantar.ogg" />
+        <file name="positive-logo-opener-13622.ogg" />
+        <file name="button-next.ogg" />
+        <file name="angklung-jawa.ogg" />
+        <file name="kendang-jawa.ogg" />
+        <file name="tanjidor-betawi-_jawa_.ogg" />
     </sounds-folder>
     <music-folder />
     <files-folder>
@@ -2575,5 +2713,6 @@
             <file name="icon-256.png" />
             <file name="loading-logo.png" />
         </file-folder>
+        <file name="Video Pertunjukan Gamelan.webm" />
     </files-folder>
 </c2project>

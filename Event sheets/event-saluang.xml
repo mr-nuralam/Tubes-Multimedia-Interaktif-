@@ -13,6 +13,12 @@
                 <action id="-2" name="Go to layout" sid="955196213818770" type="System">
                     <param id="0" name="Layout">daerah_sumatera</param>
                 </action>
+                <action id="0" name="Play" sid="137332657697067" type="Audio">
+                    <param id="0" name="Audio file">organic-button</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="332567187465895">
@@ -25,6 +31,12 @@
                 <action id="-2" name="Go to layout" sid="351672617632890" type="System">
                     <param id="0" name="Layout">menu</param>
                 </action>
+                <action id="0" name="Play" sid="687454191672948" type="Audio">
+                    <param id="0" name="Audio file">organic-button</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="186591702208748">
@@ -36,6 +48,12 @@
             <actions>
                 <action id="-2" name="Go to layout" sid="716061662324064" type="System">
                     <param id="0" name="Layout">serunai_sumatera</param>
+                </action>
+                <action id="0" name="Play" sid="543398479405315" type="Audio">
+                    <param id="0" name="Audio file">organic-button</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>

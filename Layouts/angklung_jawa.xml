@@ -83,11 +83,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>102</x>
-                        <y>680</y>
+                        <x>42</x>
+                        <y>675</y>
                         <z>0</z>
-                        <width>81.452720642</width>
-                        <height>89.597991943</height>
+                        <width>61.013999939</width>
+                        <height>67.115997314</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.501466274</hotspotY>
@@ -108,11 +108,11 @@
                         <x>633</x>
                         <y>683</y>
                         <z>0</z>
-                        <width>105.092193604</width>
-                        <height>91.043876648</height>
+                        <width>74.293968201</width>
+                        <height>74.023803711</height>
                         <depth>0</depth>
-                        <hotspotX>0.501285374</hotspotX>
-                        <hotspotY>0.501483679</hotspotY>
+                        <hotspotX>0.461818188</hotspotX>
+                        <hotspotY>0.525547445</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -127,14 +127,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1178</x>
-                        <y>678</y>
+                        <x>1231</x>
+                        <y>675</y>
                         <z>0</z>
-                        <width>86.961639404</width>
-                        <height>88.487289429</height>
+                        <width>51.338962555</width>
+                        <height>51.338867188</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.523636341</hotspotX>
+                        <hotspotY>0.50545454</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -161,7 +161,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite15" uid="59">
+                <instance type="Sprite19" uid="59">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -171,14 +171,36 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>963</x>
-                        <y>385</y>
+                        <x>953</x>
+                        <y>387</y>
                         <z>0</z>
-                        <width>162.766677856</width>
-                        <height>192.60697937</height>
+                        <width>162.766998291</width>
+                        <height>192.606994629</height>
                         <depth>0</depth>
                         <hotspotX>2.516224146</hotspotX>
                         <hotspotY>1.201017857</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="putarAlatMusik" uid="103">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1117</x>
+                        <y>123</y>
+                        <z>0</z>
+                        <width>109.479736328</width>
+                        <height>43.668884277</height>
+                        <depth>0</depth>
+                        <hotspotX>0.505617976</hotspotX>
+                        <hotspotY>0.455399066</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

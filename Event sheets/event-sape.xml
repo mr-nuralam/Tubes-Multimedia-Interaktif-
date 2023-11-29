@@ -13,6 +13,12 @@
                 <action id="-2" name="Go to layout" sid="654670033911523" type="System">
                     <param id="0" name="Layout">daerah_kalimantan</param>
                 </action>
+                <action id="0" name="Play" sid="486482103558095" type="Audio">
+                    <param id="0" name="Audio file">organic-button</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="799889847835123">
@@ -25,6 +31,12 @@
                 <action id="-2" name="Go to layout" sid="521099249618942" type="System">
                     <param id="0" name="Layout">menu</param>
                 </action>
+                <action id="0" name="Play" sid="809396832879672" type="Audio">
+                    <param id="0" name="Audio file">organic-button</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="489055907263184">
@@ -36,6 +48,12 @@
             <actions>
                 <action id="-2" name="Go to layout" sid="437935808135860" type="System">
                     <param id="0" name="Layout">kecapi_kalimantan</param>
+                </action>
+                <action id="0" name="Play" sid="353718911242227" type="Audio">
+                    <param id="0" name="Audio file">organic-button</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>

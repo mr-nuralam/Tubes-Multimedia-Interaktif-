@@ -70,28 +70,6 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="titlekalimantan3" uid="95">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>627</x>
-                        <y>89</y>
-                        <z>0</z>
-                        <width>541.892028809</width>
-                        <height>85.135002136</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="tekskecapi" uid="97">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -102,8 +80,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>635.473571777</x>
-                        <y>391.124542236</y>
+                        <x>637</x>
+                        <y>366</y>
                         <z>0</z>
                         <width>1068.297851563</width>
                         <height>245.609420776</height>
@@ -124,14 +102,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>621.950378418</x>
-                        <y>260.187805176</y>
+                        <x>636</x>
+                        <y>247</y>
                         <z>0</z>
-                        <width>219.979385376</width>
-                        <height>246.759490967</height>
+                        <width>171.072006226</width>
+                        <height>194.117996216</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.522491336</hotspotX>
+                        <hotspotY>0.491628617</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -165,11 +143,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>96</x>
-                        <y>683</y>
+                        <x>42</x>
+                        <y>675</y>
                         <z>0</z>
-                        <width>81.452720642</width>
-                        <height>89.597991943</height>
+                        <width>61.013999939</width>
+                        <height>67.115997314</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.501466274</hotspotY>
@@ -187,19 +165,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>634</x>
-                        <y>680</y>
+                        <x>633</x>
+                        <y>683</y>
                         <z>0</z>
-                        <width>105.092193604</width>
-                        <height>91.043876648</height>
+                        <width>74.293968201</width>
+                        <height>74.023803711</height>
                         <depth>0</depth>
-                        <hotspotX>0.501285374</hotspotX>
-                        <hotspotY>0.501483679</hotspotY>
+                        <hotspotX>0.461818188</hotspotX>
+                        <hotspotY>0.525547445</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="buton13" uid="103">
+                <instance type="kalimantan2" uid="95">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -209,14 +187,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1176</x>
-                        <y>679</y>
+                        <x>627</x>
+                        <y>89</y>
                         <z>0</z>
-                        <width>86.961639404</width>
-                        <height>88.487289429</height>
+                        <width>535.193969727</width>
+                        <height>63.080001831</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.504604042</hotspotX>
+                        <hotspotY>0.581395328</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

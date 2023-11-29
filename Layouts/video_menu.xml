@@ -31,7 +31,7 @@
             <instances>
                 <instance type="video_pertunjukan" uid="170">
                     <properties>
-                        <webm-source></webm-source>
+                        <webm-source>Video Pertunjukan Gamelan.webm</webm-source>
                         <ogg-theora-source></ogg-theora-source>
                         <h264-source></h264-source>
                         <autoplay>Yes</autoplay>
@@ -41,14 +41,58 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>351</x>
-                        <y>102</y>
+                        <x>271</x>
+                        <y>89</y>
                         <z>0</z>
-                        <width>601</width>
-                        <height>388</height>
+                        <width>742.77722168</width>
+                        <height>479.530029297</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="play" uid="169">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>568</x>
+                        <y>628</y>
+                        <z>0</z>
+                        <width>61.293567657</width>
+                        <height>61.393070221</height>
+                        <depth>0</depth>
+                        <hotspotX>0.488636374</hotspotX>
+                        <hotspotY>0.517017841</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="pause" uid="175">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>715</x>
+                        <y>628</y>
+                        <z>0</z>
+                        <width>61.293998718</width>
+                        <height>61.393001556</height>
+                        <depth>0</depth>
+                        <hotspotX>0.465909094</hotspotX>
+                        <hotspotY>0.492706656</hotspotY>
+                        <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
