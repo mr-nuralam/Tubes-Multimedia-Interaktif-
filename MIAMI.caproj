@@ -1237,16 +1237,16 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="172964732886691" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\angklung.png">
+                    <frame duration="1" hotspotX="0.515748" hotspotY="0.540034" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\angklung.png">
                         <collision-poly>
-                            <point x="0.193353" y="0.182336" />
-                            <point x="0.5" y="0.0512821" />
-                            <point x="0.793051" y="0.195157" />
-                            <point x="0.856495" y="0.5" />
-                            <point x="0.854985" y="0.863248" />
-                            <point x="0.5" y="0.883191" />
-                            <point x="0.128399" y="0.878917" />
-                            <point x="0.117825" y="0.5" />
+                            <point x="0.116141" y="0.160136" />
+                            <point x="0.515748" y="0.00340721" />
+                            <point x="0.897637" y="0.175469" />
+                            <point x="0.980314" y="0.540034" />
+                            <point x="0.978347" y="0.974446" />
+                            <point x="0.515748" y="0.998296" />
+                            <point x="0.0314963" y="0.993185" />
+                            <point x="0.0177168" y="0.540034" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -2374,6 +2374,113 @@
         </object-type>
         <object-type name="video_pertunjukan" sid="632146935532492">
             <plugin id="video" />
+        </object-type>
+        <object-type name="Jawa2" sid="847460681766396">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="234199265794706" speed="5">
+                    <frame duration="1" hotspotX="0.503683" hotspotY="0.5" original-source="F:\Aditya Code\PROJECTS\Tubes-Multimedia-Interaktif-\Assets\Jawa.png">
+                        <collision-poly>
+                            <point x="0.503683" y="0.0078125" />
+                            <point x="0.998158" y="0.5" />
+                            <point x="0.503683" y="0.992188" />
+                            <point x="0.00092081" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sumatra" sid="723588347582898">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="524580849346206" speed="5">
+                    <frame duration="1" hotspotX="0.504604" hotspotY="0.515625" original-source="F:\Aditya Code\PROJECTS\Tubes-Multimedia-Interaktif-\Assets\sumatra.png">
+                        <collision-poly>
+                            <point x="0.504604" y="0.0078125" />
+                            <point x="0.998158" y="0.515625" />
+                            <point x="0.504604" y="0.992188" />
+                            <point x="0.00092081" y="0.515625" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite15" sid="450790389637397">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="6" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="474335583500388" speed="5">
+                    <frame duration="1" hotspotX="2.51622" hotspotY="1.20102" original-source="F:\Aditya Code\PROJECTS\Tubes-Multimedia-Interaktif-\Assets\66.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Aditya Code\PROJECTS\Tubes-Multimedia-Interaktif-\Assets\67.png">
+                        <collision-poly>
+                            <point x="0.5" y="0.0648148" />
+                            <point x="0.584375" y="0.261111" />
+                            <point x="0.5" y="0.425" />
+                            <point x="0.415104" y="0.262037" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Aditya Code\PROJECTS\Tubes-Multimedia-Interaktif-\Assets\68.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Aditya Code\PROJECTS\Tubes-Multimedia-Interaktif-\Assets\69.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Aditya Code\PROJECTS\Tubes-Multimedia-Interaktif-\Assets\70.png">
+                        <collision-poly>
+                            <point x="0.414583" y="0.737037" />
+                            <point x="0.5" y="0.525926" />
+                            <point x="0.571354" y="0.762037" />
+                            <point x="0.5" y="0.886111" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Aditya Code\PROJECTS\Tubes-Multimedia-Interaktif-\Assets\71.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite16" sid="481103705251060">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="6" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="664128759937511" speed="5">
+                    <frame duration="1" hotspotX="2.51622" hotspotY="1.20102" original-source="F:\Aditya Code\PROJECTS\Tubes-Multimedia-Interaktif-\Assets\66.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Aditya Code\PROJECTS\Tubes-Multimedia-Interaktif-\Assets\67.png">
+                        <collision-poly>
+                            <point x="0.5" y="0.0648148" />
+                            <point x="0.584375" y="0.261111" />
+                            <point x="0.5" y="0.425" />
+                            <point x="0.415104" y="0.262037" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Aditya Code\PROJECTS\Tubes-Multimedia-Interaktif-\Assets\68.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Aditya Code\PROJECTS\Tubes-Multimedia-Interaktif-\Assets\69.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Aditya Code\PROJECTS\Tubes-Multimedia-Interaktif-\Assets\70.png">
+                        <collision-poly>
+                            <point x="0.414583" y="0.737037" />
+                            <point x="0.5" y="0.525926" />
+                            <point x="0.571354" y="0.762037" />
+                            <point x="0.5" y="0.886111" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Aditya Code\PROJECTS\Tubes-Multimedia-Interaktif-\Assets\71.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite17" sid="570394798729719">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="598951116033405" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1.20102" original-source="F:\Aditya Code\PROJECTS\Tubes-Multimedia-Interaktif-\Assets\67.png">
+                        <collision-poly>
+                            <point x="0.5" y="0.00508906" />
+                            <point x="0.976471" y="0.544529" />
+                            <point x="0.5" y="0.994911" />
+                            <point x="0.0205882" y="0.547074" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite18" sid="633826350602876">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="359703233620190" speed="5">
+                    <frame duration="1" hotspotX="-1.50882" hotspotY="1.20102" original-source="F:\Aditya Code\PROJECTS\Tubes-Multimedia-Interaktif-\Assets\68.png" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />

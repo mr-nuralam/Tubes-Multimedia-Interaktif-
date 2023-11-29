@@ -39,36 +39,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>641</x>
-                        <y>360</y>
+                        <x>640</x>
+                        <y>360.106994629</y>
                         <z>0</z>
-                        <width>1280</width>
-                        <height>720</height>
+                        <width>1282</width>
+                        <height>722</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="titlejawa" uid="63">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>663</x>
-                        <y>89</y>
-                        <z>0</z>
-                        <width>764.84173584</width>
-                        <height>123.744544983</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5002985</hotspotX>
-                        <hotspotY>0.501845002</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -86,33 +64,11 @@
                         <x>636</x>
                         <y>383</y>
                         <z>0</z>
-                        <width>1102.196777344</width>
-                        <height>253.403030396</height>
+                        <width>1117.072021484</width>
+                        <height>256.822998047</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.181512609</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="kendang2" uid="65">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>645</x>
-                        <y>256</y>
-                        <z>0</z>
-                        <width>213.747253418</width>
-                        <height>252.934234619</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -127,8 +83,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>118</x>
-                        <y>676</y>
+                        <x>102</x>
+                        <y>680</y>
                         <z>0</z>
                         <width>81.452720642</width>
                         <height>89.597991943</height>
@@ -149,8 +105,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>673</x>
-                        <y>677</y>
+                        <x>633</x>
+                        <y>683</y>
                         <z>0</z>
                         <width>105.092193604</width>
                         <height>91.043876648</height>
@@ -171,14 +127,58 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1200</x>
-                        <y>674</y>
+                        <x>1178</x>
+                        <y>678</y>
                         <z>0</z>
                         <width>86.961639404</width>
                         <height>88.487289429</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Jawa2" uid="164">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>627</x>
+                        <y>89</y>
+                        <z>0</z>
+                        <width>535.193908691</width>
+                        <height>63.079944611</height>
+                        <depth>0</depth>
+                        <hotspotX>0.503683269</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite17" uid="61">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>634</x>
+                        <y>395</y>
+                        <z>0</z>
+                        <width>162.766998291</width>
+                        <height>192.606994629</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>1.201017857</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
