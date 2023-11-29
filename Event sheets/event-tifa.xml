@@ -13,6 +13,12 @@
                 <action id="-2" name="Go to layout" sid="618211341359539" type="System">
                     <param id="0" name="Layout">daerah_papua</param>
                 </action>
+                <action id="0" name="Play" sid="586326311650337" type="Audio">
+                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="673097170409798">
@@ -24,6 +30,12 @@
             <actions>
                 <action id="-2" name="Go to layout" sid="580691715246225" type="System">
                     <param id="0" name="Layout">menu</param>
+                </action>
+                <action id="0" name="Play" sid="290297489172906" type="Audio">
+                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>

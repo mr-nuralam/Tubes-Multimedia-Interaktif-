@@ -13,6 +13,12 @@
                 <action id="-2" name="Go to layout" sid="791524219112908" type="System">
                     <param id="0" name="Layout">sasando_nusa tenggara</param>
                 </action>
+                <action id="0" name="Play" sid="725894208510420" type="Audio">
+                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="642271460177071">
@@ -23,7 +29,13 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="518262965783946" type="System">
-                    <param id="0" name="Layout">kolintang_sulawesi</param>
+                    <param id="0" name="Layout">peta</param>
+                </action>
+                <action id="0" name="Play" sid="274770532201021" type="Audio">
+                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -37,6 +49,12 @@
                 <action id="-2" name="Go to layout" sid="748077586669667" type="System">
                     <param id="0" name="Layout">menu</param>
                 </action>
+                <action id="0" name="Play" sid="163619370009433" type="Audio">
+                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="750890417596363">
@@ -48,6 +66,12 @@
             <actions>
                 <action id="-2" name="Go to layout" sid="676246082897855" type="System">
                     <param id="0" name="Layout">sasando_nusa tenggara</param>
+                </action>
+                <action id="0" name="Play" sid="784371863545688" type="Audio">
+                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>

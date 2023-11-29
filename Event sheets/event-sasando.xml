@@ -13,6 +13,12 @@
                 <action id="-2" name="Go to layout" sid="123297567621818" type="System">
                     <param id="0" name="Layout">daerah_nusa tenggara</param>
                 </action>
+                <action id="0" name="Play" sid="221414958428385" type="Audio">
+                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="304521559724051">
@@ -25,17 +31,11 @@
                 <action id="-2" name="Go to layout" sid="203574507414085" type="System">
                     <param id="0" name="Layout">menu</param>
                 </action>
-            </actions>
-        </event-block>
-        <event-block sid="404598326610357">
-            <conditions>
-                <condition id="3" name="On touched object" sid="269908465898007" type="Touch">
-                    <param id="0" name="Object">buton13</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="966051447921324" type="System">
-                    <param id="0" name="Layout">daerah_maluku</param>
+                <action id="0" name="Play" sid="168472571024094" type="Audio">
+                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>

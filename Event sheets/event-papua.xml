@@ -13,6 +13,12 @@
                 <action id="-2" name="Go to layout" sid="314073622228446" type="System">
                     <param id="0" name="Layout">tifa_papua</param>
                 </action>
+                <action id="0" name="Play" sid="557814685589002" type="Audio">
+                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="388314783113906">
@@ -23,7 +29,13 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="892660317269541" type="System">
-                    <param id="0" name="Layout">ukulele_maluku</param>
+                    <param id="0" name="Layout">peta</param>
+                </action>
+                <action id="0" name="Play" sid="305803367371449" type="Audio">
+                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -37,6 +49,12 @@
                 <action id="-2" name="Go to layout" sid="720609088641133" type="System">
                     <param id="0" name="Layout">menu</param>
                 </action>
+                <action id="0" name="Play" sid="787515571388704" type="Audio">
+                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="534587980762273">
@@ -48,6 +66,12 @@
             <actions>
                 <action id="-2" name="Go to layout" sid="449716231756663" type="System">
                     <param id="0" name="Layout">tifa_papua</param>
+                </action>
+                <action id="0" name="Play" sid="244537537712336" type="Audio">
+                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>
