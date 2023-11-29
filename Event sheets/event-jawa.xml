@@ -42,7 +42,7 @@
         <event-block sid="772290606869423">
             <conditions>
                 <condition id="3" name="On touched object" sid="712333727478944" type="Touch">
-                    <param id="0" name="Object">angklung</param>
+                    <param id="0" name="Object">Sprite15</param>
                 </condition>
             </conditions>
             <actions>
@@ -54,7 +54,7 @@
         <event-block sid="780767758673902">
             <conditions>
                 <condition id="3" name="On touched object" sid="311324470537793" type="Touch">
-                    <param id="0" name="Object">kendang</param>
+                    <param id="0" name="Object">Sprite17</param>
                 </condition>
             </conditions>
             <actions>
@@ -66,7 +66,7 @@
         <event-block sid="304342427059782">
             <conditions>
                 <condition id="3" name="On touched object" sid="629307408902260" type="Touch">
-                    <param id="0" name="Object">tanjidor</param>
+                    <param id="0" name="Object">Sprite18</param>
                 </condition>
             </conditions>
             <actions>

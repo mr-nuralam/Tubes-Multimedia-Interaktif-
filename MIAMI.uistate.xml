@@ -10,14 +10,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="3">daerah_sumatera</layout>
-        <layout order="2">saluang_sumatera</layout>
         <layout order="1">serunai_sumatera</layout>
-        <layout order="8">garantung_sumatera</layout>
+        <layout order="2">saluang_sumatera</layout>
+        <layout order="3">daerah_sumatera</layout>
         <layout order="5">daerah_jawa</layout>
         <layout order="6">angklung_jawa</layout>
-        <layout order="29">kendang_jawa</layout>
         <layout order="7">tanjidor_jawa</layout>
+        <layout order="8">garantung_sumatera</layout>
         <layout order="11">daerah_sulawesi</layout>
         <layout order="12">kolintang_sulawesi</layout>
         <layout order="14">daerah_kalimantan</layout>
@@ -29,21 +28,25 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="23">ukulele_maluku</layout>
         <layout order="24">daerah_papua</layout>
         <layout order="25">tifa_papua</layout>
-        <layout active="1" order="26">video_menu</layout>
+        <layout order="26">video_menu</layout>
+        <layout order="29">kendang_jawa</layout>
         <layout order="43">splash</layout>
-        <event-sheet order="27">event_pengantar</event-sheet>
-        <event-sheet order="32">event-garantung</event-sheet>
+        <layout order="44">pengantar</layout>
+        <layout order="45">peta</layout>
+        <layout order="46">menu</layout>
+        <event-sheet order="0">event-serunai</event-sheet>
+        <event-sheet order="4">event-kendang</event-sheet>
         <event-sheet order="9">event-angklung</event-sheet>
         <event-sheet order="10">event-tanjidor</event-sheet>
         <event-sheet order="13">event-sulawesi</event-sheet>
         <event-sheet order="15">event-kalimantan</event-sheet>
         <event-sheet order="17">event-sape</event-sheet>
         <event-sheet order="21">event-sasando</event-sheet>
-        <event-sheet order="28">event-jawa</event-sheet>
-        <event-sheet order="4">event-kendang</event-sheet>
+        <event-sheet order="27">event_pengantar</event-sheet>
+        <event-sheet active="1" order="28">event-jawa</event-sheet>
         <event-sheet order="30">event-sumatera</event-sheet>
         <event-sheet order="31">event-saluang</event-sheet>
-        <event-sheet order="0">event-serunai</event-sheet>
+        <event-sheet order="32">event-garantung</event-sheet>
         <event-sheet order="33">event-kecapi</event-sheet>
         <event-sheet order="34">event-kolintang</event-sheet>
         <event-sheet order="35">event-nusa tenggara</event-sheet>
@@ -195,5 +198,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/teksgarantung/" />
         <folder expanded="1" path="animation-folder/Sprite14/" />
         <folder expanded="1" path="animation-folder/buton14/" />
+        <folder expanded="1" path="animation-folder/Jawa2/" />
+        <folder expanded="1" path="animation-folder/sumatra/" />
+        <folder expanded="1" path="animation-folder/Sprite15/" />
+        <folder expanded="1" path="animation-folder/Sprite16/" />
+        <folder expanded="1" path="animation-folder/Sprite17/" />
+        <folder expanded="1" path="animation-folder/Sprite18/" />
     </folders-expanded>
 </c2uistate>
