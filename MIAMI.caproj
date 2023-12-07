@@ -2693,6 +2693,7 @@
         <event-sheet>event-papua.xml</event-sheet>
         <event-sheet>event-tifa.xml</event-sheet>
         <event-sheet>event_video.xml</event-sheet>
+        <event-sheet>global sheet.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Function" uid="21" />

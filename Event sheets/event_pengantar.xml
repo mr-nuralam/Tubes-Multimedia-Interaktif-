@@ -112,6 +112,7 @@
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
+                <action id="33" name="Stop all" sid="329007915264683" type="Audio" />
             </actions>
         </event-block>
         <event-block sid="114825016892688">
@@ -130,6 +131,7 @@
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
+                <action id="33" name="Stop all" sid="810150661020585" type="Audio" />
             </actions>
         </event-block>
         <event-block sid="609704060810087">
@@ -148,6 +150,7 @@
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
+                <action id="33" name="Stop all" sid="349305530885182" type="Audio" />
             </actions>
         </event-block>
         <event-block sid="485483628905546">

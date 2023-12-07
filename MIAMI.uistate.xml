@@ -18,6 +18,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <event-sheet order="0">event_video</event-sheet>
         <event-sheet order="1">event_pengantar</event-sheet>
         <event-sheet active="1" order="7">event-angklung</event-sheet>
+        <event-sheet order="8">global sheet</event-sheet>
+        <event-sheet order="9">event-kendang</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
