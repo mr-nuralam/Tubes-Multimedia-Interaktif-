@@ -2613,6 +2613,33 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="bgSplashscreen" sid="186695627431250">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="626110129224021" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Aditya Code\PROJECTS\Tubes-Multimedia-Interaktif-\Assets\Image\bg splashscreen.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="buton15" sid="394975641775659">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="978031567610188" speed="5">
+                    <frame duration="1" hotspotX="0.461818" hotspotY="0.525547" original-source="F:\Aditya Code\PROJECTS\Tubes-Multimedia-Interaktif-\Assets\Image\buton4.png">
+                        <collision-poly>
+                            <point x="0.08" y="0.237226" />
+                            <point x="0.458182" y="0.00364964" />
+                            <point x="0.887273" y="0.189781" />
+                            <point x="0.989091" y="0.521898" />
+                            <point x="0.861818" y="0.832117" />
+                            <point x="0.458182" y="0.992701" />
+                            <point x="0.101818" y="0.788321" />
+                            <point x="0.00727273" y="0.521898" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>

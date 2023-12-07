@@ -31,5 +31,23 @@
                 <action id="6" name="Play" sid="933636702216123" type="video_pertunjukan" />
             </actions>
         </event-block>
+        <event-block sid="563740291831016">
+            <conditions>
+                <condition id="3" name="On touched object" sid="529626862484768" type="Touch">
+                    <param id="0" name="Object">buton15</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="561465948469673" type="System">
+                    <param id="0" name="Layout">menu</param>
+                </action>
+                <action id="0" name="Play" sid="659462189093333" type="Audio">
+                    <param id="0" name="Audio file">organic-button</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
