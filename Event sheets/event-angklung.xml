@@ -3,7 +3,6 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>event-angklung</name>
     <events>
-        <variable constant="0" name="buttonmusik2" sid="115202515705092" static="0" type="number">0</variable>
         <event-block sid="593409004604595">
             <conditions>
                 <condition id="3" name="On touched object" sid="368696637925285" type="Touch">

@@ -3,42 +3,6 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>event-kendang</name>
     <events>
-        <variable constant="0" name="buttonmusik3" sid="428988960006559" static="0" type="number">0</variable>
-        <event-block sid="916522612100153">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="941502709678124" type="System" />
-            </conditions>
-            <actions />
-            <sub-events>
-                <event-block sid="585318885957686">
-                    <conditions>
-                        <condition id="3" name="Is silent" sid="223578515317862" type="Audio" />
-                    </conditions>
-                    <actions>
-                        <action id="33" name="Stop all" sid="553932569581869" type="Audio" />
-                        <action id="0" name="Play" sid="761942871338966" type="Audio">
-                            <param id="0" name="Audio file">kendang-jawa</param>
-                            <param id="2" name="Loop">1</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;musik&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="998118025157851">
-                    <conditions>
-                        <condition id="-22" name="Else" sid="236211838388601" type="System" />
-                    </conditions>
-                    <actions>
-                        <action id="0" name="Play" sid="441714814124910" type="Audio">
-                            <param id="0" name="Audio file">kendang-jawa</param>
-                            <param id="2" name="Loop">1</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;musik&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
         <event-block sid="781178120375657">
             <conditions>
                 <condition id="3" name="On touched object" sid="985633298052330" type="Touch">
@@ -64,9 +28,11 @@
                             <param id="0" name="Variable">buttonmusik</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="2" name="Set muted" sid="510751349186206" type="Audio">
-                            <param id="0" name="Tag">&quot;musik&quot;</param>
-                            <param id="1" name="State">1</param>
+                        <action id="0" name="Play" sid="510751349186206" type="Audio">
+                            <param id="0" name="Audio file">kendang-jawa</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;musik-kendang&quot;</param>
                         </action>
                         <action id="5" name="Set frame" sid="274306363961950" type="putarAlatMusik">
                             <param id="0" name="Frame number">0</param>
@@ -82,9 +48,8 @@
                             <param id="0" name="Variable">buttonmusik</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="2" name="Set muted" sid="269586627679077" type="Audio">
-                            <param id="0" name="Tag">&quot;musik&quot;</param>
-                            <param id="1" name="State">0</param>
+                        <action id="6" name="Stop" sid="269586627679077" type="Audio">
+                            <param id="0" name="Tag">&quot;musik-kendang&quot;</param>
                         </action>
                         <action id="5" name="Set frame" sid="392914191753724" type="putarAlatMusik">
                             <param id="0" name="Frame number">1</param>
@@ -104,10 +69,13 @@
                     <param id="0" name="Layout">daerah_jawa</param>
                 </action>
                 <action id="0" name="Play" sid="648865545441975" type="Audio">
-                    <param id="0" name="Audio file">organic-button</param>
+                    <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="152142685530727" type="Audio">
+                    <param id="0" name="Tag">&quot;musik-kendang&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -122,10 +90,13 @@
                     <param id="0" name="Layout">menu</param>
                 </action>
                 <action id="0" name="Play" sid="495370322048536" type="Audio">
-                    <param id="0" name="Audio file">organic-button</param>
+                    <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="434914630234022" type="Audio">
+                    <param id="0" name="Tag">&quot;musik-kendang&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -140,10 +111,13 @@
                     <param id="0" name="Layout">tanjidor_jawa</param>
                 </action>
                 <action id="0" name="Play" sid="321324069896330" type="Audio">
-                    <param id="0" name="Audio file">organic-button</param>
+                    <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="558543591391931" type="Audio">
+                    <param id="0" name="Tag">&quot;musik-kendang&quot;</param>
                 </action>
             </actions>
         </event-block>

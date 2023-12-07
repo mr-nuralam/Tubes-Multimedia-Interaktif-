@@ -140,7 +140,7 @@
                 <action id="0" name="Play" sid="904528751845117" type="Audio">
                     <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">250</param>
+                    <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
                 <action behavior="LiteTween" id="10" name="Start" sid="584031480501974" type="jawa">

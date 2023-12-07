@@ -14,7 +14,7 @@
                     <param id="0" name="Layout">peta</param>
                 </action>
                 <action id="0" name="Play" sid="348101457686067" type="Audio">
-                    <param id="0" name="Audio file">organic-button</param>
+                    <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
@@ -32,7 +32,7 @@
                     <param id="0" name="Layout">menu</param>
                 </action>
                 <action id="0" name="Play" sid="534221425906159" type="Audio">
-                    <param id="0" name="Audio file">organic-button</param>
+                    <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
@@ -50,7 +50,7 @@
                     <param id="0" name="Layout">angklung_jawa</param>
                 </action>
                 <action id="0" name="Play" sid="258636517645680" type="Audio">
-                    <param id="0" name="Audio file">organic-button</param>
+                    <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
