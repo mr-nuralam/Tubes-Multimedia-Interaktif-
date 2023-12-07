@@ -14,10 +14,13 @@
                     <param id="0" name="Layout">daerah_maluku</param>
                 </action>
                 <action id="0" name="Play" sid="578575268892379" type="Audio">
-                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="365919808635102" type="Audio">
+                    <param id="0" name="Tag">&quot;musik-ukulele&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -32,12 +35,71 @@
                     <param id="0" name="Layout">menu</param>
                 </action>
                 <action id="0" name="Play" sid="839907414173601" type="Audio">
-                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
+                <action id="6" name="Stop" sid="823552277580189" type="Audio">
+                    <param id="0" name="Tag">&quot;musik-ukulele&quot;</param>
+                </action>
             </actions>
+        </event-block>
+        <event-block sid="150311401206820">
+            <conditions>
+                <condition id="3" name="On touched object" sid="442756969764260" type="Touch">
+                    <param id="0" name="Object">putarAlatMusik</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Move to layer" sid="390323499997215" type="putarAlatMusik">
+                    <param id="0" name="Layer">0</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="869556964116576">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="430248453957701" type="System">
+                            <param id="0" name="Variable">buttonmusik</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="863379032321511" type="System">
+                            <param id="0" name="Variable">buttonmusik</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="457217587925393" type="Audio">
+                            <param id="0" name="Audio file">Sound UKULELE MALUKU</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">10</param>
+                            <param id="1" name="Tag (optional)">&quot;musik-ukulele&quot;</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="814599466668240" type="putarAlatMusik">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="934482419259264">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="576878458036016" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="660134092539055" type="System">
+                            <param id="0" name="Variable">buttonmusik</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="2" name="Set muted" sid="979595050126371" type="Audio">
+                            <param id="0" name="Tag">&quot;musik-ukulele&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="589608952721114" type="putarAlatMusik">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>

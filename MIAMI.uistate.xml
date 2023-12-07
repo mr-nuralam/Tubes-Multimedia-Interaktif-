@@ -10,12 +10,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="2">daerah_papua</layout>
-        <layout order="0">tifa_papua</layout>
-        <layout active="1" order="4">daerah_maluku</layout>
-        <layout order="5">ukulele_maluku</layout>
-        <event-sheet order="1">event-papua</event-sheet>
-        <event-sheet order="3">event-tifa</event-sheet>
+        <layout order="0">daerah_maluku</layout>
+        <layout order="1">ukulele_maluku</layout>
+        <layout order="3">daerah_sulawesi</layout>
+        <layout active="1" order="4">kolintang_sulawesi</layout>
+        <event-sheet order="2">event-ukulele</event-sheet>
+        <event-sheet order="5">event-kolintang</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />

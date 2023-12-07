@@ -1537,16 +1537,16 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="606031204405913" speed="5">
-                    <frame duration="1" hotspotX="0.500699" hotspotY="0.500648" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\kolintang.png">
+                    <frame duration="1" hotspotX="0.537133" hotspotY="0.56621" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\kolintang.png">
                         <collision-poly>
-                            <point x="0.163636" y="0.151751" />
-                            <point x="0.499301" y="0.0207523" />
-                            <point x="0.802797" y="0.182879" />
-                            <point x="0.855944" y="0.499352" />
-                            <point x="0.811189" y="0.824903" />
-                            <point x="0.499301" y="0.869001" />
-                            <point x="0.142657" y="0.867704" />
-                            <point x="0.0853147" y="0.499352" />
+                            <point x="0.120898" y="0.156773" />
+                            <point x="0.535406" y="0.00304417" />
+                            <point x="0.91019" y="0.193302" />
+                            <point x="0.97582" y="0.564689" />
+                            <point x="0.920553" y="0.946728" />
+                            <point x="0.535406" y="0.998478" />
+                            <point x="0.0949909" y="0.996956" />
+                            <point x="0.0241796" y="0.564689" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -2737,6 +2737,8 @@
         <file name="Sound SAPE KALIMANTAN.ogg" />
         <file name="tifa-papua.ogg" />
         <file name="sasando-nusa-tenggara.ogg" />
+        <file name="Sound UKULELE MALUKU.ogg" />
+        <file name="kolintang-sulawesi.ogg" />
     </sounds-folder>
     <music-folder />
     <files-folder>

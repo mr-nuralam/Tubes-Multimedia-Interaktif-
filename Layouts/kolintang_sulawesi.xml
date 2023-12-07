@@ -40,7 +40,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>640</x>
-                        <y>360.106994629</y>
+                        <y>360</y>
                         <z>0</z>
                         <width>1282</width>
                         <height>722</height>
@@ -80,7 +80,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>637</x>
+                        <x>640</x>
                         <y>384</y>
                         <z>0</z>
                         <width>1097.092285156</width>
@@ -102,14 +102,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>666.157104492</x>
+                        <x>646.33782959</x>
                         <y>272.873321533</y>
                         <z>0</z>
-                        <width>210.770370483</width>
-                        <height>227.278259277</height>
+                        <width>170.679779053</width>
+                        <height>193.672912598</height>
                         <depth>0</depth>
-                        <hotspotX>0.500699282</hotspotX>
-                        <hotspotY>0.500648499</hotspotY>
+                        <hotspotX>0.537132978</hotspotX>
+                        <hotspotY>0.566210032</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -124,7 +124,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>624</x>
+                        <x>637.370056152</x>
                         <y>90</y>
                         <z>0</z>
                         <width>535.193969727</width>
@@ -132,6 +132,50 @@
                         <depth>0</depth>
                         <hotspotX>0.495085984</hotspotX>
                         <hotspotY>0.510416687</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="buton11" uid="85">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>42</x>
+                        <y>675</y>
+                        <z>0</z>
+                        <width>61.013999939</width>
+                        <height>67.115997314</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.501466274</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="putarAlatMusik" uid="183">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1136</x>
+                        <y>134</y>
+                        <z>0</z>
+                        <width>109.479736328</width>
+                        <height>43.668884277</height>
+                        <depth>0</depth>
+                        <hotspotX>0.505617976</hotspotX>
+                        <hotspotY>0.455399066</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -155,28 +199,6 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="buton11" uid="85">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>76</x>
-                        <y>676</y>
-                        <z>0</z>
-                        <width>81.452720642</width>
-                        <height>89.597991943</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.501466274</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="buton12" uid="86">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -187,8 +209,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>662</x>
-                        <y>677</y>
+                        <x>633</x>
+                        <y>683</y>
                         <z>0</z>
                         <width>74.293968201</width>
                         <height>74.023803711</height>
