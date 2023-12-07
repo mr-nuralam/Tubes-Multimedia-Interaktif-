@@ -13,7 +13,7 @@
                 <event-block sid="213170160297177">
                     <conditions>
                         <condition id="5" name="Is tag playing" sid="856186060599542" type="Audio">
-                            <param id="0" name="Tag">&quot;musik&quot;</param>
+                            <param id="0" name="Tag">&quot;musik-pengantar&quot;</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -22,7 +22,7 @@
                             <param id="0" name="Audio file">sound_pengantar</param>
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;musik&quot;</param>
+                            <param id="1" name="Tag (optional)">&quot;musik-pengantar&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -36,7 +36,7 @@
                             <param id="0" name="Audio file">sound_pengantar</param>
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;musik&quot;</param>
+                            <param id="1" name="Tag (optional)">&quot;musik-pengantar&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -59,20 +59,20 @@
                         <condition id="-14" name="Compare variable" sid="652531739000958" type="System">
                             <param id="0" name="Variable">buttonmusik</param>
                             <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">0</param>
+                            <param id="2" name="Value">1</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" sid="802490290518048" type="System">
+                        <action id="-9" name="Set value" sid="103271388777841" type="System">
                             <param id="0" name="Variable">buttonmusik</param>
-                            <param id="1" name="Value">1</param>
+                            <param id="1" name="Value">0</param>
                         </action>
-                        <action id="2" name="Set muted" sid="640940301505311" type="Audio">
-                            <param id="0" name="Tag">&quot;musik&quot;</param>
+                        <action id="2" name="Set muted" sid="478143803024009" type="Audio">
+                            <param id="0" name="Tag">&quot;musik-pengantar&quot;</param>
                             <param id="1" name="State">1</param>
                         </action>
-                        <action id="5" name="Set frame" sid="823726011314192" type="buton14">
-                            <param id="0" name="Frame number">0</param>
+                        <action id="5" name="Set frame" sid="729000068232701" type="buton14">
+                            <param id="0" name="Frame number">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -81,16 +81,16 @@
                         <condition id="-22" name="Else" sid="481522033758643" type="System" />
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" sid="117045998308448" type="System">
+                        <action id="-9" name="Set value" sid="474460232777145" type="System">
                             <param id="0" name="Variable">buttonmusik</param>
-                            <param id="1" name="Value">0</param>
+                            <param id="1" name="Value">1</param>
                         </action>
-                        <action id="2" name="Set muted" sid="964074494536915" type="Audio">
-                            <param id="0" name="Tag">&quot;musik&quot;</param>
+                        <action id="2" name="Set muted" sid="710878080364478" type="Audio">
+                            <param id="0" name="Tag">&quot;musik-pengantar&quot;</param>
                             <param id="1" name="State">0</param>
                         </action>
-                        <action id="5" name="Set frame" sid="904448765536463" type="buton14">
-                            <param id="0" name="Frame number">1</param>
+                        <action id="5" name="Set frame" sid="775556643062893" type="buton14">
+                            <param id="0" name="Frame number">0</param>
                         </action>
                     </actions>
                 </event-block>
@@ -103,16 +103,18 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="0" name="Play" sid="736564653246314" type="Audio">
+                    <param id="0" name="Audio file">button-next</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">10</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
                 <action id="-2" name="Go to layout" sid="471237295316562" type="System">
                     <param id="0" name="Layout">menu</param>
                 </action>
-                <action id="0" name="Play" sid="736564653246314" type="Audio">
-                    <param id="0" name="Audio file">organic-button</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                <action id="6" name="Stop" sid="329007915264683" type="Audio">
+                    <param id="0" name="Tag">&quot;musik-pengantar&quot;</param>
                 </action>
-                <action id="33" name="Stop all" sid="329007915264683" type="Audio" />
             </actions>
         </event-block>
         <event-block sid="114825016892688">
@@ -122,16 +124,18 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="629957802305321" type="System">
-                    <param id="0" name="Layout">peta</param>
-                </action>
                 <action id="0" name="Play" sid="902509200445605" type="Audio">
-                    <param id="0" name="Audio file">organic-button</param>
+                    <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
-                <action id="33" name="Stop all" sid="810150661020585" type="Audio" />
+                <action id="-2" name="Go to layout" sid="629957802305321" type="System">
+                    <param id="0" name="Layout">peta</param>
+                </action>
+                <action id="6" name="Stop" sid="810150661020585" type="Audio">
+                    <param id="0" name="Tag">&quot;musik-pengantar&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="609704060810087">
@@ -141,16 +145,18 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="899420580095600" type="System">
-                    <param id="0" name="Layout">menu</param>
-                </action>
                 <action id="0" name="Play" sid="117978693579472" type="Audio">
-                    <param id="0" name="Audio file">organic-button</param>
+                    <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
-                <action id="33" name="Stop all" sid="349305530885182" type="Audio" />
+                <action id="-2" name="Go to layout" sid="899420580095600" type="System">
+                    <param id="0" name="Layout">menu</param>
+                </action>
+                <action id="6" name="Stop" sid="349305530885182" type="Audio">
+                    <param id="0" name="Tag">&quot;musik-pengantar&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="485483628905546">

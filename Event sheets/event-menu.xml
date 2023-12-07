@@ -11,7 +11,7 @@
                 <action id="0" name="Play" sid="298571861066820" type="Audio">
                     <param id="0" name="Audio file">positive-logo-opener-13622</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
+                    <param id="3" name="Volume">-5</param>
                     <param id="1" name="Tag (optional)">&quot;musik&quot;</param>
                 </action>
             </actions>

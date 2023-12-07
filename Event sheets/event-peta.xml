@@ -137,6 +137,12 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="0" name="Play" sid="904528751845117" type="Audio">
+                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">250</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
                 <action behavior="LiteTween" id="10" name="Start" sid="584031480501974" type="jawa">
                     <param id="0" name="Start Mode">0</param>
                     <param id="1" name="Force use current">0</param>
@@ -171,12 +177,6 @@
                 <action id="-2" name="Go to layout" sid="675485075797333" type="System">
                     <param id="0" name="Layout">daerah_jawa</param>
                 </action>
-                <action id="0" name="Play" sid="904528751845117" type="Audio">
-                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                </action>
             </actions>
         </event-block>
         <event-block sid="353359485195510">
@@ -186,6 +186,12 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="0" name="Play" sid="663865865318785" type="Audio">
+                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">20</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
                 <action behavior="LiteTween" id="10" name="Start" sid="766534380580155" type="kalimantan">
                     <param id="0" name="Start Mode">0</param>
                     <param id="1" name="Force use current">0</param>
@@ -220,12 +226,6 @@
                 <action id="-2" name="Go to layout" sid="452952933058598" type="System">
                     <param id="0" name="Layout">daerah_kalimantan</param>
                 </action>
-                <action id="0" name="Play" sid="663865865318785" type="Audio">
-                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                </action>
             </actions>
         </event-block>
         <event-block sid="184205546751516">
@@ -235,6 +235,12 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="0" name="Play" sid="827541654339608" type="Audio">
+                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">20</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
                 <action behavior="LiteTween" id="10" name="Start" sid="170158875677523" type="sumatera">
                     <param id="0" name="Start Mode">0</param>
                     <param id="1" name="Force use current">0</param>
@@ -269,12 +275,6 @@
                 <action id="-2" name="Go to layout" sid="129074798990541" type="System">
                     <param id="0" name="Layout">daerah_sumatera</param>
                 </action>
-                <action id="0" name="Play" sid="827541654339608" type="Audio">
-                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                </action>
             </actions>
         </event-block>
         <event-block sid="216275826909725">
@@ -284,6 +284,12 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="0" name="Play" sid="139444369318334" type="Audio">
+                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">20</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
                 <action behavior="LiteTween" id="10" name="Start" sid="231786441933840" type="sulawesi">
                     <param id="0" name="Start Mode">0</param>
                     <param id="1" name="Force use current">0</param>
@@ -318,12 +324,6 @@
                 <action id="-2" name="Go to layout" sid="746596942059859" type="System">
                     <param id="0" name="Layout">daerah_sulawesi</param>
                 </action>
-                <action id="0" name="Play" sid="139444369318334" type="Audio">
-                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                </action>
             </actions>
         </event-block>
         <event-block sid="800686256157227">
@@ -333,6 +333,12 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="0" name="Play" sid="344327833032544" type="Audio">
+                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">20</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
                 <action behavior="LiteTween" id="10" name="Start" sid="202411431601034" type="nusaTenggara">
                     <param id="0" name="Start Mode">0</param>
                     <param id="1" name="Force use current">0</param>
@@ -367,12 +373,6 @@
                 <action id="-2" name="Go to layout" sid="853813230651485" type="System">
                     <param id="0" name="Layout">daerah_nusa tenggara</param>
                 </action>
-                <action id="0" name="Play" sid="344327833032544" type="Audio">
-                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                </action>
             </actions>
         </event-block>
         <event-block sid="485763257063756">
@@ -382,6 +382,12 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="0" name="Play" sid="545938644172957" type="Audio">
+                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">20</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
                 <action behavior="LiteTween" id="10" name="Start" sid="603198510450123" type="maluku">
                     <param id="0" name="Start Mode">0</param>
                     <param id="1" name="Force use current">0</param>
@@ -416,12 +422,6 @@
                 <action id="-2" name="Go to layout" sid="629973246054069" type="System">
                     <param id="0" name="Layout">daerah_maluku</param>
                 </action>
-                <action id="0" name="Play" sid="545938644172957" type="Audio">
-                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                </action>
             </actions>
         </event-block>
         <event-block sid="752894261473800">
@@ -431,6 +431,12 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="0" name="Play" sid="315943631524698" type="Audio">
+                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">100</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
                 <action behavior="LiteTween" id="10" name="Start" sid="562341409196694" type="papua">
                     <param id="0" name="Start Mode">0</param>
                     <param id="1" name="Force use current">0</param>
@@ -465,12 +471,6 @@
                 <action id="-2" name="Go to layout" sid="190222780895141" type="System">
                     <param id="0" name="Layout">daerah_papua</param>
                 </action>
-                <action id="0" name="Play" sid="315943631524698" type="Audio">
-                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                </action>
             </actions>
         </event-block>
         <event-block sid="393938570113150">
@@ -484,7 +484,7 @@
                     <param id="0" name="Layout">menu</param>
                 </action>
                 <action id="0" name="Play" sid="589587953552690" type="Audio">
-                    <param id="0" name="Audio file">organic-button</param>
+                    <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>

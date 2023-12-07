@@ -4,41 +4,6 @@
     <name>event-angklung</name>
     <events>
         <variable constant="0" name="buttonmusik2" sid="115202515705092" static="0" type="number">0</variable>
-        <event-block sid="691095728964156">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="235545155586702" type="System" />
-            </conditions>
-            <actions />
-            <sub-events>
-                <event-block sid="736634417682796">
-                    <conditions>
-                        <condition id="3" name="Is silent" sid="207101601721437" type="Audio" />
-                    </conditions>
-                    <actions>
-                        <action id="33" name="Stop all" sid="844509357050033" type="Audio" />
-                        <action id="0" name="Play" sid="142306333004648" type="Audio">
-                            <param id="0" name="Audio file">angklung-jawa</param>
-                            <param id="2" name="Loop">1</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;musik&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="928911477428657">
-                    <conditions>
-                        <condition id="-22" name="Else" sid="329094026456781" type="System" />
-                    </conditions>
-                    <actions>
-                        <action id="0" name="Play" sid="395790471895145" type="Audio">
-                            <param id="0" name="Audio file">angklung-jawa</param>
-                            <param id="2" name="Loop">1</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;musik&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
         <event-block sid="593409004604595">
             <conditions>
                 <condition id="3" name="On touched object" sid="368696637925285" type="Touch">
@@ -64,9 +29,11 @@
                             <param id="0" name="Variable">buttonmusik</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="2" name="Set muted" sid="929582854865601" type="Audio">
-                            <param id="0" name="Tag">&quot;musik&quot;</param>
-                            <param id="1" name="State">1</param>
+                        <action id="0" name="Play" sid="929582854865601" type="Audio">
+                            <param id="0" name="Audio file">angklung-jawa</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;musik-angklung&quot;</param>
                         </action>
                         <action id="5" name="Set frame" sid="601758810691298" type="putarAlatMusik">
                             <param id="0" name="Frame number">0</param>
@@ -83,7 +50,7 @@
                             <param id="1" name="Value">0</param>
                         </action>
                         <action id="2" name="Set muted" sid="352586306483518" type="Audio">
-                            <param id="0" name="Tag">&quot;musik&quot;</param>
+                            <param id="0" name="Tag">&quot;musik-angklung&quot;</param>
                             <param id="1" name="State">0</param>
                         </action>
                         <action id="5" name="Set frame" sid="319135289019546" type="putarAlatMusik">
@@ -100,14 +67,17 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="0" name="Play" sid="941302244011560" type="Audio">
+                    <param id="0" name="Audio file">button-next</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">10</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
                 <action id="-2" name="Go to layout" sid="321325900027986" type="System">
                     <param id="0" name="Layout">daerah_jawa</param>
                 </action>
-                <action id="0" name="Play" sid="941302244011560" type="Audio">
-                    <param id="0" name="Audio file">organic-button</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                <action id="6" name="Stop" sid="735315799650584" type="Audio">
+                    <param id="0" name="Tag">&quot;musik-angklung&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -118,14 +88,17 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="0" name="Play" sid="541589049175010" type="Audio">
+                    <param id="0" name="Audio file">button-next</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">10</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
                 <action id="-2" name="Go to layout" sid="179254014158471" type="System">
                     <param id="0" name="Layout">menu</param>
                 </action>
-                <action id="0" name="Play" sid="541589049175010" type="Audio">
-                    <param id="0" name="Audio file">organic-button</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                <action id="6" name="Stop" sid="940118347189055" type="Audio">
+                    <param id="0" name="Tag">&quot;musik-angklung&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -136,14 +109,17 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="0" name="Play" sid="235935928696701" type="Audio">
+                    <param id="0" name="Audio file">button-next</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">10</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
                 <action id="-2" name="Go to layout" sid="284928920210210" type="System">
                     <param id="0" name="Layout">kendang_jawa</param>
                 </action>
-                <action id="0" name="Play" sid="235935928696701" type="Audio">
-                    <param id="0" name="Audio file">organic-button</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                <action id="6" name="Stop" sid="368278359638673" type="Audio">
+                    <param id="0" name="Tag">&quot;musik-angklung&quot;</param>
                 </action>
             </actions>
         </event-block>
