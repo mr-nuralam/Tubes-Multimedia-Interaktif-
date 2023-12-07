@@ -16,7 +16,7 @@
                 <action id="0" name="Play" sid="140602874619991" type="Audio">
                     <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
+                    <param id="3" name="Volume">20</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
@@ -34,7 +34,7 @@
                 <action id="0" name="Play" sid="736285613527286" type="Audio">
                     <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
+                    <param id="3" name="Volume">20</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
@@ -50,7 +50,7 @@
                     <param id="0" name="Layout">peta</param>
                 </action>
                 <action id="0" name="Play" sid="598365240319693" type="Audio">
-                    <param id="0" name="Audio file">organic-button</param>
+                    <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
@@ -68,7 +68,7 @@
                     <param id="0" name="Layout">menu</param>
                 </action>
                 <action id="0" name="Play" sid="324624287146798" type="Audio">
-                    <param id="0" name="Audio file">organic-button</param>
+                    <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
@@ -86,7 +86,7 @@
                     <param id="0" name="Layout">sape_kalimantan</param>
                 </action>
                 <action id="0" name="Play" sid="661123280455463" type="Audio">
-                    <param id="0" name="Audio file">organic-button</param>
+                    <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>

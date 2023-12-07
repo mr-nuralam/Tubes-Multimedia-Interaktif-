@@ -199,6 +199,28 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="putarAlatMusik" uid="178">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1105</x>
+                        <y>144</y>
+                        <z>0</z>
+                        <width>109.479736328</width>
+                        <height>43.668884277</height>
+                        <depth>0</depth>
+                        <hotspotX>0.505617976</hotspotX>
+                        <hotspotY>0.455399066</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>

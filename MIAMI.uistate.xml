@@ -10,17 +10,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="3">kendang_jawa</layout>
-        <layout order="6">daerah_sumatera</layout>
-        <layout order="9">saluang_sumatera</layout>
-        <layout order="1">garantung_sumatera</layout>
-        <layout active="1" order="10">serunai_sumatera</layout>
+        <layout order="1">kecapi_kalimantan</layout>
+        <layout active="1" order="2">sape_kalimantan</layout>
         <event-sheet order="0">event-angklung</event-sheet>
-        <event-sheet order="4">event-tanjidor</event-sheet>
-        <event-sheet order="5">event-sumatera</event-sheet>
-        <event-sheet order="2">event-saluang</event-sheet>
-        <event-sheet order="7">event-serunai</event-sheet>
-        <event-sheet order="8">event-garantung</event-sheet>
+        <event-sheet order="3">event-kecapi</event-sheet>
+        <event-sheet order="4">event-sape</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />

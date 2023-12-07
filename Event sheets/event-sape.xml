@@ -14,10 +14,13 @@
                     <param id="0" name="Layout">daerah_kalimantan</param>
                 </action>
                 <action id="0" name="Play" sid="486482103558095" type="Audio">
-                    <param id="0" name="Audio file">organic-button</param>
+                    <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="603560780662527" type="Audio">
+                    <param id="0" name="Tag">&quot;musik-sape&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -32,10 +35,13 @@
                     <param id="0" name="Layout">menu</param>
                 </action>
                 <action id="0" name="Play" sid="809396832879672" type="Audio">
-                    <param id="0" name="Audio file">organic-button</param>
+                    <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="280253666421290" type="Audio">
+                    <param id="0" name="Tag">&quot;musik-sape&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -50,12 +56,71 @@
                     <param id="0" name="Layout">kecapi_kalimantan</param>
                 </action>
                 <action id="0" name="Play" sid="353718911242227" type="Audio">
-                    <param id="0" name="Audio file">organic-button</param>
+                    <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
+                <action id="6" name="Stop" sid="259083706606357" type="Audio">
+                    <param id="0" name="Tag">&quot;musik-sape&quot;</param>
+                </action>
             </actions>
+        </event-block>
+        <event-block sid="928592828666134">
+            <conditions>
+                <condition id="3" name="On touched object" sid="845674879342375" type="Touch">
+                    <param id="0" name="Object">putarAlatMusik</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Move to layer" sid="857162352642963" type="putarAlatMusik">
+                    <param id="0" name="Layer">0</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="215242431046284">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="789314394636769" type="System">
+                            <param id="0" name="Variable">buttonmusik</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="381784407999787" type="System">
+                            <param id="0" name="Variable">buttonmusik</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="539809991221158" type="Audio">
+                            <param id="0" name="Audio file">Sound SAPE KALIMANTAN</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;musik-sape&quot;</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="417057352808782" type="putarAlatMusik">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="611814359555371">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="744033369761798" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="977606591184796" type="System">
+                            <param id="0" name="Variable">buttonmusik</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="2" name="Set muted" sid="496635396580214" type="Audio">
+                            <param id="0" name="Tag">&quot;musik-sape&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="507714969566140" type="putarAlatMusik">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>
