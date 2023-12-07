@@ -14,7 +14,7 @@
         <event-block sid="891365481865391">
             <conditions>
                 <condition id="3" name="On touched object" sid="488163219532640" type="Touch">
-                    <param id="0" name="Object">pause</param>
+                    <param id="0" name="Object">pause2</param>
                 </condition>
             </conditions>
             <actions>
@@ -24,7 +24,7 @@
         <event-block sid="492026024527908">
             <conditions>
                 <condition id="3" name="On touched object" sid="293947950815914" type="Touch">
-                    <param id="0" name="Object">play</param>
+                    <param id="0" name="Object">play2</param>
                 </condition>
             </conditions>
             <actions>
@@ -42,7 +42,7 @@
                     <param id="0" name="Layout">menu</param>
                 </action>
                 <action id="0" name="Play" sid="659462189093333" type="Audio">
-                    <param id="0" name="Audio file">organic-button</param>
+                    <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>

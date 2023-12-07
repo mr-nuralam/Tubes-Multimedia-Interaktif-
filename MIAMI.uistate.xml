@@ -10,12 +10,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">daerah_maluku</layout>
-        <layout order="1">ukulele_maluku</layout>
-        <layout order="3">daerah_sulawesi</layout>
-        <layout active="1" order="4">kolintang_sulawesi</layout>
-        <event-sheet order="2">event-ukulele</event-sheet>
-        <event-sheet order="5">event-kolintang</event-sheet>
+        <layout order="0">menu</layout>
+        <layout order="1">splash</layout>
+        <layout active="1" order="2">video_menu</layout>
+        <event-sheet order="3">event_video</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -169,9 +167,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/titlesulawesi5/" />
         <folder expanded="1" path="animation-folder/putarAlatMusik/" />
         <folder expanded="1" path="animation-folder/Sprite21/" />
-        <folder expanded="1" path="animation-folder/play/" />
-        <folder expanded="1" path="animation-folder/pause/" />
         <folder expanded="1" path="animation-folder/bgSplashscreen/" />
         <folder expanded="1" path="animation-folder/buton15/" />
+        <folder expanded="1" path="animation-folder/titlevideo/" />
+        <folder expanded="1" path="animation-folder/play2/" />
+        <folder expanded="1" path="animation-folder/pause2/" />
     </folders-expanded>
 </c2uistate>

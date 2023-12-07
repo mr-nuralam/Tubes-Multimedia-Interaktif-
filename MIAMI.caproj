@@ -2575,44 +2575,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="play" sid="235019173801967">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="913082283672431" speed="5">
-                    <frame duration="1" hotspotX="0.488636" hotspotY="0.517018" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\play.png">
-                        <collision-poly>
-                            <point x="0.126623" y="0.171799" />
-                            <point x="0.487013" y="0.00324149" />
-                            <point x="0.862013" y="0.158833" />
-                            <point x="0.996753" y="0.517018" />
-                            <point x="0.845779" y="0.858995" />
-                            <point x="0.487013" y="0.996759" />
-                            <point x="0.142857" y="0.846029" />
-                            <point x="0.00324675" y="0.517018" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="pause" sid="853038769986848">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="505090287792965" speed="5">
-                    <frame duration="1" hotspotX="0.465909" hotspotY="0.492707" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\pause.png">
-                        <collision-poly>
-                            <point x="0.162338" y="0.134522" />
-                            <point x="0.465909" y="0.00324148" />
-                            <point x="0.800325" y="0.103728" />
-                            <point x="0.996753" y="0.491086" />
-                            <point x="0.810065" y="0.889789" />
-                            <point x="0.465909" y="0.996759" />
-                            <point x="0.154221" y="0.857374" />
-                            <point x="0.00162338" y="0.491086" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="bgSplashscreen" sid="186695627431250">
             <plugin id="Sprite" />
             <animation-folder>
@@ -2635,6 +2597,62 @@
                             <point x="0.458182" y="0.992701" />
                             <point x="0.101818" y="0.788321" />
                             <point x="0.00727273" y="0.521898" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="titlevideo" sid="116233090291828">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="502518002788003" speed="5">
+                    <frame duration="1" hotspotX="0.50215" hotspotY="0.484375" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\title-video.png">
+                        <collision-poly>
+                            <point x="0.0275151" y="0.0260417" />
+                            <point x="0.976784" y="0.0260417" />
+                            <point x="0.99914" y="0.479167" />
+                            <point x="0.979364" y="0.953125" />
+                            <point x="0.50215" y="0.994792" />
+                            <point x="0.0249355" y="0.953125" />
+                            <point x="0.00257954" y="0.479167" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="play2" sid="892080068789224">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="251276750225003" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.536765" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\play.png">
+                        <collision-poly>
+                            <point x="0.0955882" y="0.220588" />
+                            <point x="0.492647" y="0.0147059" />
+                            <point x="0.897059" y="0.220588" />
+                            <point x="0.985294" y="0.536765" />
+                            <point x="0.867647" y="0.823529" />
+                            <point x="0.492647" y="0.985294" />
+                            <point x="0.132353" y="0.816176" />
+                            <point x="0.0147059" y="0.536765" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pause2" sid="591061832490497">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="243583250976986" speed="5">
+                    <frame duration="1" hotspotX="0.496296" hotspotY="0.511111" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\pause.png">
+                        <collision-poly>
+                            <point x="0.244444" y="0.0740741" />
+                            <point x="0.496296" y="0.00740741" />
+                            <point x="0.748148" y="0.0740741" />
+                            <point x="0.985185" y="0.511111" />
+                            <point x="0.733333" y="0.933333" />
+                            <point x="0.496296" y="0.985185" />
+                            <point x="0.259259" y="0.933333" />
+                            <point x="0.00740741" y="0.511111" />
                         </collision-poly>
                     </frame>
                 </animation>
