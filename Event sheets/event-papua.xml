@@ -32,7 +32,7 @@
                     <param id="0" name="Layout">peta</param>
                 </action>
                 <action id="0" name="Play" sid="305803367371449" type="Audio">
-                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
@@ -50,7 +50,7 @@
                     <param id="0" name="Layout">menu</param>
                 </action>
                 <action id="0" name="Play" sid="787515571388704" type="Audio">
-                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
@@ -68,7 +68,7 @@
                     <param id="0" name="Layout">tifa_papua</param>
                 </action>
                 <action id="0" name="Play" sid="244537537712336" type="Audio">
-                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>

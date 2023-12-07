@@ -32,9 +32,9 @@
                     <param id="0" name="Layout">peta</param>
                 </action>
                 <action id="0" name="Play" sid="274770532201021" type="Audio">
-                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
+                    <param id="3" name="Volume">2</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
@@ -50,9 +50,9 @@
                     <param id="0" name="Layout">menu</param>
                 </action>
                 <action id="0" name="Play" sid="163619370009433" type="Audio">
-                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
+                    <param id="3" name="Volume">2</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
@@ -68,9 +68,9 @@
                     <param id="0" name="Layout">sasando_nusa tenggara</param>
                 </action>
                 <action id="0" name="Play" sid="784371863545688" type="Audio">
-                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
+                    <param id="3" name="Volume">2</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>

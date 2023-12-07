@@ -14,10 +14,13 @@
                     <param id="0" name="Layout">daerah_nusa tenggara</param>
                 </action>
                 <action id="0" name="Play" sid="221414958428385" type="Audio">
-                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="182023827920557" type="Audio">
+                    <param id="0" name="Tag">&quot;musik-sasando&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -32,12 +35,71 @@
                     <param id="0" name="Layout">menu</param>
                 </action>
                 <action id="0" name="Play" sid="168472571024094" type="Audio">
-                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
+                <action id="6" name="Stop" sid="908041278808991" type="Audio">
+                    <param id="0" name="Tag">&quot;musik-sasando&quot;</param>
+                </action>
             </actions>
+        </event-block>
+        <event-block sid="507092200206805">
+            <conditions>
+                <condition id="3" name="On touched object" sid="985908698974221" type="Touch">
+                    <param id="0" name="Object">putarAlatMusik</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Move to layer" sid="624345333965972" type="putarAlatMusik">
+                    <param id="0" name="Layer">0</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="887259223969285">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="674489535582404" type="System">
+                            <param id="0" name="Variable">buttonmusik</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="652827932436771" type="System">
+                            <param id="0" name="Variable">buttonmusik</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="909276934414572" type="Audio">
+                            <param id="0" name="Audio file">sasando-nusa-tenggara</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">10</param>
+                            <param id="1" name="Tag (optional)">&quot;musik-sasando&quot;</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="340530408060721" type="putarAlatMusik">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="623518001956785">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="709130939068729" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="921515010710828" type="System">
+                            <param id="0" name="Variable">buttonmusik</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="2" name="Set muted" sid="461920589406477" type="Audio">
+                            <param id="0" name="Tag">&quot;musik-sasando&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="401503464632353" type="putarAlatMusik">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>

@@ -1972,14 +1972,14 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="686913950898842" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.501182" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\title-nusatenggara.png">
+                    <frame duration="1" hotspotX="0.495086" hotspotY="0.619792" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\title-nusatenggara.png">
                         <collision-poly>
-                            <point x="0.0568862" y="0.224586" />
-                            <point x="0.943114" y="0.224586" />
-                            <point x="0.983832" y="0.498818" />
-                            <point x="0.916168" y="0.669031" />
-                            <point x="0.0838323" y="0.669031" />
-                            <point x="0.0257485" y="0.498818" />
+                            <point x="0.0405405" y="0.010416" />
+                            <point x="0.949632" y="0.010416" />
+                            <point x="0.9914" y="0.614583" />
+                            <point x="0.92199" y="0.989584" />
+                            <point x="0.0681818" y="0.989584" />
+                            <point x="0.00859951" y="0.614583" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -2163,16 +2163,16 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="301202177142930" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.501466" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\title-papua.png">
+                    <frame duration="1" hotspotX="0.492629" hotspotY="0.40625" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\title-papua.png">
                         <collision-poly>
-                            <point x="0.0660377" y="0.348974" />
-                            <point x="0.5" y="0.278592" />
-                            <point x="0.944506" y="0.293255" />
-                            <point x="0.953385" y="0.498534" />
-                            <point x="0.945616" y="0.71261" />
-                            <point x="0.5" y="0.829912" />
-                            <point x="0.0660377" y="0.651026" />
-                            <point x="0.0599334" y="0.498534" />
+                            <point x="0.012285" y="0.135417" />
+                            <point x="0.492629" y="0.010416" />
+                            <point x="0.984644" y="0.0364581" />
+                            <point x="0.994472" y="0.401042" />
+                            <point x="0.985872" y="0.78125" />
+                            <point x="0.492629" y="0.989583" />
+                            <point x="0.012285" y="0.671874" />
+                            <point x="0.00552825" y="0.401042" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -2182,16 +2182,16 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="425983192322755" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\tifa.png">
+                    <frame duration="1" hotspotX="0.426598" hotspotY="0.518237" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\tifa.png">
                         <collision-poly>
-                            <point x="0.233247" y="0.240053" />
-                            <point x="0.5" y="0.0543767" />
-                            <point x="0.829897" y="0.175066" />
-                            <point x="0.920103" y="0.5" />
-                            <point x="0.868557" y="0.864721" />
-                            <point x="0.5" y="0.919098" />
-                            <point x="0.291237" y="0.700265" />
-                            <point x="0.190722" y="0.5" />
+                            <point x="0.069084" y="0.220365" />
+                            <point x="0.426598" y="0.00759883" />
+                            <point x="0.868739" y="0.145896" />
+                            <point x="0.989637" y="0.518237" />
+                            <point x="0.920553" y="0.93617" />
+                            <point x="0.426598" y="0.99848" />
+                            <point x="0.146805" y="0.74772" />
+                            <point x="0.0120903" y="0.518237" />
                         </collision-poly>
                     </frame>
                 </animation>

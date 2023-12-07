@@ -14,10 +14,13 @@
                     <param id="0" name="Layout">daerah_papua</param>
                 </action>
                 <action id="0" name="Play" sid="586326311650337" type="Audio">
-                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="275343667047061" type="Audio">
+                    <param id="0" name="Tag">&quot;musik-tifa&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -32,12 +35,71 @@
                     <param id="0" name="Layout">menu</param>
                 </action>
                 <action id="0" name="Play" sid="290297489172906" type="Audio">
-                    <param id="0" name="Audio file">menu-game-button-click-sound-effect</param>
+                    <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
+                <action id="6" name="Stop" sid="203336554453564" type="Audio">
+                    <param id="0" name="Tag">&quot;musik-tifa&quot;</param>
+                </action>
             </actions>
+        </event-block>
+        <event-block sid="696364462316069">
+            <conditions>
+                <condition id="3" name="On touched object" sid="372839834562739" type="Touch">
+                    <param id="0" name="Object">putarAlatMusik</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Move to layer" sid="590588535689324" type="putarAlatMusik">
+                    <param id="0" name="Layer">0</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="630995432799890">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="680469924178769" type="System">
+                            <param id="0" name="Variable">buttonmusik</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="909749724553560" type="System">
+                            <param id="0" name="Variable">buttonmusik</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="745451016469054" type="Audio">
+                            <param id="0" name="Audio file">tifa-papua</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">10</param>
+                            <param id="1" name="Tag (optional)">&quot;musik-tifa&quot;</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="288376726331987" type="putarAlatMusik">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="409802678199658">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="901999834898876" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="251372196075370" type="System">
+                            <param id="0" name="Variable">buttonmusik</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="2" name="Set muted" sid="541526062742326" type="Audio">
+                            <param id="0" name="Tag">&quot;musik-tifa&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="354734521859533" type="putarAlatMusik">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>

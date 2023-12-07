@@ -40,7 +40,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>640</x>
-                        <y>358</y>
+                        <y>359</y>
                         <z>0</z>
                         <width>1282</width>
                         <height>722</height>
@@ -88,72 +88,6 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.500618041</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="buton11" uid="120">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>104</x>
-                        <y>676</y>
-                        <z>0</z>
-                        <width>81.452720642</width>
-                        <height>89.597991943</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.501466274</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="buton12" uid="121">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>659</x>
-                        <y>677</y>
-                        <z>0</z>
-                        <width>74.293968201</width>
-                        <height>74.023803711</height>
-                        <depth>0</depth>
-                        <hotspotX>0.461818188</hotspotX>
-                        <hotspotY>0.525547445</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="buton13" uid="122">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1186</x>
-                        <y>674</y>
-                        <z>0</z>
-                        <width>69.925292969</width>
-                        <height>69.925300598</height>
-                        <depth>0</depth>
-                        <hotspotX>0.523636341</hotspotX>
-                        <hotspotY>0.50545454</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
