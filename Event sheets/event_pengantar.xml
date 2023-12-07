@@ -159,15 +159,5 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="485483628905546">
-            <conditions>
-                <condition id="3" name="On touched object" sid="946181441031550" type="Touch">
-                    <param id="0" name="Object">buton8</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="1" name="Close" sid="376802006528004" type="Browser" />
-            </actions>
-        </event-block>
     </events>
 </c2eventsheet>

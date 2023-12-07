@@ -10,22 +10,17 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">pengantar</layout>
-        <layout order="5">kendang_jawa</layout>
-        <layout order="9">angklung_jawa</layout>
-        <layout order="10">menu</layout>
-        <layout order="12">peta</layout>
-        <layout order="13">daerah_sumatera</layout>
-        <layout order="14">saluang_sumatera</layout>
-        <event-sheet order="4">event_video</event-sheet>
-        <event-sheet order="1">event_pengantar</event-sheet>
-        <event-sheet order="2">event-angklung</event-sheet>
-        <event-sheet order="3">event-kendang</event-sheet>
-        <event-sheet order="6">event-jawa</event-sheet>
-        <event-sheet order="7">event-kalimantan</event-sheet>
-        <event-sheet order="8">event-menu</event-sheet>
-        <event-sheet order="11">event-peta</event-sheet>
-        <event-sheet active="1" order="15">event-tanjidor</event-sheet>
+        <layout order="3">kendang_jawa</layout>
+        <layout order="6">daerah_sumatera</layout>
+        <layout order="9">saluang_sumatera</layout>
+        <layout order="1">garantung_sumatera</layout>
+        <layout active="1" order="10">serunai_sumatera</layout>
+        <event-sheet order="0">event-angklung</event-sheet>
+        <event-sheet order="4">event-tanjidor</event-sheet>
+        <event-sheet order="5">event-sumatera</event-sheet>
+        <event-sheet order="2">event-saluang</event-sheet>
+        <event-sheet order="7">event-serunai</event-sheet>
+        <event-sheet order="8">event-garantung</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -36,7 +31,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <families-expanded root="1" />
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
-        <folder expanded="1" path="object-folder/fungsi/" />
+        <folder expanded="0" path="object-folder/fungsi/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="file-folder/" />

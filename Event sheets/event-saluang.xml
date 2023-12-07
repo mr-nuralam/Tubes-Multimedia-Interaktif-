@@ -14,10 +14,13 @@
                     <param id="0" name="Layout">daerah_sumatera</param>
                 </action>
                 <action id="0" name="Play" sid="137332657697067" type="Audio">
-                    <param id="0" name="Audio file">organic-button</param>
+                    <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="877999254619281" type="Audio">
+                    <param id="0" name="Tag">&quot;musik-saluang&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -32,10 +35,13 @@
                     <param id="0" name="Layout">menu</param>
                 </action>
                 <action id="0" name="Play" sid="687454191672948" type="Audio">
-                    <param id="0" name="Audio file">organic-button</param>
+                    <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="439137004159554" type="Audio">
+                    <param id="0" name="Tag">&quot;musik-saluang&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -50,12 +56,71 @@
                     <param id="0" name="Layout">serunai_sumatera</param>
                 </action>
                 <action id="0" name="Play" sid="543398479405315" type="Audio">
-                    <param id="0" name="Audio file">organic-button</param>
+                    <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
+                <action id="6" name="Stop" sid="495225782059604" type="Audio">
+                    <param id="0" name="Tag">&quot;musik-saluang&quot;</param>
+                </action>
             </actions>
+        </event-block>
+        <event-block sid="224362552160343">
+            <conditions>
+                <condition id="3" name="On touched object" sid="849158179592231" type="Touch">
+                    <param id="0" name="Object">putarAlatMusik</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Move to layer" sid="676715883081763" type="putarAlatMusik">
+                    <param id="0" name="Layer">0</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="472391202013995">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="530414450182125" type="System">
+                            <param id="0" name="Variable">buttonmusik</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="746599036843946" type="System">
+                            <param id="0" name="Variable">buttonmusik</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="383736070021160" type="Audio">
+                            <param id="0" name="Audio file">Saluang-Sumatera-Barat-</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;musik-saluang&quot;</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="819042867123189" type="putarAlatMusik">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="751162158972121">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="804050402432105" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="815411241647794" type="System">
+                            <param id="0" name="Variable">buttonmusik</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="2" name="Set muted" sid="202011572830318" type="Audio">
+                            <param id="0" name="Tag">&quot;musik-saluang&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="725520559577075" type="putarAlatMusik">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>
