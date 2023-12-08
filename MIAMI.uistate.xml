@@ -12,8 +12,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <open-tabs>
         <layout order="0">menu</layout>
         <layout order="1">splash</layout>
-        <layout active="1" order="2">video_menu</layout>
+        <layout order="2">video_menu</layout>
+        <layout active="1" order="8">daerah_jawa</layout>
         <event-sheet order="3">event_video</event-sheet>
+        <event-sheet order="4">event-menu</event-sheet>
+        <event-sheet order="5">global sheet</event-sheet>
+        <event-sheet order="6">event-jawa</event-sheet>
+        <event-sheet order="7">event-angklung</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />

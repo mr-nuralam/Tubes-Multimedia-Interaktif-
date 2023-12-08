@@ -2381,6 +2381,11 @@
         </object-type>
         <object-type name="Jawa2" sid="847460681766396">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="249334507055508">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="234199265794706" speed="5">
                     <frame duration="1" hotspotX="0.503683" hotspotY="0.5" original-source="F:\Aditya Code\PROJECTS\Tubes-Multimedia-Interaktif-\Assets\Jawa.png">
