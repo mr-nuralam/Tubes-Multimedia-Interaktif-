@@ -223,5 +223,174 @@
                 <action id="1" name="Close" sid="739306413158516" type="Browser" />
             </actions>
         </event-block>
+        <event-block sid="619270687703581">
+            <conditions>
+                <condition id="3" name="On touched object" sid="420210789955135" type="Touch">
+                    <param id="0" name="Object">buton16</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="271060413488158" type="Audio">
+                    <param id="0" name="Audio file">button-next</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="318651191011100" type="System">
+                    <param id="0" name="Layer">&quot;info&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action id="0" name="Call function" sid="448375571245082" type="Function">
+                    <param id="0" name="Name">&quot;on&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="224925214762797">
+            <conditions>
+                <condition id="3" name="On touched object" sid="482273828785376" type="Touch">
+                    <param id="0" name="Object">closeinfo</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="239394117718937" type="Audio">
+                    <param id="0" name="Audio file">button-next</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action behavior="LiteTween" id="10" name="Start" sid="799034636200969" type="closeinfo">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="744744979824189" type="closeinfo">
+                    <param id="0" name="Target is">4</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveX+30</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="457923480132186" type="closeinfo">
+                    <param id="0" name="Target is">5</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveY+30</param>
+                </action>
+                <action id="-16" name="Wait" sid="853926668087816" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="483232704376380" type="closeinfo">
+                    <param id="0" name="Target is">4</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveX</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="957175323740301" type="closeinfo">
+                    <param id="0" name="Target is">5</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveY</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="317587832128806" type="System">
+                    <param id="0" name="Layer">&quot;info&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="581011491630265" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action id="0" name="Call function" sid="416657488002719" type="Function">
+                    <param id="0" name="Name">&quot;off&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="897372852618188">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="588770941307980" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="439814151711406">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="854452041761341" type="System">
+                            <param id="0" name="Object">closeinfo</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="351025795243923" type="closeinfo">
+                            <param id="0" name="Instance variable">SaveX</param>
+                            <param id="1" name="Value">Self.Width</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="891514646207875" type="closeinfo">
+                            <param id="0" name="Instance variable">SaveY</param>
+                            <param id="1" name="Value">Self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="200489111858632">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="698751736819225" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Pin" id="0" name="Pin to object" sid="660313075517411" type="informasi">
+                    <param id="0" name="Pin to">bgpopup2</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="222447060335872" type="titleinformasi">
+                    <param id="0" name="Pin to">bgpopup2</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="136521903977034" type="closeinfo">
+                    <param id="0" name="Pin to">bgpopup2</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action id="-2" name="Set Y" sid="477540563853235" type="bgpopup2">
+                    <param id="0" name="Y">-370</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="989157265526994">
+            <conditions>
+                <condition id="0" name="On function" sid="598552441173115" type="Function">
+                    <param id="0" name="Name">&quot;on&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="LiteTween" id="10" name="Start" sid="167232661445285" type="bgpopup2">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="938399794362524" type="bgpopup2">
+                    <param id="0" name="Target is">0</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.X</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="819715040354455" type="bgpopup2">
+                    <param id="0" name="Target is">1</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">370</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="157976047934495">
+            <conditions>
+                <condition id="0" name="On function" sid="167238223536985" type="Function">
+                    <param id="0" name="Name">&quot;off&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="LiteTween" id="10" name="Start" sid="589633607979458" type="bgpopup2">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="468790950731575" type="bgpopup2">
+                    <param id="0" name="Target is">0</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.X</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="439225429314433" type="bgpopup2">
+                    <param id="0" name="Target is">1</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">-350</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
