@@ -194,7 +194,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>639.546020508</x>
-                        <y>563.685974121</y>
+                        <y>565.685974121</y>
                         <z>0</z>
                         <width>284.92199707</width>
                         <height>84.567001343</height>
@@ -259,8 +259,8 @@
                             <properties>
                                 <active-on-start>No</active-on-start>
                                 <tweened-property>Position</tweened-property>
-                                <function>EaseOutBounce</function>
-                                <target>0,0</target>
+                                <function>EaseOutBack</function>
+                                <target>640, 360</target>
                                 <target-mode>Absolute</target-mode>
                                 <duration>2.5</duration>
                                 <enforce-mode>Enforce</enforce-mode>
@@ -271,7 +271,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>640</x>
-                        <y>-417</y>
+                        <y>-448</y>
                         <z>0</z>
                         <width>1347.065307617</width>
                         <height>757.724243164</height>
@@ -279,7 +279,7 @@
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
-                        <opacity>0.600000024</opacity>
+                        <opacity>0.800000012</opacity>
                     </world>
                 </instance>
                 <instance type="bgskor" uid="241">
@@ -295,8 +295,8 @@
                             <properties>
                                 <active-on-start>No</active-on-start>
                                 <tweened-property>Position</tweened-property>
-                                <function>EaseOutBounce</function>
-                                <target>0,0</target>
+                                <function>EaseOutBack</function>
+                                <target>641, 363</target>
                                 <target-mode>Absolute</target-mode>
                                 <duration>2.5</duration>
                                 <enforce-mode>Enforce</enforce-mode>
@@ -307,7 +307,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>641</x>
-                        <y>-414</y>
+                        <y>-445</y>
                         <z>0</z>
                         <width>714.270019531</width>
                         <height>291.329589844</height>
@@ -325,6 +325,10 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <SaveX>0</SaveX>
+                        <SaveY>0</SaveY>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Pin" />
                         <behavior-instance type="LiteTween">
@@ -332,7 +336,7 @@
                                 <active-on-start>No</active-on-start>
                                 <tweened-property>Position</tweened-property>
                                 <function>EaseOutBounce</function>
-                                <target>100,100</target>
+                                <target>972, 252</target>
                                 <target-mode>Absolute</target-mode>
                                 <duration>2.5</duration>
                                 <enforce-mode>Enforce</enforce-mode>
@@ -342,14 +346,54 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>981</x>
-                        <y>-533</y>
+                        <x>972</x>
+                        <y>-556</y>
                         <z>0</z>
                         <width>87.464279175</width>
                         <height>87.464279175</height>
                         <depth>0</depth>
                         <hotspotX>0.483870953</hotspotX>
                         <hotspotY>0.541218638</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Nilai" uid="244">
+                    <properties>
+                        <text>0</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Comic Sans MS,-113.333,700,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
+                        <hotspot>Center</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Position</tweened-property>
+                                <function>EaseOutBack</function>
+                                <target>667, 389</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>2.5</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>667</x>
+                        <y>-419</y>
+                        <z>0</z>
+                        <width>375</width>
+                        <height>184</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

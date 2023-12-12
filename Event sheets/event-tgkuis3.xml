@@ -77,6 +77,10 @@
                 <action id="-2" name="Go to layout" sid="379801796363333" type="System">
                     <param id="0" name="Layout">menu</param>
                 </action>
+                <action id="-9" name="Set value" sid="541602381685823" type="System">
+                    <param id="0" name="Variable">scoretebakgambar</param>
+                    <param id="1" name="Value">0</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="977011728951547">

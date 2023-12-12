@@ -24,6 +24,9 @@
                 <action id="-2" name="Go to layout" sid="290916066527987" type="System">
                     <param id="0" name="Layout">tg_kuis5</param>
                 </action>
+                <action id="6" name="Stop" sid="865957144303228" type="Audio">
+                    <param id="0" name="Tag">&quot;kuis-kolintang&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="443340894440416">
@@ -41,6 +44,9 @@
                 </action>
                 <action id="-2" name="Go to layout" sid="994965391801115" type="System">
                     <param id="0" name="Layout">tg_kuis5</param>
+                </action>
+                <action id="6" name="Stop" sid="943309410568971" type="Audio">
+                    <param id="0" name="Tag">&quot;kuis-kolintang&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -60,6 +66,9 @@
                 <action id="-2" name="Go to layout" sid="423513621416450" type="System">
                     <param id="0" name="Layout">tg_kuis5</param>
                 </action>
+                <action id="6" name="Stop" sid="798455277624466" type="Audio">
+                    <param id="0" name="Tag">&quot;kuis-kolintang&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="169418391709104">
@@ -78,6 +87,13 @@
                 <action id="-2" name="Go to layout" sid="310469143717650" type="System">
                     <param id="0" name="Layout">menu</param>
                 </action>
+                <action id="-9" name="Set value" sid="303061985075169" type="System">
+                    <param id="0" name="Variable">scoretebakgambar</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="6" name="Stop" sid="231264263746396" type="Audio">
+                    <param id="0" name="Tag">&quot;kuis-kolintang&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="773377671213021">
@@ -95,6 +111,9 @@
                 </action>
                 <action id="-2" name="Go to layout" sid="768851291815302" type="System">
                     <param id="0" name="Layout">tg_kuis3</param>
+                </action>
+                <action id="6" name="Stop" sid="462049603184058" type="Audio">
+                    <param id="0" name="Tag">&quot;kuis-kolintang&quot;</param>
                 </action>
             </actions>
         </event-block>

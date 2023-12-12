@@ -10,13 +10,15 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">splash</layout>
-        <layout order="1">menu</layout>
-        <layout order="2">tg_kuis4</layout>
-        <layout active="1" order="4">tg_kuis5</layout>
-        <event-sheet order="3">event-tgkuis4</event-sheet>
-        <event-sheet order="5">event-tgkuis5</event-sheet>
-        <event-sheet order="6">event-menu</event-sheet>
+        <layout order="0">menu</layout>
+        <layout order="1">tg_kuis4</layout>
+        <layout order="2">tg_kuis5</layout>
+        <event-sheet active="1" order="3">event-tgkuis5</event-sheet>
+        <event-sheet order="4">event-menu</event-sheet>
+        <event-sheet order="5">event-tgkuis1</event-sheet>
+        <event-sheet order="6">event-tgkuis3</event-sheet>
+        <event-sheet order="7">event-saluang</event-sheet>
+        <event-sheet order="8">event-tgkuis4</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
