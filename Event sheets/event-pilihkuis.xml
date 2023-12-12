@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>event-pilihkuis</name>
+    <events>
+        <event-block sid="968626565000618">
+            <conditions>
+                <condition id="3" name="On touched object" sid="993093492945040" type="Touch">
+                    <param id="0" name="Object">btntebakgbr</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="455934784262026" type="Audio">
+                    <param id="0" name="Audio file">button-next</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="209008902635228" type="System">
+                    <param id="0" name="Layout">tg_kuis1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="805503148104303">
+            <conditions>
+                <condition id="3" name="On touched object" sid="450814484975926" type="Touch">
+                    <param id="0" name="Object">btncocokangbr</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="599675995407617" type="Audio">
+                    <param id="0" name="Audio file">button-next</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="750520971498327">
+            <conditions>
+                <condition id="3" name="On touched object" sid="827793041198774" type="Touch">
+                    <param id="0" name="Object">buton15</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="694754404336432" type="Audio">
+                    <param id="0" name="Audio file">button-next</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="161102522713486" type="System">
+                    <param id="0" name="Layout">menu</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -10,9 +10,15 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="1">menu</layout>
-        <layout active="1" order="0">splash</layout>
+        <layout order="0">splash</layout>
+        <layout active="1" order="1">menu</layout>
+        <layout order="3">pilih_kuis</layout>
+        <layout order="5">tg_kuis1</layout>
+        <layout order="7">tg_kuis2</layout>
         <event-sheet order="2">event-menu</event-sheet>
+        <event-sheet order="4">event-pilihkuis</event-sheet>
+        <event-sheet order="6">event-tgkuis1</event-sheet>
+        <event-sheet order="8">event-tgkuis2</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -176,5 +182,21 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/closeinfo/" />
         <folder expanded="1" path="animation-folder/titleinformasi/" />
         <folder expanded="1" path="animation-folder/bgpopup2/" />
+        <folder expanded="1" path="animation-folder/bgkuis/" />
+        <folder expanded="1" path="animation-folder/titlepilihkuis/" />
+        <folder expanded="1" path="animation-folder/btntebakgbr/" />
+        <folder expanded="1" path="animation-folder/btncocokangbr/" />
+        <folder expanded="1" path="animation-folder/titlekuis/" />
+        <folder expanded="1" path="animation-folder/soal1tg/" />
+        <folder expanded="1" path="animation-folder/opsiangklung/" />
+        <folder expanded="1" path="animation-folder/angklungkuis/" />
+        <folder expanded="1" path="animation-folder/opsikecapi/" />
+        <folder expanded="1" path="animation-folder/opsiukulele/" />
+        <folder expanded="1" path="animation-folder/angklungkuis2/" />
+        <folder expanded="1" path="animation-folder/tifakuis/" />
+        <folder expanded="1" path="animation-folder/soal2tg/" />
+        <folder expanded="1" path="animation-folder/opsikalimantan/" />
+        <folder expanded="1" path="animation-folder/opsipapua/" />
+        <folder expanded="1" path="animation-folder/opsinusatenggara/" />
     </folders-expanded>
 </c2uistate>

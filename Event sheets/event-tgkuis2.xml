@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>event-tgkuis2</name>
+    <events>
+        <event-block sid="483377259974564">
+            <conditions>
+                <condition id="3" name="On touched object" sid="104900939708983" type="Touch">
+                    <param id="0" name="Object">opsipapua</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="137661454498404" type="Audio">
+                    <param id="0" name="Audio file">button-next</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-10" name="Add to" sid="782051779914074" type="System">
+                    <param id="0" name="Variable">scoretebakgambar</param>
+                    <param id="1" name="Value">20</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="381490772414585">
+            <conditions>
+                <condition id="3" name="On touched object" sid="944544442059344" type="Touch">
+                    <param id="0" name="Object">opsinusatenggara</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="634143905749918" type="Audio">
+                    <param id="0" name="Audio file">button-next</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="284888712905511">
+            <conditions>
+                <condition id="3" name="On touched object" sid="301955705246377" type="Touch">
+                    <param id="0" name="Object">opsikalimantan</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="244554506913934" type="Audio">
+                    <param id="0" name="Audio file">button-next</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="202971476478178">
+            <conditions>
+                <condition id="3" name="On touched object" sid="906188166803387" type="Touch">
+                    <param id="0" name="Object">buton15</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="303811533294129" type="Audio">
+                    <param id="0" name="Audio file">button-next</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="907984121599549" type="System">
+                    <param id="0" name="Layout">menu</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="684441017768973">
+            <conditions>
+                <condition id="3" name="On touched object" sid="543122726900490" type="Touch">
+                    <param id="0" name="Object">buton6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="489521980891738" type="Audio">
+                    <param id="0" name="Audio file">button-next</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="435225612599322" type="System">
+                    <param id="0" name="Layout">tg_kuis1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
