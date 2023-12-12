@@ -20,6 +20,9 @@
                     <param id="0" name="Variable">scoretebakgambar</param>
                     <param id="1" name="Value">20</param>
                 </action>
+                <action id="-2" name="Go to layout" sid="860210099326405" type="System">
+                    <param id="0" name="Layout">tg_kuis3</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="381490772414585">
@@ -35,6 +38,9 @@
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
+                <action id="-2" name="Go to layout" sid="775322215864438" type="System">
+                    <param id="0" name="Layout">tg_kuis3</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="284888712905511">
@@ -49,6 +55,9 @@
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="890612777258945" type="System">
+                    <param id="0" name="Layout">tg_kuis3</param>
                 </action>
             </actions>
         </event-block>

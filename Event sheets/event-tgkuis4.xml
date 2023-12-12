@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>event-tgkuis4</name>
+    <events>
+        <variable constant="0" name="btn_tebaksuara" sid="523757859873949" static="0" type="number">0</variable>
+        <event-block sid="640596215850649">
+            <conditions>
+                <condition id="3" name="On touched object" sid="360796926603363" type="Touch">
+                    <param id="0" name="Object">opsikolintang</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="175755249702921" type="Audio">
+                    <param id="0" name="Audio file">button-next</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-10" name="Add to" sid="873813986062366" type="System">
+                    <param id="0" name="Variable">scoretebakgambar</param>
+                    <param id="1" name="Value">20</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="290916066527987" type="System">
+                    <param id="0" name="Layout">tg_kuis5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="443340894440416">
+            <conditions>
+                <condition id="3" name="On touched object" sid="207365757721587" type="Touch">
+                    <param id="0" name="Object">opsisape</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="920687318820515" type="Audio">
+                    <param id="0" name="Audio file">button-next</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="994965391801115" type="System">
+                    <param id="0" name="Layout">tg_kuis5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="550622908667088">
+            <conditions>
+                <condition id="3" name="On touched object" sid="927330083531538" type="Touch">
+                    <param id="0" name="Object">opsigarantung</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="301404119948472" type="Audio">
+                    <param id="0" name="Audio file">button-next</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="423513621416450" type="System">
+                    <param id="0" name="Layout">tg_kuis5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="169418391709104">
+            <conditions>
+                <condition id="3" name="On touched object" sid="122259294908080" type="Touch">
+                    <param id="0" name="Object">buton15</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="405128097063796" type="Audio">
+                    <param id="0" name="Audio file">button-next</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="310469143717650" type="System">
+                    <param id="0" name="Layout">menu</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="773377671213021">
+            <conditions>
+                <condition id="3" name="On touched object" sid="437097072718997" type="Touch">
+                    <param id="0" name="Object">buton6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="468608064664901" type="Audio">
+                    <param id="0" name="Audio file">button-next</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="768851291815302" type="System">
+                    <param id="0" name="Layout">tg_kuis3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="777554776201519">
+            <conditions>
+                <condition id="3" name="On touched object" sid="632429261377599" type="Touch">
+                    <param id="0" name="Object">soundkuis</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Move to layer" sid="662884567297819" type="soundkuis">
+                    <param id="0" name="Layer">0</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="687576853302303">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="240938697793165" type="System">
+                            <param id="0" name="Variable">btn_tebaksuara</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="706124002410164" type="Audio">
+                            <param id="0" name="Audio file">kolintang-sulawesi</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;kuis-kolintang&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="467905203494941" type="System">
+                            <param id="0" name="Variable">btn_tebaksuara</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="492765805066652" type="soundkuis">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="917898835430124">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="588094990868872" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set muted" sid="221440323699602" type="Audio">
+                            <param id="0" name="Tag">&quot;kuis-kolintang&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="161380750318542" type="System">
+                            <param id="0" name="Variable">btn_tebaksuara</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="192757704089381" type="soundkuis">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

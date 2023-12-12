@@ -11,14 +11,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">splash</layout>
-        <layout active="1" order="1">menu</layout>
-        <layout order="3">pilih_kuis</layout>
-        <layout order="5">tg_kuis1</layout>
-        <layout order="7">tg_kuis2</layout>
-        <event-sheet order="2">event-menu</event-sheet>
-        <event-sheet order="4">event-pilihkuis</event-sheet>
-        <event-sheet order="6">event-tgkuis1</event-sheet>
-        <event-sheet order="8">event-tgkuis2</event-sheet>
+        <layout order="1">menu</layout>
+        <layout order="2">tg_kuis4</layout>
+        <layout active="1" order="4">tg_kuis5</layout>
+        <event-sheet order="3">event-tgkuis4</event-sheet>
+        <event-sheet order="5">event-tgkuis5</event-sheet>
+        <event-sheet order="6">event-menu</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -198,5 +196,20 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/opsikalimantan/" />
         <folder expanded="1" path="animation-folder/opsipapua/" />
         <folder expanded="1" path="animation-folder/opsinusatenggara/" />
+        <folder expanded="1" path="animation-folder/ask/" />
+        <folder expanded="1" path="animation-folder/soal3tg/" />
+        <folder expanded="1" path="animation-folder/opsisaluang/" />
+        <folder expanded="1" path="animation-folder/opsitanjidor/" />
+        <folder expanded="1" path="animation-folder/opsiukulele2/" />
+        <folder expanded="1" path="animation-folder/soundkuis/" />
+        <folder expanded="1" path="animation-folder/soal4tg/" />
+        <folder expanded="1" path="animation-folder/opsikolintang/" />
+        <folder expanded="1" path="animation-folder/opsisape/" />
+        <folder expanded="1" path="animation-folder/opsigarantung/" />
+        <folder expanded="1" path="animation-folder/opsikecapi2/" />
+        <folder expanded="1" path="animation-folder/opsiukulele3/" />
+        <folder expanded="1" path="animation-folder/bgpopup/" />
+        <folder expanded="1" path="animation-folder/bgskor/" />
+        <folder expanded="1" path="animation-folder/closeskor/" />
     </folders-expanded>
 </c2uistate>
