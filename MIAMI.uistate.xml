@@ -11,14 +11,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">menu</layout>
-        <layout order="1">tg_kuis4</layout>
-        <layout order="2">tg_kuis5</layout>
-        <event-sheet active="1" order="3">event-tgkuis5</event-sheet>
-        <event-sheet order="4">event-menu</event-sheet>
-        <event-sheet order="5">event-tgkuis1</event-sheet>
-        <event-sheet order="6">event-tgkuis3</event-sheet>
-        <event-sheet order="7">event-saluang</event-sheet>
-        <event-sheet order="8">event-tgkuis4</event-sheet>
+        <layout order="2">cocokan_1</layout>
+        <event-sheet order="1">event-menu</event-sheet>
+        <event-sheet active="1" order="3">event-cocokan_1</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -213,5 +208,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/bgpopup/" />
         <folder expanded="1" path="animation-folder/bgskor/" />
         <folder expanded="1" path="animation-folder/closeskor/" />
+        <folder expanded="1" path="animation-folder/garantungkuis/" />
+        <folder expanded="1" path="animation-folder/kolom2/" />
+        <folder expanded="1" path="animation-folder/soal1cocokan/" />
+        <folder expanded="1" path="animation-folder/jawaban/" />
+        <folder expanded="1" path="animation-folder/point/" />
+        <folder expanded="1" path="animation-folder/bgnextlevel/" />
+        <folder expanded="1" path="animation-folder/bggoodjob/" />
+        <folder expanded="1" path="animation-folder/nextlevel/" />
     </folders-expanded>
 </c2uistate>
