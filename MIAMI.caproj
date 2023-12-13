@@ -3756,6 +3756,798 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="soalcocokan" sid="130219422302188">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="518363950546600" speed="5">
+                    <frame duration="1" hotspotX="0.495235" hotspotY="0.556054" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\soal-cocokan.png">
+                        <collision-poly>
+                            <point x="0.000560538" y="0.475336" />
+                            <point x="0.495235" y="0.00448431" />
+                            <point x="0.99972" y="0.318386" />
+                            <point x="0.99972" y="0.789238" />
+                            <point x="0.495235" y="0.995516" />
+                            <point x="0.000560538" y="0.632287" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="soalsaluang" sid="238985806895187">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="481037741961449" speed="5">
+                    <frame duration="1" hotspotX="0.491189" hotspotY="0.544248" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\soal-saluang.png">
+                        <collision-poly>
+                            <point x="0.0506608" y="0.0575221" />
+                            <point x="0.488987" y="0.00221239" />
+                            <point x="0.938326" y="0.0486726" />
+                            <point x="0.995595" y="0.544248" />
+                            <point x="0.885463" y="0.986726" />
+                            <point x="0.488987" y="0.997788" />
+                            <point x="0.101322" y="0.980088" />
+                            <point x="0.00220264" y="0.544248" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="a" sid="527186692992744">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="18" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="574614376670854" speed="5">
+                    <frame duration="1" hotspotX="0.517857" hotspotY="0.502242" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\a.png">
+                        <collision-poly>
+                            <point x="0.0267857" y="0.00896861" />
+                            <point x="0.995536" y="0.0224215" />
+                            <point x="0.995536" y="0.982063" />
+                            <point x="0.0267857" y="0.995516" />
+                            <point x="0.00892859" y="0.502242" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.46875" hotspotY="0.515695" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\b.png">
+                        <collision-poly>
+                            <point x="0.00446429" y="0.0493274" />
+                            <point x="0.464286" y="0.00448431" />
+                            <point x="0.973214" y="0.00448431" />
+                            <point x="0.991071" y="0.511211" />
+                            <point x="0.941964" y="0.991031" />
+                            <point x="0.00446429" y="0.977578" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.540179" hotspotY="0.502242" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\c.png">
+                        <collision-poly>
+                            <point x="0.0491071" y="0.00896861" />
+                            <point x="0.540179" y="0.00896861" />
+                            <point x="0.995536" y="0.044843" />
+                            <point x="0.995536" y="0.959641" />
+                            <point x="0.540179" y="0.995516" />
+                            <point x="0.0491071" y="0.995516" />
+                            <point x="0.00892857" y="0.502242" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.591928" hotspotY="0.581081" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\d.png">
+                        <collision-poly>
+                            <point x="0.00896861" y="0.00450452" />
+                            <point x="0.587444" y="0.00450452" />
+                            <point x="0.995516" y="0.18018" />
+                            <point x="0.995516" y="0.981982" />
+                            <point x="0.170404" y="0.995495" />
+                            <point x="0.00448431" y="0.581081" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.526786" hotspotY="0.5" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\e.png">
+                        <collision-poly>
+                            <point x="0.00892857" y="0.036036" />
+                            <point x="0.526786" y="0.0045045" />
+                            <point x="0.991071" y="0.0900901" />
+                            <point x="0.991071" y="0.905405" />
+                            <point x="0.526786" y="0.995495" />
+                            <point x="0.00892857" y="0.959459" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.502242" hotspotY="0.522523" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\f.png">
+                        <collision-poly>
+                            <point x="0.0179372" y="0.0045045" />
+                            <point x="0.982063" y="0.0045045" />
+                            <point x="0.995516" y="0.522523" />
+                            <point x="0.93722" y="0.995495" />
+                            <point x="0.0627803" y="0.995495" />
+                            <point x="0.00448431" y="0.522523" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.459821" hotspotY="0.430493" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\g.png">
+                        <collision-poly>
+                            <point x="0.174107" y="0.00448431" />
+                            <point x="0.745536" y="0.00448431" />
+                            <point x="0.991071" y="0.426009" />
+                            <point x="0.883929" y="0.991031" />
+                            <point x="0.0357143" y="0.991031" />
+                            <point x="0.00892857" y="0.426009" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.513393" hotspotY="0.410714" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\h.png">
+                        <collision-poly>
+                            <point x="0.111607" y="0.00892857" />
+                            <point x="0.915179" y="0.00892857" />
+                            <point x="0.991071" y="0.410714" />
+                            <point x="0.991071" y="0.888393" />
+                            <point x="0.513393" y="0.986607" />
+                            <point x="0.00446429" y="0.919643" />
+                            <point x="0.00446429" y="0.410714" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.549107" hotspotY="0.540179" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\i.png">
+                        <collision-poly>
+                            <point x="0.0178571" y="0.00892857" />
+                            <point x="0.544643" y="0.00892857" />
+                            <point x="0.991071" y="0.09375" />
+                            <point x="0.991071" y="0.982143" />
+                            <point x="0.0982143" y="0.986607" />
+                            <point x="0.00446429" y="0.535714" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.535714" hotspotY="0.529148" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\j.png">
+                        <collision-poly>
+                            <point x="0.0178571" y="0.00896861" />
+                            <point x="0.53125" y="0.00896861" />
+                            <point x="0.991071" y="0.0672646" />
+                            <point x="0.991071" y="0.986547" />
+                            <point x="0.0669643" y="0.995516" />
+                            <point x="0.00446429" y="0.524664" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.491071" hotspotY="0.53125" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\k.png">
+                        <collision-poly>
+                            <point x="0.00446429" y="0.0446429" />
+                            <point x="0.486607" y="0.00892857" />
+                            <point x="0.991071" y="0.0267857" />
+                            <point x="0.991071" y="0.526786" />
+                            <point x="0.950893" y="0.991071" />
+                            <point x="0.0267857" y="0.991071" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.524444" hotspotY="0.542601" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\l.png">
+                        <collision-poly>
+                            <point x="0.00888891" y="0.0224215" />
+                            <point x="0.52" y="0.00448432" />
+                            <point x="0.986667" y="0.0717489" />
+                            <point x="0.968889" y="0.991031" />
+                            <point x="0.0755556" y="0.991031" />
+                            <point x="0.00888891" y="0.538117" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.526786" hotspotY="0.524664" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\m.png">
+                        <collision-poly>
+                            <point x="0.0133929" y="0.00896861" />
+                            <point x="0.526786" y="0.00896861" />
+                            <point x="0.995536" y="0.0538117" />
+                            <point x="0.991071" y="0.991031" />
+                            <point x="0.0580357" y="0.995516" />
+                            <point x="0.00892857" y="0.524664" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.491071" hotspotY="0.596413" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\n.png">
+                        <collision-poly>
+                            <point x="0.00446429" y="0.107623" />
+                            <point x="0.486607" y="0.00896859" />
+                            <point x="0.991071" y="0.0896861" />
+                            <point x="0.991071" y="0.591928" />
+                            <point x="0.888393" y="0.995516" />
+                            <point x="0.0892857" y="0.995516" />
+                            <point x="0.00446429" y="0.591928" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.482143" hotspotY="0.5" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\o.png">
+                        <collision-poly>
+                            <point x="0.00892857" y="0.0267857" />
+                            <point x="0.964286" y="0.0133929" />
+                            <point x="0.995536" y="0.495536" />
+                            <point x="0.973214" y="0.991071" />
+                            <point x="0.00892857" y="0.96875" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.450893" hotspotY="0.497758" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\r.png">
+                        <collision-poly>
+                            <point x="0.00446425" y="0.215247" />
+                            <point x="0.446429" y="0.00448431" />
+                            <point x="0.991071" y="0.116592" />
+                            <point x="0.991071" y="0.874439" />
+                            <point x="0.446429" y="0.991031" />
+                            <point x="0.00446425" y="0.775785" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.546667" hotspotY="0.502242" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\s.png">
+                        <collision-poly>
+                            <point x="0.0711111" y="0.00896861" />
+                            <point x="0.542222" y="0.00896861" />
+                            <point x="0.986667" y="0.0403587" />
+                            <point x="0.986667" y="0.964126" />
+                            <point x="0.542222" y="0.995516" />
+                            <point x="0.0711111" y="0.995516" />
+                            <point x="0.00888889" y="0.502242" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.477679" hotspotY="0.482143" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\U.png">
+                        <collision-poly>
+                            <point x="0.00892857" y="0.0133929" />
+                            <point x="0.946429" y="0.0133929" />
+                            <point x="0.991071" y="0.482143" />
+                            <point x="0.986607" y="0.991071" />
+                            <point x="0.477679" y="0.991071" />
+                            <point x="0.00446429" y="0.955357" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bghurufrandom" sid="581463061175538">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="293793374081772" speed="5">
+                    <frame duration="1" hotspotX="0.503829" hotspotY="0.523985" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\bg-hurufrandom.png">
+                        <collision-poly>
+                            <point x="0.000547046" y="0.0885609" />
+                            <point x="0.503829" y="0.00369004" />
+                            <point x="0.999453" y="0.114391" />
+                            <point x="0.999453" y="0.931734" />
+                            <point x="0.503829" y="0.99631" />
+                            <point x="0.000547046" y="0.957565" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bgcocokhuruf" sid="176122740875650">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="242389435269445" speed="5">
+                    <frame duration="1" hotspotX="0.491688" hotspotY="0.492126" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\bg-cocokhuruf.png">
+                        <collision-poly>
+                            <point x="0.000639386" y="0.0866142" />
+                            <point x="0.491688" y="0.00393701" />
+                            <point x="0.994246" y="0.015748" />
+                            <point x="0.996164" y="0.980315" />
+                            <point x="0.491688" y="0.996063" />
+                            <point x="0.000639386" y="0.897638" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="kolom3" sid="779414157967279">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="18" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="788709297897149" speed="5">
+                    <frame duration="1" hotspotX="0.517857" hotspotY="0.502242" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\a.png">
+                        <collision-poly>
+                            <point x="0.0267857" y="0.00896861" />
+                            <point x="0.995536" y="0.0224215" />
+                            <point x="0.995536" y="0.982063" />
+                            <point x="0.0267857" y="0.995516" />
+                            <point x="0.00892859" y="0.502242" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.501538" hotspotY="0.501538" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\k.png">
+                        <collision-poly>
+                            <point x="0.166154" y="0.166154" />
+                            <point x="0.498462" y="0.141538" />
+                            <point x="0.846154" y="0.153846" />
+                            <point x="0.846154" y="0.498462" />
+                            <point x="0.818462" y="0.818462" />
+                            <point x="0.181538" y="0.818462" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.50165" hotspotY="0.5" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\f.png">
+                        <collision-poly>
+                            <point x="0.145215" y="0.138365" />
+                            <point x="0.854786" y="0.138365" />
+                            <point x="0.864686" y="0.5" />
+                            <point x="0.821782" y="0.830189" />
+                            <point x="0.178218" y="0.830189" />
+                            <point x="0.135314" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.46875" hotspotY="0.515695" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\b.png">
+                        <collision-poly>
+                            <point x="0.00446429" y="0.0493274" />
+                            <point x="0.464286" y="0.00448424" />
+                            <point x="0.973214" y="0.00448424" />
+                            <point x="0.991071" y="0.511211" />
+                            <point x="0.941964" y="0.991031" />
+                            <point x="0.00446429" y="0.977578" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.540179" hotspotY="0.502242" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\c.png">
+                        <collision-poly>
+                            <point x="0.0491071" y="0.00896861" />
+                            <point x="0.540179" y="0.00896861" />
+                            <point x="0.995536" y="0.044843" />
+                            <point x="0.995536" y="0.959641" />
+                            <point x="0.540179" y="0.995516" />
+                            <point x="0.0491071" y="0.995516" />
+                            <point x="0.00892857" y="0.502242" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.591928" hotspotY="0.581081" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\d.png">
+                        <collision-poly>
+                            <point x="0.00896861" y="0.00450452" />
+                            <point x="0.587444" y="0.00450452" />
+                            <point x="0.995516" y="0.18018" />
+                            <point x="0.995516" y="0.981982" />
+                            <point x="0.170404" y="0.995495" />
+                            <point x="0.00448431" y="0.581081" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.526786" hotspotY="0.5" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\e.png">
+                        <collision-poly>
+                            <point x="0.00892857" y="0.036036" />
+                            <point x="0.526786" y="0.0045045" />
+                            <point x="0.991071" y="0.0900901" />
+                            <point x="0.991071" y="0.905405" />
+                            <point x="0.526786" y="0.995495" />
+                            <point x="0.00892857" y="0.959459" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.459821" hotspotY="0.430493" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\g.png">
+                        <collision-poly>
+                            <point x="0.174107" y="0.00448431" />
+                            <point x="0.745536" y="0.00448431" />
+                            <point x="0.991071" y="0.426009" />
+                            <point x="0.883929" y="0.991031" />
+                            <point x="0.0357143" y="0.991031" />
+                            <point x="0.00892857" y="0.426009" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.513393" hotspotY="0.410714" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\h.png">
+                        <collision-poly>
+                            <point x="0.111607" y="0.00892857" />
+                            <point x="0.915179" y="0.00892857" />
+                            <point x="0.991071" y="0.410714" />
+                            <point x="0.991071" y="0.888393" />
+                            <point x="0.513393" y="0.986607" />
+                            <point x="0.00446429" y="0.919643" />
+                            <point x="0.00446429" y="0.410714" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.549107" hotspotY="0.540179" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\i.png">
+                        <collision-poly>
+                            <point x="0.0178571" y="0.00892857" />
+                            <point x="0.544643" y="0.00892857" />
+                            <point x="0.991071" y="0.09375" />
+                            <point x="0.991071" y="0.982143" />
+                            <point x="0.0982143" y="0.986607" />
+                            <point x="0.00446429" y="0.535714" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.535714" hotspotY="0.529148" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\j.png">
+                        <collision-poly>
+                            <point x="0.0178571" y="0.00896861" />
+                            <point x="0.53125" y="0.00896861" />
+                            <point x="0.991071" y="0.0672646" />
+                            <point x="0.991071" y="0.986547" />
+                            <point x="0.0669643" y="0.995516" />
+                            <point x="0.00446429" y="0.524664" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.524444" hotspotY="0.542601" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\l.png">
+                        <collision-poly>
+                            <point x="0.00888891" y="0.0224215" />
+                            <point x="0.52" y="0.00448432" />
+                            <point x="0.986667" y="0.0717489" />
+                            <point x="0.968889" y="0.991031" />
+                            <point x="0.0755556" y="0.991031" />
+                            <point x="0.00888891" y="0.538117" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.526786" hotspotY="0.524664" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\m.png">
+                        <collision-poly>
+                            <point x="0.0133929" y="0.00896861" />
+                            <point x="0.526786" y="0.00896861" />
+                            <point x="0.995536" y="0.0538117" />
+                            <point x="0.991071" y="0.991031" />
+                            <point x="0.0580357" y="0.995516" />
+                            <point x="0.00892857" y="0.524664" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.491071" hotspotY="0.596413" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\n.png">
+                        <collision-poly>
+                            <point x="0.00446429" y="0.107623" />
+                            <point x="0.486607" y="0.00896859" />
+                            <point x="0.991071" y="0.0896861" />
+                            <point x="0.991071" y="0.591928" />
+                            <point x="0.888393" y="0.995516" />
+                            <point x="0.0892857" y="0.995516" />
+                            <point x="0.00446429" y="0.591928" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.482143" hotspotY="0.5" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\o.png">
+                        <collision-poly>
+                            <point x="0.00892857" y="0.0267857" />
+                            <point x="0.964286" y="0.0133929" />
+                            <point x="0.995536" y="0.495536" />
+                            <point x="0.973214" y="0.991071" />
+                            <point x="0.00892857" y="0.96875" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.450893" hotspotY="0.497758" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\r.png">
+                        <collision-poly>
+                            <point x="0.00446425" y="0.215247" />
+                            <point x="0.446429" y="0.00448431" />
+                            <point x="0.991071" y="0.116592" />
+                            <point x="0.991071" y="0.874439" />
+                            <point x="0.446429" y="0.991031" />
+                            <point x="0.00446425" y="0.775785" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.546667" hotspotY="0.502242" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\s.png">
+                        <collision-poly>
+                            <point x="0.0711111" y="0.00896861" />
+                            <point x="0.542222" y="0.00896861" />
+                            <point x="0.986667" y="0.0403587" />
+                            <point x="0.986667" y="0.964126" />
+                            <point x="0.542222" y="0.995516" />
+                            <point x="0.0711111" y="0.995516" />
+                            <point x="0.00888889" y="0.502242" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.477679" hotspotY="0.482143" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\U.png">
+                        <collision-poly>
+                            <point x="0.00892857" y="0.0133929" />
+                            <point x="0.946429" y="0.0133929" />
+                            <point x="0.991071" y="0.482143" />
+                            <point x="0.986607" y="0.991071" />
+                            <point x="0.477679" y="0.991071" />
+                            <point x="0.00446429" y="0.955357" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="a2" sid="647614392623053">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="check" sid="565442813571234" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="DragDrop" sid="467070317205338">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="18" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="468306688043076" speed="0">
+                    <frame duration="1" hotspotX="0.517857" hotspotY="0.502242" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\a.png">
+                        <collision-poly>
+                            <point x="0.0267857" y="0.00896861" />
+                            <point x="0.995536" y="0.0224215" />
+                            <point x="0.995536" y="0.982063" />
+                            <point x="0.0267857" y="0.995516" />
+                            <point x="0.00892859" y="0.502242" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.46875" hotspotY="0.515695" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\b.png">
+                        <collision-poly>
+                            <point x="0.00446429" y="0.0493274" />
+                            <point x="0.464286" y="0.00448431" />
+                            <point x="0.973214" y="0.00448431" />
+                            <point x="0.991071" y="0.511211" />
+                            <point x="0.941964" y="0.991031" />
+                            <point x="0.00446429" y="0.977578" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.540179" hotspotY="0.502242" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\c.png">
+                        <collision-poly>
+                            <point x="0.0491071" y="0.00896861" />
+                            <point x="0.540179" y="0.00896861" />
+                            <point x="0.995536" y="0.044843" />
+                            <point x="0.995536" y="0.959641" />
+                            <point x="0.540179" y="0.995516" />
+                            <point x="0.0491071" y="0.995516" />
+                            <point x="0.00892857" y="0.502242" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.591928" hotspotY="0.581081" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\d.png">
+                        <collision-poly>
+                            <point x="0.00896861" y="0.00450452" />
+                            <point x="0.587444" y="0.00450452" />
+                            <point x="0.995516" y="0.18018" />
+                            <point x="0.995516" y="0.981982" />
+                            <point x="0.170404" y="0.995495" />
+                            <point x="0.00448431" y="0.581081" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.526786" hotspotY="0.5" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\e.png">
+                        <collision-poly>
+                            <point x="0.00892857" y="0.036036" />
+                            <point x="0.526786" y="0.0045045" />
+                            <point x="0.991071" y="0.0900901" />
+                            <point x="0.991071" y="0.905405" />
+                            <point x="0.526786" y="0.995495" />
+                            <point x="0.00892857" y="0.959459" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.502242" hotspotY="0.522523" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\f.png">
+                        <collision-poly>
+                            <point x="0.0179372" y="0.0045045" />
+                            <point x="0.982063" y="0.0045045" />
+                            <point x="0.995516" y="0.522523" />
+                            <point x="0.93722" y="0.995495" />
+                            <point x="0.0627803" y="0.995495" />
+                            <point x="0.00448431" y="0.522523" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.459821" hotspotY="0.430493" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\g.png">
+                        <collision-poly>
+                            <point x="0.174107" y="0.00448431" />
+                            <point x="0.745536" y="0.00448431" />
+                            <point x="0.991071" y="0.426009" />
+                            <point x="0.883929" y="0.991031" />
+                            <point x="0.0357143" y="0.991031" />
+                            <point x="0.00892857" y="0.426009" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.513393" hotspotY="0.410714" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\h.png">
+                        <collision-poly>
+                            <point x="0.111607" y="0.00892857" />
+                            <point x="0.915179" y="0.00892857" />
+                            <point x="0.991071" y="0.410714" />
+                            <point x="0.991071" y="0.888393" />
+                            <point x="0.513393" y="0.986607" />
+                            <point x="0.00446429" y="0.919643" />
+                            <point x="0.00446429" y="0.410714" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.549107" hotspotY="0.540179" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\i.png">
+                        <collision-poly>
+                            <point x="0.0178571" y="0.00892857" />
+                            <point x="0.544643" y="0.00892857" />
+                            <point x="0.991071" y="0.09375" />
+                            <point x="0.991071" y="0.982143" />
+                            <point x="0.0982143" y="0.986607" />
+                            <point x="0.00446429" y="0.535714" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.535714" hotspotY="0.529148" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\j.png">
+                        <collision-poly>
+                            <point x="0.0178571" y="0.00896861" />
+                            <point x="0.53125" y="0.00896861" />
+                            <point x="0.991071" y="0.0672646" />
+                            <point x="0.991071" y="0.986547" />
+                            <point x="0.0669643" y="0.995516" />
+                            <point x="0.00446429" y="0.524664" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.491071" hotspotY="0.53125" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\k.png">
+                        <collision-poly>
+                            <point x="0.00446429" y="0.0446429" />
+                            <point x="0.486607" y="0.00892857" />
+                            <point x="0.991071" y="0.0267857" />
+                            <point x="0.991071" y="0.526786" />
+                            <point x="0.950893" y="0.991071" />
+                            <point x="0.0267857" y="0.991071" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.524444" hotspotY="0.542601" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\l.png">
+                        <collision-poly>
+                            <point x="0.00888891" y="0.0224215" />
+                            <point x="0.52" y="0.00448432" />
+                            <point x="0.986667" y="0.0717489" />
+                            <point x="0.968889" y="0.991031" />
+                            <point x="0.0755556" y="0.991031" />
+                            <point x="0.00888891" y="0.538117" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.526786" hotspotY="0.524664" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\m.png">
+                        <collision-poly>
+                            <point x="0.0133929" y="0.00896861" />
+                            <point x="0.526786" y="0.00896861" />
+                            <point x="0.995536" y="0.0538117" />
+                            <point x="0.991071" y="0.991031" />
+                            <point x="0.0580357" y="0.995516" />
+                            <point x="0.00892857" y="0.524664" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.491071" hotspotY="0.596413" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\n.png">
+                        <collision-poly>
+                            <point x="0.00446429" y="0.107623" />
+                            <point x="0.486607" y="0.00896859" />
+                            <point x="0.991071" y="0.0896861" />
+                            <point x="0.991071" y="0.591928" />
+                            <point x="0.888393" y="0.995516" />
+                            <point x="0.0892857" y="0.995516" />
+                            <point x="0.00446429" y="0.591928" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.482143" hotspotY="0.5" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\o.png">
+                        <collision-poly>
+                            <point x="0.00892857" y="0.0267857" />
+                            <point x="0.964286" y="0.0133929" />
+                            <point x="0.995536" y="0.495536" />
+                            <point x="0.973214" y="0.991071" />
+                            <point x="0.00892857" y="0.96875" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.450893" hotspotY="0.497758" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\r.png">
+                        <collision-poly>
+                            <point x="0.00446425" y="0.215247" />
+                            <point x="0.446429" y="0.00448431" />
+                            <point x="0.991071" y="0.116592" />
+                            <point x="0.991071" y="0.874439" />
+                            <point x="0.446429" y="0.991031" />
+                            <point x="0.00446425" y="0.775785" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.546667" hotspotY="0.502242" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\s.png">
+                        <collision-poly>
+                            <point x="0.0711111" y="0.00896861" />
+                            <point x="0.542222" y="0.00896861" />
+                            <point x="0.986667" y="0.0403587" />
+                            <point x="0.986667" y="0.964126" />
+                            <point x="0.542222" y="0.995516" />
+                            <point x="0.0711111" y="0.995516" />
+                            <point x="0.00888889" y="0.502242" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.477679" hotspotY="0.482143" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\U.png">
+                        <collision-poly>
+                            <point x="0.00892857" y="0.0133929" />
+                            <point x="0.946429" y="0.0133929" />
+                            <point x="0.991071" y="0.482143" />
+                            <point x="0.986607" y="0.991071" />
+                            <point x="0.477679" y="0.991071" />
+                            <point x="0.00446429" y="0.955357" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="kolomhuruf" sid="721367725775194">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="check" sid="597346118615828" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="102872932490632" speed="5">
+                    <frame duration="1" hotspotX="0.553191" hotspotY="0.492857" original-source="D:\mulmed aset\kolomhuruf.png">
+                        <collision-poly>
+                            <point x="0.0567376" y="0.0142857" />
+                            <point x="0.546099" y="0.0142857" />
+                            <point x="0.985816" y="0.0714286" />
+                            <point x="0.985816" y="0.907143" />
+                            <point x="0.546099" y="0.992857" />
+                            <point x="0.0283688" y="0.992857" />
+                            <point x="0.0141844" y="0.485714" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="kolomhuruf2" sid="995300150728871">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="check" sid="782975193778025" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="354367571738059" speed="5">
+                    <frame duration="1" hotspotX="0.553191" hotspotY="0.492857" original-source="D:\mulmed aset\kolomhuruf.png">
+                        <collision-poly>
+                            <point x="0.0567376" y="0.0142857" />
+                            <point x="0.546099" y="0.0142857" />
+                            <point x="0.985816" y="0.0714286" />
+                            <point x="0.985816" y="0.907143" />
+                            <point x="0.546099" y="0.992857" />
+                            <point x="0.0283688" y="0.992857" />
+                            <point x="0.0141844" y="0.485714" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="kolomhuruf3" sid="562667283882294">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="check" sid="395872804109195" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="842563174769849" speed="5">
+                    <frame duration="1" hotspotX="0.553191" hotspotY="0.492857" original-source="D:\mulmed aset\kolomhuruf.png">
+                        <collision-poly>
+                            <point x="0.0567376" y="0.0142857" />
+                            <point x="0.546099" y="0.0142857" />
+                            <point x="0.985816" y="0.0714286" />
+                            <point x="0.985816" y="0.907143" />
+                            <point x="0.546099" y="0.992857" />
+                            <point x="0.0283688" y="0.992857" />
+                            <point x="0.0141844" y="0.485714" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="kolomhuruf4" sid="581386865708255">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="check" sid="368041483019285" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="527291693851551" speed="5">
+                    <frame duration="1" hotspotX="0.553191" hotspotY="0.492857" original-source="D:\mulmed aset\kolomhuruf.png">
+                        <collision-poly>
+                            <point x="0.0567376" y="0.0142857" />
+                            <point x="0.546099" y="0.0142857" />
+                            <point x="0.985816" y="0.0714286" />
+                            <point x="0.985816" y="0.907143" />
+                            <point x="0.546099" y="0.992857" />
+                            <point x="0.0283688" y="0.992857" />
+                            <point x="0.0141844" y="0.485714" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="kolomhuruf5" sid="407469681715486">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="check" sid="635967124197256" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="826150966577596" speed="5">
+                    <frame duration="1" hotspotX="0.553191" hotspotY="0.492857" original-source="D:\mulmed aset\kolomhuruf.png">
+                        <collision-poly>
+                            <point x="0.0567376" y="0.0142857" />
+                            <point x="0.546099" y="0.0142857" />
+                            <point x="0.985816" y="0.0714286" />
+                            <point x="0.985816" y="0.907143" />
+                            <point x="0.546099" y="0.992857" />
+                            <point x="0.0283688" y="0.992857" />
+                            <point x="0.0141844" y="0.485714" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="kolomhuruf6" sid="278494405535982">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="check" sid="534764365028067" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="828310323841613" speed="5">
+                    <frame duration="1" hotspotX="0.553191" hotspotY="0.492857" original-source="D:\mulmed aset\kolomhuruf.png">
+                        <collision-poly>
+                            <point x="0.0567376" y="0.0142857" />
+                            <point x="0.546099" y="0.0142857" />
+                            <point x="0.985816" y="0.0714286" />
+                            <point x="0.985816" y="0.907143" />
+                            <point x="0.546099" y="0.992857" />
+                            <point x="0.0283688" y="0.992857" />
+                            <point x="0.0141844" y="0.485714" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="kolomhuruf7" sid="194883532033967">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="check" sid="543236524640161" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="319890043372144" speed="5">
+                    <frame duration="1" hotspotX="0.553191" hotspotY="0.492857" original-source="D:\mulmed aset\kolomhuruf.png">
+                        <collision-poly>
+                            <point x="0.0567376" y="0.0142857" />
+                            <point x="0.546099" y="0.0142857" />
+                            <point x="0.985816" y="0.0714286" />
+                            <point x="0.985816" y="0.907143" />
+                            <point x="0.546099" y="0.992857" />
+                            <point x="0.0283688" y="0.992857" />
+                            <point x="0.0141844" y="0.485714" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -3827,7 +4619,7 @@
         <event-sheet>event-tgkuis5.xml</event-sheet>
         <event-sheet>event-cocokan_1.xml</event-sheet>
         <event-sheet>event-cocokan_2.xml</event-sheet>
-        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>event-cocokan_3.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Function" uid="21" />

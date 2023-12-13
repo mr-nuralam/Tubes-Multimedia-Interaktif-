@@ -12,8 +12,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <open-tabs>
         <layout order="0">menu</layout>
         <layout order="1">cocokan_1</layout>
-        <layout active="1" order="3">cocokan_2</layout>
-        <layout order="5">cocokan_3</layout>
+        <layout order="3">cocokan_2</layout>
+        <layout active="1" order="5">cocokan_3</layout>
         <event-sheet order="2">event-cocokan_1</event-sheet>
         <event-sheet order="4">event-cocokan_2</event-sheet>
     </open-tabs>
@@ -220,5 +220,19 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/nextlevel/" />
         <folder expanded="1" path="animation-folder/soal2cocokan/" />
         <folder expanded="1" path="animation-folder/jawaban2/" />
+        <folder expanded="1" path="animation-folder/soalcocokan/" />
+        <folder expanded="1" path="animation-folder/soalsaluang/" />
+        <folder expanded="1" path="animation-folder/a/" />
+        <folder expanded="1" path="animation-folder/bghurufrandom/" />
+        <folder expanded="1" path="animation-folder/bgcocokhuruf/" />
+        <folder expanded="1" path="animation-folder/kolom3/" />
+        <folder expanded="1" path="animation-folder/a2/" />
+        <folder expanded="1" path="animation-folder/kolomhuruf/" />
+        <folder expanded="1" path="animation-folder/kolomhuruf2/" />
+        <folder expanded="1" path="animation-folder/kolomhuruf3/" />
+        <folder expanded="1" path="animation-folder/kolomhuruf4/" />
+        <folder expanded="1" path="animation-folder/kolomhuruf5/" />
+        <folder expanded="1" path="animation-folder/kolomhuruf6/" />
+        <folder expanded="1" path="animation-folder/kolomhuruf7/" />
     </folders-expanded>
 </c2uistate>
