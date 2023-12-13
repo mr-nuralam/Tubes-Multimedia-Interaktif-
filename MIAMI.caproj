@@ -3524,7 +3524,7 @@
                             <point x="0.911612" y="0.94186" />
                             <point x="0.4974" y="0.994186" />
                             <point x="0.0831889" y="0.94186" />
-                            <point x="0.0034662" y="0.447674" />
+                            <point x="0.00346619" y="0.447674" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.504333" hotspotY="0.485549" original-source="D:\mulmed aset\kolom2.png">
@@ -3688,6 +3688,74 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="soal2cocokan" sid="326553430521906">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="137610238035934" speed="5">
+                    <frame duration="1" hotspotX="0.505682" hotspotY="0.513605" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\soal2-cocokan.png">
+                        <collision-poly>
+                            <point x="0.00126263" y="0.0646259" />
+                            <point x="0.50505" y="0.00340137" />
+                            <point x="0.998737" y="0.122449" />
+                            <point x="0.998737" y="0.904762" />
+                            <point x="0.50505" y="0.996599" />
+                            <point x="0.00126263" y="0.962585" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="jawaban2" sid="122068849229319">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="check" sid="152461779154538" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="DragDrop" sid="564371738854542">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="605882852524024" speed="0">
+                    <frame duration="1" hotspotX="0.494681" hotspotY="0.498208" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\opsi-kecapi.png">
+                        <collision-poly>
+                            <point x="0.0446809" y="0.143369" />
+                            <point x="0.494681" y="0.00358423" />
+                            <point x="0.948936" y="0.129032" />
+                            <point x="0.997872" y="0.494624" />
+                            <point x="0.95" y="0.867384" />
+                            <point x="0.494681" y="0.992832" />
+                            <point x="0.0446809" y="0.849462" />
+                            <point x="0.00106383" y="0.494624" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.47234" hotspotY="0.498208" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\opsi-santu.png">
+                        <collision-poly>
+                            <point x="0.0138298" y="0.301075" />
+                            <point x="0.47234" y="0.00358424" />
+                            <point x="0.964894" y="0.18638" />
+                            <point x="0.997872" y="0.494624" />
+                            <point x="0.965957" y="0.810036" />
+                            <point x="0.47234" y="0.996416" />
+                            <point x="0.012766" y="0.695341" />
+                            <point x="0.00106383" y="0.494624" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.498406" hotspotY="0.475" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\opsi-sape.png">
+                        <collision-poly>
+                            <point x="0.0595112" y="0.107143" />
+                            <point x="0.497343" y="0.00714286" />
+                            <point x="0.937301" y="0.103571" />
+                            <point x="0.996812" y="0.475" />
+                            <point x="0.945802" y="0.875" />
+                            <point x="0.497343" y="0.992857" />
+                            <point x="0.0510096" y="0.871429" />
+                            <point x="0.0010627" y="0.475" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -3722,6 +3790,8 @@
         <layout>tg_kuis4.xml</layout>
         <layout>tg_kuis5.xml</layout>
         <layout>cocokan_1.xml</layout>
+        <layout>cocokan_2.xml</layout>
+        <layout>cocokan_3.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>event-splash.xml</event-sheet>
@@ -3756,6 +3826,8 @@
         <event-sheet>event-tgkuis4.xml</event-sheet>
         <event-sheet>event-tgkuis5.xml</event-sheet>
         <event-sheet>event-cocokan_1.xml</event-sheet>
+        <event-sheet>event-cocokan_2.xml</event-sheet>
+        <event-sheet>Event sheet 1.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Function" uid="21" />

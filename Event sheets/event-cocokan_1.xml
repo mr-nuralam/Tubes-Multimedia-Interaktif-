@@ -128,8 +128,62 @@
                     <param id="1" name="Visibility">1</param>
                 </action>
                 <action id="-3" name="Set position" sid="590652082022373" type="nextlevel">
-                    <param id="0" name="X">624</param>
-                    <param id="1" name="Y">482</param>
+                    <param id="0" name="X">628</param>
+                    <param id="1" name="Y">488</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="422352775555201">
+            <conditions>
+                <condition id="3" name="On touched object" sid="519287930563969" type="Touch">
+                    <param id="0" name="Object">buton15</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="188250451689749" type="System">
+                    <param id="0" name="Layout">menu</param>
+                </action>
+                <action id="0" name="Play" sid="495556340916353" type="Audio">
+                    <param id="0" name="Audio file">button-next</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="659488728035196">
+            <conditions>
+                <condition id="3" name="On touched object" sid="872327561809385" type="Touch">
+                    <param id="0" name="Object">buton6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="418971911707159" type="System">
+                    <param id="0" name="Layout">pilih_kuis</param>
+                </action>
+                <action id="0" name="Play" sid="907852174793442" type="Audio">
+                    <param id="0" name="Audio file">button-next</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="610936608347496">
+            <conditions>
+                <condition id="3" name="On touched object" sid="710112838762673" type="Touch">
+                    <param id="0" name="Object">nextlevel</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="406363760206640" type="System">
+                    <param id="0" name="Layout">cocokan_2</param>
+                </action>
+                <action id="0" name="Play" sid="235954669112977" type="Audio">
+                    <param id="0" name="Audio file">button-next</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>

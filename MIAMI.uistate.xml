@@ -11,9 +11,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">menu</layout>
-        <layout order="2">cocokan_1</layout>
-        <event-sheet order="1">event-menu</event-sheet>
-        <event-sheet active="1" order="3">event-cocokan_1</event-sheet>
+        <layout order="1">cocokan_1</layout>
+        <layout active="1" order="3">cocokan_2</layout>
+        <layout order="5">cocokan_3</layout>
+        <event-sheet order="2">event-cocokan_1</event-sheet>
+        <event-sheet order="4">event-cocokan_2</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -216,5 +218,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/bgnextlevel/" />
         <folder expanded="1" path="animation-folder/bggoodjob/" />
         <folder expanded="1" path="animation-folder/nextlevel/" />
+        <folder expanded="1" path="animation-folder/soal2cocokan/" />
+        <folder expanded="1" path="animation-folder/jawaban2/" />
     </folders-expanded>
 </c2uistate>

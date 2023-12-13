@@ -34,6 +34,9 @@
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
+                <action id="-2" name="Go to layout" sid="547081338524537" type="System">
+                    <param id="0" name="Layout">cocokan_1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="750520971498327">

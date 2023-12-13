@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>event-cocokan_2</name>
+    <events>
+        <variable constant="0" name="tebaksuara" sid="744374790124461" static="0" type="number">0</variable>
+        <variable constant="0" name="count2" sid="391908728915347" static="0" type="number">0</variable>
+        <variable constant="0" name="startY2" sid="742596215942776" static="0" type="number">0</variable>
+        <variable constant="0" name="startX2" sid="547026993436903" static="0" type="number">0</variable>
+        <event-block sid="667670509773739">
+            <conditions>
+                <condition id="-11" name="For Each" sid="641640087172372" type="System">
+                    <param id="0" name="Object">jawaban2</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="493462745503614" type="point">
+                    <param id="0" name="Instance variable">use</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="843172944654892" type="jawaban2">
+                    <param id="0" name="Object">point</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="766955933275985" type="point">
+                    <param id="0" name="Instance variable">use</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="354147086601156">
+            <conditions>
+                <condition behavior="DragDrop" id="1" name="On drag start" sid="320890187308680" type="jawaban2" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="667081476333967" type="System">
+                    <param id="0" name="Variable">startX2</param>
+                    <param id="1" name="Value">jawaban2.X</param>
+                </action>
+                <action id="-9" name="Set value" sid="138650405614558" type="System">
+                    <param id="0" name="Variable">startY2</param>
+                    <param id="1" name="Value">jawaban2.Y</param>
+                </action>
+                <action id="-24" name="Move to top" sid="932068560078982" type="jawaban2" />
+            </actions>
+        </event-block>
+        <event-block sid="453932512271772">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="281595566741542" type="jawaban2" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="737556270328192">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="522325263718595" type="jawaban2">
+                            <param id="0" name="Object">kolom2</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="662042093367654" type="jawaban2">
+                            <param id="0" name="Instance variable">check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">kolom2.check</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set position to another object" sid="294477970803715" type="jawaban2">
+                            <param id="0" name="Object">kolom2</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="142431229017157" type="jawaban2">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="420356058749454" type="Audio">
+                            <param id="0" name="Audio file">success</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;correct&quot;</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="628660149989602" type="System">
+                            <param id="0" name="Variable">count2</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="670127575267452">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="197223979786248" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="245506474591949" type="jawaban2">
+                            <param id="0" name="X">startX2</param>
+                            <param id="1" name="Y">startY2</param>
+                        </action>
+                        <action id="0" name="Play" sid="246064525013302" type="Audio">
+                            <param id="0" name="Audio file">wrong-answer-126515</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="373699757039349">
+            <conditions>
+                <condition id="3" name="On touched object" sid="734113854547491" type="Touch">
+                    <param id="0" name="Object">soundkuis</param>
+                </condition>
+                <condition id="-14" name="Pick by unique ID" sid="921785692410235" type="soundkuis">
+                    <param id="0" name="Unique ID">284</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Move to layer" sid="939240126250249" type="soundkuis">
+                    <param id="0" name="Layer">0</param>
+                </action>
+                <action id="6" name="Stop" sid="428247061063356" type="Audio">
+                    <param id="0" name="Tag">&quot;kuis-sape&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="166595089155227" type="Audio">
+                    <param id="0" name="Tag">&quot;kuis-santu&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="477799560704679">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="616273231396897" type="System">
+                            <param id="0" name="Variable">tebaksuara</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="374809696619198" type="Audio">
+                            <param id="0" name="Audio file">Sound KECAPI KALIMANTAN</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;kuis-kecapi&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="956972812440500" type="System">
+                            <param id="0" name="Variable">tebaksuara</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="791095260083675" type="soundkuis">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="163159162412929">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="221285780735896" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set muted" sid="582978224378969" type="Audio">
+                            <param id="0" name="Tag">&quot;kuis-kecapi&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="547313484617906" type="System">
+                            <param id="0" name="Variable">tebaksuara</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="467450679471423" type="soundkuis">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="826361601818961">
+                    <conditions />
+                    <actions />
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="349033115767313">
+            <conditions>
+                <condition id="3" name="On touched object" sid="762541787988090" type="Touch">
+                    <param id="0" name="Object">soundkuis</param>
+                </condition>
+                <condition id="-14" name="Pick by unique ID" sid="760227420350500" type="soundkuis">
+                    <param id="0" name="Unique ID">266</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Move to layer" sid="564904794355771" type="soundkuis">
+                    <param id="0" name="Layer">0</param>
+                </action>
+                <action id="6" name="Stop" sid="953254774417519" type="Audio">
+                    <param id="0" name="Tag">&quot;kuis-kecapi&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="385259584306830" type="Audio">
+                    <param id="0" name="Tag">&quot;kuis-santu&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="272119938944713">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="942255701820903" type="System">
+                            <param id="0" name="Variable">tebaksuara</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="587382198765534" type="Audio">
+                            <param id="0" name="Audio file">Sound SAPE KALIMANTAN</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;kuis-sape&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="346955389534125" type="System">
+                            <param id="0" name="Variable">tebaksuara</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="492805346633595" type="soundkuis">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="380766104402827">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="120644358665022" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set muted" sid="759045587685384" type="Audio">
+                            <param id="0" name="Tag">&quot;kuis-sape&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="223977268618807" type="System">
+                            <param id="0" name="Variable">tebaksuara</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="524533719014260" type="soundkuis">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="509515341449485">
+                    <conditions />
+                    <actions />
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="769433418329016">
+            <conditions>
+                <condition id="3" name="On touched object" sid="247387654250964" type="Touch">
+                    <param id="0" name="Object">soundkuis</param>
+                </condition>
+                <condition id="-14" name="Pick by unique ID" sid="893871138345732" type="soundkuis">
+                    <param id="0" name="Unique ID">267</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Move to layer" sid="812243652527092" type="soundkuis">
+                    <param id="0" name="Layer">0</param>
+                </action>
+                <action id="6" name="Stop" sid="471582127248072" type="Audio">
+                    <param id="0" name="Tag">&quot;kuis-kecapi&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="259926433945705" type="Audio">
+                    <param id="0" name="Tag">&quot;kuis-sape&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="149197247676062">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="447707591524005" type="System">
+                            <param id="0" name="Variable">tebaksuara</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="135050895021153" type="Audio">
+                            <param id="0" name="Audio file">Sound SAPE KALIMANTAN</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;kuis-sape&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="557305730425239" type="System">
+                            <param id="0" name="Variable">tebaksuara</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="908387441968392" type="soundkuis">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="372105789994684">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="507540849110401" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set muted" sid="619068307244683" type="Audio">
+                            <param id="0" name="Tag">&quot;kuis-sape&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="752036820049447" type="System">
+                            <param id="0" name="Variable">tebaksuara</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="621266563936992" type="soundkuis">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="759763420737732">
+                    <conditions />
+                    <actions />
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="209669864315818">
+            <conditions>
+                <condition id="3" name="On touched object" sid="579599080705749" type="Touch">
+                    <param id="0" name="Object">buton15</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="277459924718849" type="System">
+                    <param id="0" name="Layout">menu</param>
+                </action>
+                <action id="0" name="Play" sid="934866264980618" type="Audio">
+                    <param id="0" name="Audio file">button-next</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="655050047143500" type="Audio">
+                    <param id="0" name="Tag">&quot;kuis-kecapi&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="597099301885477" type="Audio">
+                    <param id="0" name="Tag">&quot;kuis-sape&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="779064455905234">
+            <conditions>
+                <condition id="3" name="On touched object" sid="787295586989629" type="Touch">
+                    <param id="0" name="Object">buton6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="282090720810643" type="System">
+                    <param id="0" name="Layout">cocokan_1</param>
+                </action>
+                <action id="0" name="Play" sid="584359348400591" type="Audio">
+                    <param id="0" name="Audio file">button-next</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="478825563264382" type="Audio">
+                    <param id="0" name="Tag">&quot;kuis-kecapi&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="876575684109497" type="Audio">
+                    <param id="0" name="Tag">&quot;kuis-sape&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="582502942950981">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="324864194724591" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="529422316422371" type="System">
+                    <param id="0" name="Variable">count2</param>
+                    <param id="1" name="Value">jawaban2.Count</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="865330329432254" type="System">
+                    <param id="0" name="Layer">&quot;popup&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="333750598134278">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="637756009302078" type="System">
+                    <param id="0" name="Variable">count2</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="413800581384780" type="System" />
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="393502748240686" type="System">
+                    <param id="0" name="Layer">&quot;popup&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action id="-3" name="Set position" sid="241740380172720" type="nextlevel">
+                    <param id="0" name="X">628</param>
+                    <param id="1" name="Y">483</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="987718171568497">
+            <conditions>
+                <condition id="3" name="On touched object" sid="138547747260942" type="Touch">
+                    <param id="0" name="Object">nextlevel</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="637737907161910" type="System">
+                    <param id="0" name="Layout">cocokan_3</param>
+                </action>
+                <action id="0" name="Play" sid="732287163648113" type="Audio">
+                    <param id="0" name="Audio file">button-next</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="142525306872882" type="Audio">
+                    <param id="0" name="Tag">&quot;kuis-kecapi&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="666592816189551" type="Audio">
+                    <param id="0" name="Tag">&quot;kuis-sape&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
