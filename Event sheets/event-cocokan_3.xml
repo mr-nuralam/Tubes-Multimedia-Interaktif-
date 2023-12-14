@@ -2,5 +2,54 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>event-cocokan_3</name>
-    <events />
+    <events>
+        <event-block sid="763831443253193">
+            <conditions>
+                <condition id="3" name="On touched object" sid="663875639006857" type="Touch">
+                    <param id="0" name="Object">buton15</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="895724161945994" type="System">
+                    <param id="0" name="Layout">menu</param>
+                </action>
+                <action id="0" name="Play" sid="488562010685460" type="Audio">
+                    <param id="0" name="Audio file">button-next</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="149730964704478" type="Audio">
+                    <param id="0" name="Tag">&quot;kuis-kecapi&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="742048622261061" type="Audio">
+                    <param id="0" name="Tag">&quot;kuis-sape&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="937542025363158">
+            <conditions>
+                <condition id="3" name="On touched object" sid="688144899440072" type="Touch">
+                    <param id="0" name="Object">buton6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="983609672954983" type="System">
+                    <param id="0" name="Layout">cocokan_1</param>
+                </action>
+                <action id="0" name="Play" sid="410595080936920" type="Audio">
+                    <param id="0" name="Audio file">button-next</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="665906384376545" type="Audio">
+                    <param id="0" name="Tag">&quot;kuis-kecapi&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="645648923789351" type="Audio">
+                    <param id="0" name="Tag">&quot;kuis-sape&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>

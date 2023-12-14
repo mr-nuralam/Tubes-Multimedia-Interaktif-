@@ -2,7 +2,7 @@
 <c2layout>
     <name>cocokan_3</name>
     <sid>767705936816789</sid>
-    <event-sheet></event-sheet>
+    <event-sheet>event-cocokan_3</event-sheet>
     <size>
         <width>1280</width>
         <height>720</height>
@@ -832,6 +832,50 @@
                         <depth>0</depth>
                         <hotspotX>0.46875</hotspotX>
                         <hotspotY>0.515695095</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="buton15" uid="307">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>637.45300293</x>
+                        <y>680</y>
+                        <z>0</z>
+                        <width>66.704284668</width>
+                        <height>66.202644348</height>
+                        <depth>0</depth>
+                        <hotspotX>0.461818188</hotspotX>
+                        <hotspotY>0.525547445</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="buton6" uid="308">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>79</x>
+                        <y>678</y>
+                        <z>0</z>
+                        <width>56.02848053</width>
+                        <height>56.02848053</height>
+                        <depth>0</depth>
+                        <hotspotX>0.507299244</hotspotX>
+                        <hotspotY>0.5182482</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
