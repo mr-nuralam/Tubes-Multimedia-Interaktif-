@@ -3,51 +3,190 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>event-cocokan_3</name>
     <events>
-        <event-block sid="763831443253193">
+        <variable constant="0" name="count3" sid="211018754518672" static="0" type="number">0</variable>
+        <variable constant="0" name="startY3" sid="825503164596964" static="0" type="number">0</variable>
+        <variable constant="0" name="startX3" sid="201132993892305" static="0" type="number">0</variable>
+        <event-block sid="526621081865272">
             <conditions>
-                <condition id="3" name="On touched object" sid="663875639006857" type="Touch">
+                <condition id="-11" name="For Each" sid="498910747423933" type="System">
+                    <param id="0" name="Object">abjad</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="802244747396142" type="asprite">
+                    <param id="0" name="Instance variable">use</param>
+                </condition>
+                <condition id="-16" name="Pick random instance" sid="693342207800591" type="System">
+                    <param id="0" name="Object">asprite</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="503163892042062" type="asprite">
+                    <param id="0" name="Instance variable">use</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-4" name="Set position to another object" sid="566808180646534" type="abjad">
+                    <param id="0" name="Object">asprite</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="251951178701343">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="696677571602658" type="abjad" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="686471773899793">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="949014725520938" type="abjad">
+                            <param id="0" name="Object">tempat</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="543687775318681" type="abjad">
+                            <param id="0" name="Instance variable">check</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">tempat.check</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set position to another object" sid="690956113020811" type="abjad">
+                            <param id="0" name="Object">tempat</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="612296159933991" type="abjad">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="842057911125468" type="Audio">
+                            <param id="0" name="Audio file">success</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;correct&quot;</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="168042388048560" type="System">
+                            <param id="0" name="Variable">count3</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="915428766614187">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="575307346250793" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="515664796088189" type="abjad">
+                            <param id="0" name="X">startX3</param>
+                            <param id="1" name="Y">startY3</param>
+                        </action>
+                        <action id="0" name="Play" sid="454512049929612" type="Audio">
+                            <param id="0" name="Audio file">wrong-answer-126515</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;wrong&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="704797291464628">
+            <conditions>
+                <condition behavior="DragDrop" id="1" name="On drag start" sid="933874292045607" type="abjad" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="172304920073609" type="System">
+                    <param id="0" name="Variable">startX3</param>
+                    <param id="1" name="Value">abjad.X</param>
+                </action>
+                <action id="-9" name="Set value" sid="670847173508858" type="System">
+                    <param id="0" name="Variable">startY3</param>
+                    <param id="1" name="Value">abjad.Y</param>
+                </action>
+                <action id="-24" name="Move to top" sid="640120282666477" type="abjad" />
+            </actions>
+        </event-block>
+        <event-block sid="504047169344310">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="854054199376922" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="554826762166098" type="System">
+                    <param id="0" name="Variable">count3</param>
+                    <param id="1" name="Value">abjad.Count</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="682630020751332" type="System">
+                    <param id="0" name="Layer">&quot;popup&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="508653623767438">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="388098833886870" type="System">
+                    <param id="0" name="Variable">count3</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="985798754204920" type="System" />
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="636616935999192" type="System">
+                    <param id="0" name="Layer">&quot;popup&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action id="-3" name="Set position" sid="691796802816342" type="nextlevel">
+                    <param id="0" name="X">628</param>
+                    <param id="1" name="Y">483</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="758416853684250">
+            <conditions>
+                <condition id="3" name="On touched object" sid="418312633777280" type="Touch">
+                    <param id="0" name="Object">nextlevel</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="601730591151836" type="Audio">
+                    <param id="0" name="Audio file">button-next</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="597992143228070" type="System">
+                    <param id="0" name="Layout">cocokan_4</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="451687382625639">
+            <conditions>
+                <condition id="3" name="On touched object" sid="579837386320274" type="Touch">
                     <param id="0" name="Object">buton15</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="895724161945994" type="System">
+                <action id="-2" name="Go to layout" sid="661364897142306" type="System">
                     <param id="0" name="Layout">menu</param>
                 </action>
-                <action id="0" name="Play" sid="488562010685460" type="Audio">
+                <action id="0" name="Play" sid="742863423963015" type="Audio">
                     <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
-                <action id="6" name="Stop" sid="149730964704478" type="Audio">
-                    <param id="0" name="Tag">&quot;kuis-kecapi&quot;</param>
-                </action>
-                <action id="6" name="Stop" sid="742048622261061" type="Audio">
-                    <param id="0" name="Tag">&quot;kuis-sape&quot;</param>
-                </action>
             </actions>
         </event-block>
-        <event-block sid="937542025363158">
+        <event-block sid="135152210360425">
             <conditions>
-                <condition id="3" name="On touched object" sid="688144899440072" type="Touch">
+                <condition id="3" name="On touched object" sid="215855384128134" type="Touch">
                     <param id="0" name="Object">buton6</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="983609672954983" type="System">
+                <action id="-2" name="Go to layout" sid="478380872354835" type="System">
                     <param id="0" name="Layout">cocokan_1</param>
                 </action>
-                <action id="0" name="Play" sid="410595080936920" type="Audio">
+                <action id="0" name="Play" sid="123296870351676" type="Audio">
                     <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                </action>
-                <action id="6" name="Stop" sid="665906384376545" type="Audio">
-                    <param id="0" name="Tag">&quot;kuis-kecapi&quot;</param>
-                </action>
-                <action id="6" name="Stop" sid="645648923789351" type="Audio">
-                    <param id="0" name="Tag">&quot;kuis-sape&quot;</param>
                 </action>
             </actions>
         </event-block>

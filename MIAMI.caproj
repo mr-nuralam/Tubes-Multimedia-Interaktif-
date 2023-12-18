@@ -4204,7 +4204,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="a2" sid="647614392623053">
+        <object-type name="jawaban3" sid="647614392623053">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="check" sid="565442813571234" type="number" />
@@ -4527,7 +4527,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="kolomhuruf7" sid="194883532033967">
+        <object-type name="tempat" sid="194883532033967">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="check" sid="543236524640161" type="number" />
@@ -4543,6 +4543,117 @@
                             <point x="0.546099" y="0.992857" />
                             <point x="0.0283688" y="0.992857" />
                             <point x="0.0141844" y="0.485714" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tempathuruf" sid="854550354598560">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="use" sid="348759200621480" type="boolean" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="135751935936688" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite22" sid="805707639835287">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="346190753879281" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="abjad" sid="250831451727331">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="check" sid="860531477637910" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="DragDrop" sid="511861103635583">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="19" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="890466841483760" speed="0">
+                    <frame duration="1" hotspotX="0.517857" hotspotY="0.502242" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\a.png">
+                        <image-point name="Imagepoint 1" x="0.486607" y="0.627803" />
+                    </frame>
+                    <frame duration="1" hotspotX="0.46875" hotspotY="0.515695" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\b.png" />
+                    <frame duration="1" hotspotX="0.540179" hotspotY="0.502242" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\c.png" />
+                    <frame duration="1" hotspotX="0.591928" hotspotY="0.581081" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\d.png" />
+                    <frame duration="1" hotspotX="0.526786" hotspotY="0.5" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\e.png" />
+                    <frame duration="1" hotspotX="0.502242" hotspotY="0.522523" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\f.png" />
+                    <frame duration="1" hotspotX="0.459821" hotspotY="0.430493" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\g.png" />
+                    <frame duration="1" hotspotX="0.513393" hotspotY="0.410714" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\h.png" />
+                    <frame duration="1" hotspotX="0.491071" hotspotY="0.491071" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\i.png" />
+                    <frame duration="1" hotspotX="0.535714" hotspotY="0.529148" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\j.png" />
+                    <frame duration="1" hotspotX="0.491071" hotspotY="0.53125" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\k.png" />
+                    <frame duration="1" hotspotX="0.524444" hotspotY="0.542601" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\l.png" />
+                    <frame duration="1" hotspotX="0.526786" hotspotY="0.524664" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\m.png" />
+                    <frame duration="1" hotspotX="0.491071" hotspotY="0.493274" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\n.png" />
+                    <frame duration="1" hotspotX="0.482143" hotspotY="0.5" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\o.png" />
+                    <frame duration="1" hotspotX="0.495536" hotspotY="0.497758" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\r.png" />
+                    <frame duration="1" hotspotX="0.546667" hotspotY="0.502242" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\s.png" />
+                    <frame duration="1" hotspotX="0.477679" hotspotY="0.482143" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\U.png" />
+                    <frame duration="1" hotspotX="0.504464" hotspotY="0.506726" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\p.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite23" sid="111109023083363">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="247231898465395" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="soalkecapi" sid="536370353163775">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="990435888700491" speed="5">
+                    <frame duration="1" hotspotX="0.473568" hotspotY="0.492274" original-source="C:\Users\muham\Downloads\soalkecapi.png">
+                        <collision-poly>
+                            <point x="0.0154185" y="0.116998" />
+                            <point x="0.471366" y="0.00441501" />
+                            <point x="0.964758" y="0.0816777" />
+                            <point x="0.995595" y="0.490066" />
+                            <point x="0.973568" y="0.909492" />
+                            <point x="0.471366" y="0.997792" />
+                            <point x="0.0110132" y="0.869757" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="asprite" sid="484178219723035">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="use" sid="701115748092717" type="boolean" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="567365005330308" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="soalserunai" sid="287900525541019">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="770179892456658" speed="5">
+                    <frame duration="1" hotspotX="0.483796" hotspotY="0.497685" original-source="C:\Users\muham\Downloads\soalserunai.png">
+                        <collision-poly>
+                            <point x="0.025463" y="0.101852" />
+                            <point x="0.483796" y="0.00231481" />
+                            <point x="0.962963" y="0.0810185" />
+                            <point x="0.997685" y="0.49537" />
+                            <point x="0.965278" y="0.914352" />
+                            <point x="0.483796" y="0.99537" />
+                            <point x="0.0231481" y="0.893519" />
+                            <point x="0.00462963" y="0.49537" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -4584,6 +4695,7 @@
         <layout>cocokan_1.xml</layout>
         <layout>cocokan_2.xml</layout>
         <layout>cocokan_3.xml</layout>
+        <layout>cocokan_4.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>event-splash.xml</event-sheet>
@@ -4620,6 +4732,7 @@
         <event-sheet>event-cocokan_1.xml</event-sheet>
         <event-sheet>event-cocokan_2.xml</event-sheet>
         <event-sheet>event-cocokan_3.xml</event-sheet>
+        <event-sheet>event-cocokan_4.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Function" uid="21" />
