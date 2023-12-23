@@ -95,28 +95,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="buton6" uid="234">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>62.979999542</x>
-                        <y>679.236022949</y>
-                        <z>0</z>
-                        <width>56.02848053</width>
-                        <height>56.02848053</height>
-                        <depth>0</depth>
-                        <hotspotX>0.507299244</hotspotX>
-                        <hotspotY>0.5182482</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="soundkuis" uid="235">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>

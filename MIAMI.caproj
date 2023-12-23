@@ -4529,7 +4529,7 @@
             </instance-variables>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="319890043372144" speed="5">
-                    <frame duration="1" hotspotX="0.553191" hotspotY="0.492857" original-source="D:\mulmed aset\kolomhuruf.png">
+                    <frame duration="1" hotspotX="0.510638" hotspotY="0.514286" original-source="D:\mulmed aset\kolomhuruf.png">
                         <collision-poly>
                             <point x="0.0567376" y="0.0142857" />
                             <point x="0.546099" y="0.0142857" />
@@ -4574,19 +4574,17 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="19" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="890466841483760" speed="0">
-                    <frame duration="1" hotspotX="0.517857" hotspotY="0.502242" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\a.png">
-                        <image-point name="Imagepoint 1" x="0.486607" y="0.627803" />
-                    </frame>
+                    <frame duration="1" hotspotX="0.508929" hotspotY="0.511211" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\a.png" />
                     <frame duration="1" hotspotX="0.46875" hotspotY="0.515695" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\b.png" />
-                    <frame duration="1" hotspotX="0.540179" hotspotY="0.502242" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\c.png" />
+                    <frame duration="1" hotspotX="0.508929" hotspotY="0.511211" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\c.png" />
                     <frame duration="1" hotspotX="0.591928" hotspotY="0.581081" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\d.png" />
-                    <frame duration="1" hotspotX="0.526786" hotspotY="0.5" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\e.png" />
+                    <frame duration="1" hotspotX="0.508929" hotspotY="0.513514" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\e.png" />
                     <frame duration="1" hotspotX="0.502242" hotspotY="0.522523" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\f.png" />
                     <frame duration="1" hotspotX="0.459821" hotspotY="0.430493" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\g.png" />
                     <frame duration="1" hotspotX="0.513393" hotspotY="0.410714" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\h.png" />
                     <frame duration="1" hotspotX="0.491071" hotspotY="0.491071" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\i.png" />
                     <frame duration="1" hotspotX="0.535714" hotspotY="0.529148" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\j.png" />
-                    <frame duration="1" hotspotX="0.491071" hotspotY="0.53125" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\k.png" />
+                    <frame duration="1" hotspotX="0.508929" hotspotY="0.508929" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\k.png" />
                     <frame duration="1" hotspotX="0.524444" hotspotY="0.542601" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\l.png" />
                     <frame duration="1" hotspotX="0.526786" hotspotY="0.524664" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\m.png" />
                     <frame duration="1" hotspotX="0.491071" hotspotY="0.493274" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\n.png" />
@@ -4594,7 +4592,7 @@
                     <frame duration="1" hotspotX="0.495536" hotspotY="0.497758" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\r.png" />
                     <frame duration="1" hotspotX="0.546667" hotspotY="0.502242" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\s.png" />
                     <frame duration="1" hotspotX="0.477679" hotspotY="0.482143" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\U.png" />
-                    <frame duration="1" hotspotX="0.504464" hotspotY="0.506726" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\p.png" />
+                    <frame duration="1" hotspotX="0.508929" hotspotY="0.511211" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\p.png" />
                 </animation>
             </animation-folder>
         </object-type>
