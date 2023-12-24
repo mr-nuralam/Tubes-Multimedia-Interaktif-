@@ -4573,12 +4573,11 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="19" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="890466841483760" speed="0">
+                <animation framecount="20" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="890466841483760" speed="0">
                     <frame duration="1" hotspotX="0.508929" hotspotY="0.511211" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\a.png" />
                     <frame duration="1" hotspotX="0.46875" hotspotY="0.515695" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\b.png" />
-                    <frame duration="1" hotspotX="0.508929" hotspotY="0.511211" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\c.png" />
                     <frame duration="1" hotspotX="0.591928" hotspotY="0.581081" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\d.png" />
-                    <frame duration="1" hotspotX="0.508929" hotspotY="0.513514" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\e.png" />
+                    <frame duration="1" hotspotX="0.508929" hotspotY="0.511211" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\c.png" />
                     <frame duration="1" hotspotX="0.502242" hotspotY="0.522523" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\f.png" />
                     <frame duration="1" hotspotX="0.459821" hotspotY="0.430493" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\g.png" />
                     <frame duration="1" hotspotX="0.513393" hotspotY="0.410714" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\h.png" />
@@ -4593,6 +4592,8 @@
                     <frame duration="1" hotspotX="0.546667" hotspotY="0.502242" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\s.png" />
                     <frame duration="1" hotspotX="0.477679" hotspotY="0.482143" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\U.png" />
                     <frame duration="1" hotspotX="0.508929" hotspotY="0.511211" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\p.png" />
+                    <frame duration="1" hotspotX="0.526786" hotspotY="0.5" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\e.png" />
+                    <frame duration="1" hotspotX="0.504464" hotspotY="0.506726" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\p.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -4649,6 +4650,53 @@
                             <point x="0.00462963" y="0.49537" />
                         </collision-poly>
                     </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tempat3" sid="390372160383964">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="check" sid="628365632029061" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="671333927661347" speed="5">
+                    <frame duration="1" hotspotX="0.553191" hotspotY="0.492857" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\tempat.png">
+                        <collision-poly>
+                            <point x="0.0567376" y="0.0142857" />
+                            <point x="0.546099" y="0.0142857" />
+                            <point x="0.985816" y="0.0714286" />
+                            <point x="0.985816" y="0.907143" />
+                            <point x="0.546099" y="0.992857" />
+                            <point x="0.0283688" y="0.992857" />
+                            <point x="0.0141844" y="0.485714" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="e" sid="990025963947200">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="check" sid="525353245583640" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="DragDrop" sid="133616187036565">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="924872095518052" speed="0">
+                    <frame duration="1" hotspotX="0.526786" hotspotY="0.5" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\e.png">
+                        <collision-poly>
+                            <point x="0.00892857" y="0.036036" />
+                            <point x="0.526786" y="0.0045045" />
+                            <point x="0.991071" y="0.0900901" />
+                            <point x="0.991071" y="0.905405" />
+                            <point x="0.526786" y="0.995495" />
+                            <point x="0.00892857" y="0.959459" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.504464" hotspotY="0.506726" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\p.png" />
                 </animation>
             </animation-folder>
         </object-type>
