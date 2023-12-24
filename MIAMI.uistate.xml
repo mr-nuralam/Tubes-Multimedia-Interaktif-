@@ -13,9 +13,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="0">splash</layout>
         <layout order="1">menu</layout>
         <layout order="2">pilih_kuis</layout>
-        <layout active="1" order="3">cocokan_3</layout>
+        <layout order="3">cocokan_3</layout>
         <layout order="6">cocokan_4</layout>
-        <event-sheet order="4">event-cocokan_3</event-sheet>
+        <event-sheet active="1" order="4">event-cocokan_3</event-sheet>
         <event-sheet order="5">event-cocokan_4</event-sheet>
     </open-tabs>
     <properties>

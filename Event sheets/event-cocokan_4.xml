@@ -157,5 +157,44 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="705804805250037">
+            <conditions>
+                <condition id="3" name="On touched object" sid="767511225686968" type="Touch">
+                    <param id="0" name="Object">buton15</param>
+                </condition>
+                <condition id="-14" name="Pick by unique ID" sid="752670216671532" type="buton15">
+                    <param id="0" name="Unique ID">315</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="954756708887289" type="Audio">
+                    <param id="0" name="Audio file">button-next</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="242036873567860" type="System">
+                    <param id="0" name="Layout">menu</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="507795141635345">
+            <conditions>
+                <condition id="3" name="On touched object" sid="556338805424843" type="Touch">
+                    <param id="0" name="Object">buton6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="353802283083867" type="System">
+                    <param id="0" name="Layout">cocokan_3</param>
+                </action>
+                <action id="0" name="Play" sid="314697099255632" type="Audio">
+                    <param id="0" name="Audio file">button-next</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
