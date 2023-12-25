@@ -75,7 +75,7 @@
                 </instance>
                 <instance type="video_kalimantan" uid="390">
                     <properties>
-                        <webm-source></webm-source>
+                        <webm-source>sape.webm</webm-source>
                         <ogg-theora-source></ogg-theora-source>
                         <h264-source></h264-source>
                         <autoplay>Yes</autoplay>

@@ -179,7 +179,7 @@
             <instances>
                 <instance type="video_maluku" uid="362">
                     <properties>
-                        <webm-source></webm-source>
+                        <webm-source>ukulele.webm</webm-source>
                         <ogg-theora-source></ogg-theora-source>
                         <h264-source></h264-source>
                         <autoplay>Yes</autoplay>
