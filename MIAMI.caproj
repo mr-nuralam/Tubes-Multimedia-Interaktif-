@@ -4709,6 +4709,15 @@
         <object-type name="Video_nusatenggara" sid="910319505902390">
             <plugin id="video" />
         </object-type>
+        <object-type name="video_maluku" sid="756399536231437">
+            <plugin id="video" />
+        </object-type>
+        <object-type name="video_papua" sid="510434240871323">
+            <plugin id="video" />
+        </object-type>
+        <object-type name="video_kalimantan" sid="725968697789761">
+            <plugin id="video" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>

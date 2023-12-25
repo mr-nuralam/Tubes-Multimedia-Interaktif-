@@ -10,15 +10,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">peta-video</layout>
-        <layout order="1">video_sumatera</layout>
-        <layout order="2">video_kalimantan</layout>
-        <layout order="3">video_maluku</layout>
-        <layout order="4">video_papua</layout>
-        <event-sheet order="5">event_videosumatera</event-sheet>
-        <event-sheet order="6">event_videokalimantan</event-sheet>
-        <event-sheet order="7">event_videopapua</event-sheet>
-        <event-sheet order="8">event_videomaluku</event-sheet>
+        <layout order="3">video_sumatera</layout>
+        <layout active="1" order="0">video_kalimantan</layout>
+        <layout order="2">video_maluku</layout>
+        <layout order="1">video_papua</layout>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />

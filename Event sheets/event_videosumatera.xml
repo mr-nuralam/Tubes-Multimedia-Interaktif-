@@ -2,5 +2,70 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>event_videosumatera</name>
-    <events />
+    <events>
+        <event-block sid="535049349978296">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="449707054784696" type="System" />
+            </conditions>
+            <actions>
+                <action id="6" name="Play" sid="144052539828095" type="video_sumatera" />
+            </actions>
+        </event-block>
+        <event-block sid="795409601067860">
+            <conditions>
+                <condition id="3" name="On touched object" sid="393569706181713" type="Touch">
+                    <param id="0" name="Object">pause2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Pause" sid="482354518421799" type="video_sumatera" />
+            </actions>
+        </event-block>
+        <event-block sid="455494338881472">
+            <conditions>
+                <condition id="3" name="On touched object" sid="134876436265585" type="Touch">
+                    <param id="0" name="Object">play2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="6" name="Play" sid="346926801930008" type="video_sumatera" />
+            </actions>
+        </event-block>
+        <event-block sid="380571576794593">
+            <conditions>
+                <condition id="3" name="On touched object" sid="289754060653753" type="Touch">
+                    <param id="0" name="Object">buton15</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="296929187283189" type="System">
+                    <param id="0" name="Layout">menu</param>
+                </action>
+                <action id="0" name="Play" sid="623655926541128" type="Audio">
+                    <param id="0" name="Audio file">button-next</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="531119165488948">
+            <conditions>
+                <condition id="3" name="On touched object" sid="846976435471982" type="Touch">
+                    <param id="0" name="Object">buton6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="840579137918291" type="System">
+                    <param id="0" name="Layout">peta-video</param>
+                </action>
+                <action id="0" name="Play" sid="275837722328041" type="Audio">
+                    <param id="0" name="Audio file">button-next</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>

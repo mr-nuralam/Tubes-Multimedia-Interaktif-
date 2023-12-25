@@ -2,7 +2,7 @@
 <c2layout>
     <name>video_maluku</name>
     <sid>524094525017567</sid>
-    <event-sheet>event_videojawa</event-sheet>
+    <event-sheet>event_videomaluku</event-sheet>
     <size>
         <width>1280</width>
         <height>720</height>
@@ -47,28 +47,6 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.500148177</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="titlevideo" uid="364">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>640.93371582</x>
-                        <y>84</y>
-                        <z>0</z>
-                        <width>434.378479004</width>
-                        <height>71.711662292</height>
-                        <depth>0</depth>
-                        <hotspotX>0.502149642</hotspotX>
-                        <hotspotY>0.484375</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -199,9 +177,9 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="video_jawa" uid="369">
+                <instance type="video_maluku" uid="362">
                     <properties>
-                        <webm-source>Video Pertunjukan Gamelan.webm</webm-source>
+                        <webm-source></webm-source>
                         <ogg-theora-source></ogg-theora-source>
                         <h264-source></h264-source>
                         <autoplay>Yes</autoplay>
@@ -211,14 +189,36 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>213.519317627</x>
-                        <y>104.668060303</y>
+                        <x>225</x>
+                        <y>107</y>
                         <z>0</z>
-                        <width>852.961364746</width>
-                        <height>550.663879395</height>
+                        <width>818</width>
+                        <height>515</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="titlevideo" uid="364">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>640.93371582</x>
+                        <y>84</y>
+                        <z>0</z>
+                        <width>434.378479004</width>
+                        <height>71.711662292</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502149642</hotspotX>
+                        <hotspotY>0.484375</hotspotY>
+                        <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>

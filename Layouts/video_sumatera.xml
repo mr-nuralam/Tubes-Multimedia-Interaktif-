@@ -2,7 +2,7 @@
 <c2layout>
     <name>video_sumatera</name>
     <sid>316172919138210</sid>
-    <event-sheet>event_videojawa</event-sheet>
+    <event-sheet>event_videosumatera</event-sheet>
     <size>
         <width>1280</width>
         <height>720</height>
@@ -107,11 +107,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>172</x>
-                        <y>122</y>
+                        <x>132</x>
+                        <y>131</y>
                         <z>0</z>
-                        <width>951</width>
-                        <height>437</height>
+                        <width>1017.872009277</width>
+                        <height>467.728759766</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
