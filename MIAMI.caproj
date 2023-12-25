@@ -2379,7 +2379,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="video_pertunjukan" sid="632146935532492">
+        <object-type name="video_jawa" sid="632146935532492">
             <plugin id="video" />
         </object-type>
         <object-type name="Jawa2" sid="847460681766396">
@@ -4700,6 +4700,15 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="video_sumatera" sid="829195614841560">
+            <plugin id="video" />
+        </object-type>
+        <object-type name="video_sulawesi" sid="330978267461654">
+            <plugin id="video" />
+        </object-type>
+        <object-type name="Video_nusatenggara" sid="910319505902390">
+            <plugin id="video" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -4707,6 +4716,7 @@
         <layout>menu.xml</layout>
         <layout>pengantar.xml</layout>
         <layout>peta.xml</layout>
+        <layout>peta-video.xml</layout>
         <layout>daerah_jawa.xml</layout>
         <layout>daerah_sumatera.xml</layout>
         <layout>saluang_sumatera.xml</layout>
@@ -4726,7 +4736,13 @@
         <layout>ukulele_maluku.xml</layout>
         <layout>daerah_papua.xml</layout>
         <layout>tifa_papua.xml</layout>
-        <layout>video_menu.xml</layout>
+        <layout>video_jawa.xml</layout>
+        <layout>video_sumatera.xml</layout>
+        <layout>video_kalimantan.xml</layout>
+        <layout>video_maluku.xml</layout>
+        <layout>video_nusatenggara.xml</layout>
+        <layout>video_sulawesi.xml</layout>
+        <layout>video_papua.xml</layout>
         <layout>pilih_kuis.xml</layout>
         <layout>tg_kuis1.xml</layout>
         <layout>tg_kuis2.xml</layout>
@@ -4762,7 +4778,7 @@
         <event-sheet>event-ukulele.xml</event-sheet>
         <event-sheet>event-papua.xml</event-sheet>
         <event-sheet>event-tifa.xml</event-sheet>
-        <event-sheet>event_video.xml</event-sheet>
+        <event-sheet>event_videojawa.xml</event-sheet>
         <event-sheet>global sheet.xml</event-sheet>
         <event-sheet>event-pilihkuis.xml</event-sheet>
         <event-sheet>event-tgkuis1.xml</event-sheet>
@@ -4774,6 +4790,13 @@
         <event-sheet>event-cocokan_2.xml</event-sheet>
         <event-sheet>event-cocokan_3.xml</event-sheet>
         <event-sheet>event-cocokan_4.xml</event-sheet>
+        <event-sheet>event-petavideo.xml</event-sheet>
+        <event-sheet>event_videosumatera.xml</event-sheet>
+        <event-sheet>event_videokalimantan.xml</event-sheet>
+        <event-sheet>event_videopapua.xml</event-sheet>
+        <event-sheet>event_videomaluku.xml</event-sheet>
+        <event-sheet>event_videosulawesi.xml</event-sheet>
+        <event-sheet>event_videonusatenggara.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Function" uid="21" />
@@ -4832,6 +4855,8 @@
             <file name="icon-256.png" />
             <file name="loading-logo.png" />
         </file-folder>
-        <file name="Video Pertunjukan Gamelan.webm" />
+        <file name="jawa.webm" />
+        <file name="Kolintang.webm" />
+        <file name="Sasando.webm" />
     </files-folder>
 </c2project>

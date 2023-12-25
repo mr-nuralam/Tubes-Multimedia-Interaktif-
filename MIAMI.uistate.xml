@@ -10,13 +10,15 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">splash</layout>
-        <layout order="1">menu</layout>
-        <layout order="2">pilih_kuis</layout>
-        <layout order="3">cocokan_3</layout>
-        <layout order="6">cocokan_4</layout>
-        <event-sheet active="1" order="4">event-cocokan_3</event-sheet>
-        <event-sheet order="5">event-cocokan_4</event-sheet>
+        <layout active="1" order="0">peta-video</layout>
+        <layout order="1">video_sumatera</layout>
+        <layout order="2">video_kalimantan</layout>
+        <layout order="3">video_maluku</layout>
+        <layout order="4">video_papua</layout>
+        <event-sheet order="5">event_videosumatera</event-sheet>
+        <event-sheet order="6">event_videokalimantan</event-sheet>
+        <event-sheet order="7">event_videopapua</event-sheet>
+        <event-sheet order="8">event_videomaluku</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -31,7 +33,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="file-folder/" />
-        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="0" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
         <folder expanded="1" path="animation-folder/bgsplash/" />
