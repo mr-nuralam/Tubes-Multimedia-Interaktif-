@@ -10,20 +10,25 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">video_kalimantan</layout>
-        <layout order="1">video_papua</layout>
-        <layout order="2">video_maluku</layout>
-        <layout order="3">video_sumatera</layout>
-        <layout order="4">splash</layout>
-        <layout order="7">pilih_kuis</layout>
-        <layout order="8">menu</layout>
-        <layout order="9">peta-video</layout>
-        <layout active="1" order="11">daerah_jawa</layout>
-        <layout order="12">angklung_jawa</layout>
-        <event-sheet order="5">event-pilihkuis</event-sheet>
-        <event-sheet order="6">event-menu</event-sheet>
-        <event-sheet order="10">event-peta</event-sheet>
-        <event-sheet order="13">event-jawa</event-sheet>
+        <layout order="0">menu</layout>
+        <layout order="1">video_maluku</layout>
+        <layout order="2">video_kalimantan</layout>
+        <layout order="3">video_nusatenggara</layout>
+        <layout order="4">video_sulawesi</layout>
+        <layout order="5">video_papua</layout>
+        <layout order="6">pilih_kuis</layout>
+        <layout order="7">tg_kuis1</layout>
+        <layout order="8">tg_kuis2</layout>
+        <layout order="9">tg_kuis3</layout>
+        <layout order="10">tg_kuis4</layout>
+        <layout order="11">tg_kuis5</layout>
+        <layout order="12">cocokan_1</layout>
+        <layout order="13">cocokan_2</layout>
+        <layout order="14">cocokan_3</layout>
+        <layout order="15">cocokan_4</layout>
+        <layout order="16">splash</layout>
+        <layout order="17">peta</layout>
+        <layout active="1" order="18">peta-video</layout>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />

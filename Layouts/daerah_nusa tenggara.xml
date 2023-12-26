@@ -101,11 +101,11 @@
                         <x>632</x>
                         <y>363</y>
                         <z>0</z>
-                        <width>380.612457275</width>
-                        <height>420.115020752</height>
+                        <width>204.203994751</width>
+                        <height>241.64100647</height>
                         <depth>0</depth>
-                        <hotspotX>0.500701249</hotspotX>
-                        <hotspotY>0.500635326</hotspotY>
+                        <hotspotX>0.490500867</hotspotX>
+                        <hotspotY>0.525835872</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -117,6 +117,21 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Sine">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>4</period>
+                                <period-random>0</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>0</period-offset-random>
+                                <magnitude>50</magnitude>
+                                <magnitude-random>0</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>

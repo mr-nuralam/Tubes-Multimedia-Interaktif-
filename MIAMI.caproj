@@ -667,6 +667,11 @@
         </object-type>
         <object-type name="pengantar2" sid="100134363573519">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="758634720282455">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="431983057122485" speed="5">
                     <frame duration="1" hotspotX="0.501018" hotspotY="0.503937" original-source="C:\Users\ZAHRO\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\pengantar.png">
@@ -711,6 +716,11 @@
         </object-type>
         <object-type name="asaldaerah" sid="977903594555562">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="595229193353926">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="191878277538177" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\ZAHRO\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\asaldaerah.png">
@@ -1941,16 +1951,16 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="171320527715610" speed="5">
-                    <frame duration="1" hotspotX="0.500701" hotspotY="0.500635" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\sasando.png">
+                    <frame duration="1" hotspotX="0.490501" hotspotY="0.525836" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\sasando.png">
                         <collision-poly>
-                            <point x="0.206171" y="0.186785" />
-                            <point x="0.499299" y="0.0635324" />
-                            <point x="0.802244" y="0.179161" />
-                            <point x="0.904628" y="0.499365" />
-                            <point x="0.84993" y="0.864041" />
-                            <point x="0.499299" y="0.895807" />
-                            <point x="0.168303" y="0.847522" />
-                            <point x="0.112202" y="0.499365" />
+                            <point x="0.127806" y="0.150456" />
+                            <point x="0.488774" y="0.00303951" />
+                            <point x="0.861831" y="0.141337" />
+                            <point x="0.98791" y="0.524316" />
+                            <point x="0.920553" y="0.960487" />
+                            <point x="0.488774" y="0.99848" />
+                            <point x="0.0811745" y="0.940729" />
+                            <point x="0.0120899" y="0.524316" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1973,6 +1983,11 @@
         </object-type>
         <object-type name="titlenusatenggara2" sid="116938991810852">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="727841054671276">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="686913950898842" speed="5">
                     <frame duration="1" hotspotX="0.495086" hotspotY="0.619792" original-source="C:\Users\LATITUDE E7440\Documents\GitHub\Tubes-Multimedia-Interaktif-\Assets\Image\title-nusatenggara.png">
@@ -2041,6 +2056,11 @@
         </object-type>
         <object-type name="titlemaluku" sid="195213940577599">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="790069108224019">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="620984170483045" speed="5">
                     <frame duration="1" hotspotX="0.500284" hotspotY="0.5" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\title-maluku.png">
@@ -2094,6 +2114,11 @@
         </object-type>
         <object-type name="titlemaluku2" sid="709880665918312">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="636452837081915">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="871916857858819" speed="5">
                     <frame duration="1" hotspotX="0.500284" hotspotY="0.5" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\title-maluku.png">
@@ -2164,6 +2189,11 @@
         </object-type>
         <object-type name="titlepapua" sid="366919740899789">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="443868974731041">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="301202177142930" speed="5">
                     <frame duration="1" hotspotX="0.492629" hotspotY="0.40625" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\title-papua.png">
@@ -2384,6 +2414,11 @@
         </object-type>
         <object-type name="Jawa2" sid="847460681766396">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="816254972010440">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="234199265794706" speed="5">
                     <frame duration="1" hotspotX="0.503683" hotspotY="0.5" original-source="F:\Aditya Code\PROJECTS\Tubes-Multimedia-Interaktif-\Assets\Jawa.png">
@@ -2399,6 +2434,11 @@
         </object-type>
         <object-type name="sumatra" sid="723588347582898">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="441383553782547">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="524580849346206" speed="5">
                     <frame duration="1" hotspotX="0.504604" hotspotY="0.515625" original-source="F:\Aditya Code\PROJECTS\Tubes-Multimedia-Interaktif-\Assets\sumatra.png">
@@ -2507,6 +2547,11 @@
         </object-type>
         <object-type name="kalimantan2" sid="126539562811419">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="316906543911607">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="701701260956212" speed="5">
                     <frame duration="1" hotspotX="0.504604" hotspotY="0.581395" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\kalimantan.png">
@@ -2522,6 +2567,11 @@
         </object-type>
         <object-type name="titlesulawesi5" sid="385286442765235">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="563237048756920">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="833077799491884" speed="5">
                     <frame duration="1" hotspotX="0.495086" hotspotY="0.510417" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\Image\title-sulawesi.png">
@@ -2607,6 +2657,11 @@
         </object-type>
         <object-type name="titlevideo" sid="116233090291828">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="228398328277166">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="502518002788003" speed="5">
                     <frame duration="1" hotspotX="0.50215" hotspotY="0.484375" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\title-video.png">
@@ -2800,6 +2855,11 @@
         </object-type>
         <object-type name="titlepilihkuis" sid="857274821483192">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="336039058529657">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="284372256360404" speed="5">
                     <frame duration="1" hotspotX="0.51355" hotspotY="0.5" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\title-pilihkuis.png">
@@ -2872,6 +2932,11 @@
         </object-type>
         <object-type name="titlekuis" sid="180619898795640">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="851899789996732">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="704367138028618" speed="5">
                     <frame duration="1" hotspotX="0.503071" hotspotY="0.5" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\title-kuis.png">

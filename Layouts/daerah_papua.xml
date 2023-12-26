@@ -101,8 +101,8 @@
                         <x>620</x>
                         <y>366.454650879</y>
                         <z>0</z>
-                        <width>320.650665283</width>
-                        <height>353.930389404</height>
+                        <width>204.203994751</width>
+                        <height>241.64100647</height>
                         <depth>0</depth>
                         <hotspotX>0.426597595</hotspotX>
                         <hotspotY>0.518237054</hotspotY>
@@ -183,6 +183,21 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Sine">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Size</movement>
+                                <wave>Sine</wave>
+                                <period>4</period>
+                                <period-random>0</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>0</period-offset-random>
+                                <magnitude>50</magnitude>
+                                <magnitude-random>0</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
