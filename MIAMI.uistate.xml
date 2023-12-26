@@ -10,7 +10,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">menu</layout>
+        <layout active="1" order="0">menu</layout>
         <layout order="1">video_maluku</layout>
         <layout order="2">video_kalimantan</layout>
         <layout order="3">video_nusatenggara</layout>
@@ -28,7 +28,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="15">cocokan_4</layout>
         <layout order="16">splash</layout>
         <layout order="17">peta</layout>
-        <layout active="1" order="18">peta-video</layout>
+        <layout order="18">peta-video</layout>
+        <layout order="19">video_sumatera</layout>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
