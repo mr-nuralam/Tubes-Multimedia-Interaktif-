@@ -3,56 +3,160 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>event-pilihkuis</name>
     <events>
-        <event-block sid="968626565000618">
+        <event-block sid="223608371768285">
             <conditions>
-                <condition id="3" name="On touched object" sid="993093492945040" type="Touch">
+                <condition id="-2" name="On start of layout" sid="302253142474598" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="857853697752296">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="857559099068876" type="System">
+                            <param id="0" name="Object">btntebakgbr</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="116074045902562" type="btntebakgbr">
+                            <param id="0" name="Instance variable">saveX</param>
+                            <param id="1" name="Value">Self.Width</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="168864083733175" type="btntebakgbr">
+                            <param id="0" name="Instance variable">saveX</param>
+                            <param id="1" name="Value">Self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="998034418024485">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="635022157755221" type="System">
+                            <param id="0" name="Object">btncocokangbr</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="294509187437888" type="btncocokangbr">
+                            <param id="0" name="Instance variable">saveX</param>
+                            <param id="1" name="Value">Self.Width</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="867874439497019" type="btncocokangbr">
+                            <param id="0" name="Instance variable">saveX</param>
+                            <param id="1" name="Value">Self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="681481882374657">
+            <conditions>
+                <condition id="3" name="On touched object" sid="348534883797394" type="Touch">
                     <param id="0" name="Object">btntebakgbr</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="0" name="Play" sid="455934784262026" type="Audio">
+                <action id="0" name="Play" sid="474535969576495" type="Audio">
                     <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
-                <action id="-2" name="Go to layout" sid="209008902635228" type="System">
+                <action behavior="LiteTween" id="10" name="Start" sid="810086724167204" type="btntebakgbr">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="956575008661866" type="btntebakgbr">
+                    <param id="0" name="Target is">4</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveX+30</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="344104334750720" type="btntebakgbr">
+                    <param id="0" name="Target is">5</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveY+30</param>
+                </action>
+                <action id="-16" name="Wait" sid="687590978872945" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action behavior="LiteTween" id="10" name="Start" sid="665413155173113" type="btntebakgbr">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="273300094514409" type="btntebakgbr">
+                    <param id="0" name="Target is">4</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveX</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="222552641907059" type="btntebakgbr">
+                    <param id="0" name="Target is">5</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveY</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="963973257428809" type="System">
                     <param id="0" name="Layout">tg_kuis1</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="805503148104303">
+        <event-block sid="226540044849749">
             <conditions>
-                <condition id="3" name="On touched object" sid="450814484975926" type="Touch">
+                <condition id="3" name="On touched object" sid="513337961782871" type="Touch">
                     <param id="0" name="Object">btncocokangbr</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="0" name="Play" sid="599675995407617" type="Audio">
+                <action id="0" name="Play" sid="400830537540848" type="Audio">
                     <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
-                <action id="-2" name="Go to layout" sid="547081338524537" type="System">
+                <action behavior="LiteTween" id="10" name="Start" sid="156984136828791" type="btncocokangbr">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="620089924114725" type="btncocokangbr">
+                    <param id="0" name="Target is">4</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveX+30</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="638717552135549" type="btncocokangbr">
+                    <param id="0" name="Target is">5</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveY+30</param>
+                </action>
+                <action id="-16" name="Wait" sid="796380818772817" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action behavior="LiteTween" id="10" name="Start" sid="828072238398497" type="btncocokangbr">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="740110863486254" type="btncocokangbr">
+                    <param id="0" name="Target is">4</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveX</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="120164154990919" type="btncocokangbr">
+                    <param id="0" name="Target is">5</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveY</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="612814960256183" type="System">
                     <param id="0" name="Layout">cocokan_1</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="750520971498327">
+        <event-block sid="115287255906790">
             <conditions>
-                <condition id="3" name="On touched object" sid="827793041198774" type="Touch">
+                <condition id="3" name="On touched object" sid="738752846748578" type="Touch">
                     <param id="0" name="Object">buton15</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="0" name="Play" sid="694754404336432" type="Audio">
+                <action id="0" name="Play" sid="980988442409789" type="Audio">
                     <param id="0" name="Audio file">button-next</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
-                <action id="-2" name="Go to layout" sid="161102522713486" type="System">
+                <action id="-2" name="Go to layout" sid="509013569840276" type="System">
                     <param id="0" name="Layout">menu</param>
                 </action>
             </actions>

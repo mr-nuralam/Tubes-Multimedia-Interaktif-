@@ -2491,6 +2491,15 @@
         </object-type>
         <object-type name="Sprite19" sid="976627006556754">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="782831183954303" type="number" />
+                <instance-variable name="saveY" sid="879187365470151" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="155066508736726">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="186726069466113" speed="5">
                     <frame duration="1" hotspotX="2.51622" hotspotY="1.20102" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\66.png" />
@@ -2819,6 +2828,15 @@
         </object-type>
         <object-type name="btntebakgbr" sid="382366458381889">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="903163854663426" type="number" />
+                <instance-variable name="saveY" sid="377857727918139" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="730493374937308">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="573197395794154" speed="5">
                     <frame duration="1" hotspotX="0.466381" hotspotY="0.479239" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\btn-tebakgbr.png">
@@ -2837,6 +2855,15 @@
         </object-type>
         <object-type name="btncocokangbr" sid="805941661892706">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="718115508002918" type="number" />
+                <instance-variable name="saveY" sid="248947774637101" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="682797952348537">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="684119263592000" speed="5">
                     <frame duration="1" hotspotX="0.497143" hotspotY="0.49654" original-source="D:\SEMESTER 7\Multimedia Interaktif\Tugas Besar\Tubes-Multimedia-Interaktif-\Assets\Image\btn-cocokangbr.png">
