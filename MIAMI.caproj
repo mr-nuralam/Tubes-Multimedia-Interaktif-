@@ -2491,15 +2491,6 @@
         </object-type>
         <object-type name="Sprite19" sid="976627006556754">
             <plugin id="Sprite" />
-            <instance-variables>
-                <instance-variable name="saveX" sid="782831183954303" type="number" />
-                <instance-variable name="saveY" sid="879187365470151" type="number" />
-            </instance-variables>
-            <behaviors>
-                <behavior-type name="LiteTween" sid="155066508736726">
-                    <behavior id="lunarray_LiteTween" />
-                </behavior-type>
-            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="186726069466113" speed="5">
                     <frame duration="1" hotspotX="2.51622" hotspotY="1.20102" original-source="C:\Users\ZAHRO\Documents\GitHub\New folder (2)\Tubes-Multimedia-Interaktif-\Assets\66.png" />

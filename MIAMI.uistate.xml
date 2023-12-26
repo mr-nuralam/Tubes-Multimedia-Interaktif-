@@ -15,13 +15,15 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="2">video_maluku</layout>
         <layout order="3">video_sumatera</layout>
         <layout order="4">splash</layout>
-        <layout active="1" order="7">pilih_kuis</layout>
+        <layout order="7">pilih_kuis</layout>
         <layout order="8">menu</layout>
         <layout order="9">peta-video</layout>
-        <layout order="11">daerah_jawa</layout>
+        <layout active="1" order="11">daerah_jawa</layout>
+        <layout order="12">angklung_jawa</layout>
         <event-sheet order="5">event-pilihkuis</event-sheet>
         <event-sheet order="6">event-menu</event-sheet>
         <event-sheet order="10">event-peta</event-sheet>
+        <event-sheet order="13">event-jawa</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
